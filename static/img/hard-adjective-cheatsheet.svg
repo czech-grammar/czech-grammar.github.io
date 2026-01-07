@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 700" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="mascAnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="mascInGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#63b3ed"/>
+      <stop offset="100%" style="stop-color:#4299e1"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="910" height="660" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="475" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Hard Adjective Declension</text>
+  <text x="475" y="80" text-anchor="middle" font-size="14" fill="#a0aec0">Model: mladý (young) • Dictionary form ends in -ý</text>
+
+  <!-- SINGULAR Section -->
+  <rect x="40" y="100" width="420" height="540" rx="15" fill="#2d3748" filter="url(#shadow)"/>
+  <rect x="40" y="100" width="420" height="40" rx="15" fill="url(#headerGrad)"/>
+  <rect x="40" y="125" width="420" height="15" fill="url(#headerGrad)"/>
+  <text x="250" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="white">SINGULAR</text>
+
+  <!-- Singular column headers -->
+  <text x="80" y="170" font-size="11" font-weight="bold" fill="#a0aec0">CASE</text>
+  <text x="165" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.An</text>
+  <text x="245" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.In</text>
+  <text x="325" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#fbb6ce">Fem</text>
+  <text x="405" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#9ae6b4">Neut</text>
+
+  <!-- Singular rows -->
+  <!-- Nom -->
+  <text x="60" y="200" font-size="12" font-weight="bold" fill="#e2e8f0">Nom</text>
+  <text x="165" y="200" text-anchor="middle" font-size="14" fill="#90cdf4">-ý</text>
+  <text x="245" y="200" text-anchor="middle" font-size="14" fill="#90cdf4">-ý</text>
+  <text x="325" y="200" text-anchor="middle" font-size="14" fill="#fbb6ce">-á</text>
+  <text x="405" y="200" text-anchor="middle" font-size="14" fill="#9ae6b4">-é</text>
+
+  <!-- Gen -->
+  <rect x="50" y="215" width="400" height="28" rx="4" fill="#3d4a5c"/>
+  <text x="60" y="234" font-size="12" font-weight="bold" fill="#e2e8f0">Gen</text>
+  <text x="165" y="234" text-anchor="middle" font-size="14" fill="#90cdf4">-ého</text>
+  <text x="245" y="234" text-anchor="middle" font-size="14" fill="#90cdf4">-ého</text>
+  <text x="325" y="234" text-anchor="middle" font-size="14" fill="#fbb6ce">-é</text>
+  <text x="405" y="234" text-anchor="middle" font-size="14" fill="#9ae6b4">-ého</text>
+
+  <!-- Dat -->
+  <text x="60" y="268" font-size="12" font-weight="bold" fill="#e2e8f0">Dat</text>
+  <text x="165" y="268" text-anchor="middle" font-size="14" fill="#90cdf4">-ému</text>
+  <text x="245" y="268" text-anchor="middle" font-size="14" fill="#90cdf4">-ému</text>
+  <text x="325" y="268" text-anchor="middle" font-size="14" fill="#fbb6ce">-é</text>
+  <text x="405" y="268" text-anchor="middle" font-size="14" fill="#9ae6b4">-ému</text>
+
+  <!-- Acc -->
+  <rect x="50" y="283" width="400" height="28" rx="4" fill="#3d4a5c"/>
+  <text x="60" y="302" font-size="12" font-weight="bold" fill="#e2e8f0">Acc</text>
+  <text x="165" y="302" text-anchor="middle" font-size="14" fill="#f6ad55">-ého</text>
+  <text x="245" y="302" text-anchor="middle" font-size="14" fill="#90cdf4">-ý</text>
+  <text x="325" y="302" text-anchor="middle" font-size="14" fill="#fbb6ce">-ou</text>
+  <text x="405" y="302" text-anchor="middle" font-size="14" fill="#9ae6b4">-é</text>
+
+  <!-- Voc -->
+  <text x="60" y="336" font-size="12" font-weight="bold" fill="#e2e8f0">Voc</text>
+  <text x="165" y="336" text-anchor="middle" font-size="14" fill="#90cdf4">-ý</text>
+  <text x="245" y="336" text-anchor="middle" font-size="14" fill="#90cdf4">-ý</text>
+  <text x="325" y="336" text-anchor="middle" font-size="14" fill="#fbb6ce">-á</text>
+  <text x="405" y="336" text-anchor="middle" font-size="14" fill="#9ae6b4">-é</text>
+
+  <!-- Loc -->
+  <rect x="50" y="351" width="400" height="28" rx="4" fill="#3d4a5c"/>
+  <text x="60" y="370" font-size="12" font-weight="bold" fill="#e2e8f0">Loc</text>
+  <text x="165" y="370" text-anchor="middle" font-size="14" fill="#90cdf4">-ém</text>
+  <text x="245" y="370" text-anchor="middle" font-size="14" fill="#90cdf4">-ém</text>
+  <text x="325" y="370" text-anchor="middle" font-size="14" fill="#fbb6ce">-é</text>
+  <text x="405" y="370" text-anchor="middle" font-size="14" fill="#9ae6b4">-ém</text>
+
+  <!-- Instr -->
+  <text x="60" y="404" font-size="12" font-weight="bold" fill="#e2e8f0">Instr</text>
+  <text x="165" y="404" text-anchor="middle" font-size="14" fill="#90cdf4">-ým</text>
+  <text x="245" y="404" text-anchor="middle" font-size="14" fill="#90cdf4">-ým</text>
+  <text x="325" y="404" text-anchor="middle" font-size="14" fill="#fbb6ce">-ou</text>
+  <text x="405" y="404" text-anchor="middle" font-size="14" fill="#9ae6b4">-ým</text>
+
+  <!-- Singular patterns box -->
+  <rect x="50" y="430" width="400" height="90" rx="8" fill="#4a5568"/>
+  <text x="250" y="455" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbd38d">Singular Patterns</text>
+  <text x="60" y="480" font-size="11" fill="#e2e8f0">• Masc An Acc = Gen (like nouns!)</text>
+  <text x="60" y="500" font-size="11" fill="#e2e8f0">• Fem: -á, -é, -ou pattern (Gen/Dat/Loc = -é)</text>
+  <text x="60" y="520" font-size="11" fill="#e2e8f0">• Masc/Neut share most endings</text>
+
+  <!-- Singular examples -->
+  <rect x="50" y="530" width="400" height="100" rx="8" fill="#2c5282"/>
+  <text x="250" y="555" text-anchor="middle" font-size="12" font-weight="bold" fill="#bee3f8">Examples</text>
+  <text x="60" y="580" font-size="11" fill="#e2e8f0">mladý muž, mladá žena, mladé dítě</text>
+  <text x="60" y="600" font-size="11" fill="#e2e8f0">vidím mladého muže (Acc M.An)</text>
+  <text x="60" y="620" font-size="11" fill="#e2e8f0">s mladou ženou (Instr Fem)</text>
+
+  <!-- PLURAL Section -->
+  <rect x="490" y="100" width="420" height="540" rx="15" fill="#2d3748" filter="url(#shadow)"/>
+  <rect x="490" y="100" width="420" height="40" rx="15" fill="url(#headerGrad)"/>
+  <rect x="490" y="125" width="420" height="15" fill="url(#headerGrad)"/>
+  <text x="700" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="white">PLURAL</text>
+
+  <!-- Plural column headers -->
+  <text x="530" y="170" font-size="11" font-weight="bold" fill="#a0aec0">CASE</text>
+  <text x="615" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.An</text>
+  <text x="695" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.In</text>
+  <text x="775" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#fbb6ce">Fem</text>
+  <text x="855" y="170" text-anchor="middle" font-size="10" font-weight="bold" fill="#9ae6b4">Neut</text>
+
+  <!-- Plural rows -->
+  <!-- Nom -->
+  <text x="510" y="200" font-size="12" font-weight="bold" fill="#e2e8f0">Nom</text>
+  <text x="615" y="200" text-anchor="middle" font-size="14" fill="#f6ad55">-í</text>
+  <text x="695" y="200" text-anchor="middle" font-size="14" fill="#90cdf4">-é</text>
+  <text x="775" y="200" text-anchor="middle" font-size="14" fill="#fbb6ce">-é</text>
+  <text x="855" y="200" text-anchor="middle" font-size="14" fill="#9ae6b4">-á</text>
+
+  <!-- Gen -->
+  <rect x="500" y="215" width="400" height="28" rx="4" fill="#3d4a5c"/>
+  <text x="510" y="234" font-size="12" font-weight="bold" fill="#e2e8f0">Gen</text>
+  <text x="615" y="234" text-anchor="middle" font-size="14" fill="#90cdf4">-ých</text>
+  <text x="695" y="234" text-anchor="middle" font-size="14" fill="#90cdf4">-ých</text>
+  <text x="775" y="234" text-anchor="middle" font-size="14" fill="#fbb6ce">-ých</text>
+  <text x="855" y="234" text-anchor="middle" font-size="14" fill="#9ae6b4">-ých</text>
+
+  <!-- Dat -->
+  <text x="510" y="268" font-size="12" font-weight="bold" fill="#e2e8f0">Dat</text>
+  <text x="615" y="268" text-anchor="middle" font-size="14" fill="#90cdf4">-ým</text>
+  <text x="695" y="268" text-anchor="middle" font-size="14" fill="#90cdf4">-ým</text>
+  <text x="775" y="268" text-anchor="middle" font-size="14" fill="#fbb6ce">-ým</text>
+  <text x="855" y="268" text-anchor="middle" font-size="14" fill="#9ae6b4">-ým</text>
+
+  <!-- Acc -->
+  <rect x="500" y="283" width="400" height="28" rx="4" fill="#3d4a5c"/>
+  <text x="510" y="302" font-size="12" font-weight="bold" fill="#e2e8f0">Acc</text>
+  <text x="615" y="302" text-anchor="middle" font-size="14" fill="#90cdf4">-é</text>
+  <text x="695" y="302" text-anchor="middle" font-size="14" fill="#90cdf4">-é</text>
+  <text x="775" y="302" text-anchor="middle" font-size="14" fill="#fbb6ce">-é</text>
+  <text x="855" y="302" text-anchor="middle" font-size="14" fill="#9ae6b4">-á</text>
+
+  <!-- Voc -->
+  <text x="510" y="336" font-size="12" font-weight="bold" fill="#e2e8f0">Voc</text>
+  <text x="615" y="336" text-anchor="middle" font-size="14" fill="#f6ad55">-í</text>
+  <text x="695" y="336" text-anchor="middle" font-size="14" fill="#90cdf4">-é</text>
+  <text x="775" y="336" text-anchor="middle" font-size="14" fill="#fbb6ce">-é</text>
+  <text x="855" y="336" text-anchor="middle" font-size="14" fill="#9ae6b4">-á</text>
+
+  <!-- Loc -->
+  <rect x="500" y="351" width="400" height="28" rx="4" fill="#3d4a5c"/>
+  <text x="510" y="370" font-size="12" font-weight="bold" fill="#e2e8f0">Loc</text>
+  <text x="615" y="370" text-anchor="middle" font-size="14" fill="#90cdf4">-ých</text>
+  <text x="695" y="370" text-anchor="middle" font-size="14" fill="#90cdf4">-ých</text>
+  <text x="775" y="370" text-anchor="middle" font-size="14" fill="#fbb6ce">-ých</text>
+  <text x="855" y="370" text-anchor="middle" font-size="14" fill="#9ae6b4">-ých</text>
+
+  <!-- Instr -->
+  <text x="510" y="404" font-size="12" font-weight="bold" fill="#e2e8f0">Instr</text>
+  <text x="615" y="404" text-anchor="middle" font-size="14" fill="#90cdf4">-ými</text>
+  <text x="695" y="404" text-anchor="middle" font-size="14" fill="#90cdf4">-ými</text>
+  <text x="775" y="404" text-anchor="middle" font-size="14" fill="#fbb6ce">-ými</text>
+  <text x="855" y="404" text-anchor="middle" font-size="14" fill="#9ae6b4">-ými</text>
+
+  <!-- Plural patterns box -->
+  <rect x="500" y="430" width="400" height="90" rx="8" fill="#4a5568"/>
+  <text x="700" y="455" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbd38d">Plural Patterns</text>
+  <text x="510" y="480" font-size="11" fill="#e2e8f0">• Gen/Loc: always -ých (all genders!)</text>
+  <text x="510" y="500" font-size="11" fill="#e2e8f0">• Dat: always -ým (all genders!)</text>
+  <text x="510" y="520" font-size="11" fill="#e2e8f0">• Instr: always -ými (all genders!)</text>
+
+  <!-- Plural note -->
+  <rect x="500" y="530" width="400" height="100" rx="8" fill="#744210"/>
+  <text x="700" y="555" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbd38d">M.An Nom Pl: Consonant Change!</text>
+  <text x="510" y="580" font-size="11" fill="#fef3c7">mladý → mlad<tspan font-weight="bold">í</tspan> (d softens)</text>
+  <text x="510" y="600" font-size="11" fill="#fef3c7">český → češt<tspan font-weight="bold">í</tspan> (k→c, s→š)</text>
+  <text x="510" y="620" font-size="11" fill="#fef3c7">dobrý → dob<tspan font-weight="bold">ří</tspan> (r→ř)</text>
+</svg>

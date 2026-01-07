@@ -7,6 +7,18 @@ sidebar_position: 4
 
 The case system is the heart of Czech grammar. Each case answers specific questions and serves a specific grammatical function.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![The 7 Czech Cases at a Glance](/img/seven-cases-overview.svg)
+
+</div>
+
+---
+
+## Summary Table
+
 | Case # | Name (Czech) | Name (Latin) | Questions (Who/What?) | Primary Function |
 | :---: | :--- | :--- | :--- | :--- |
 | **1** | **Nominativ** | Nominative | **Kdo? Co?** | **Subject** (The doer). Dictionary form. |

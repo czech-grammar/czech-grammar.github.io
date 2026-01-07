@@ -10,6 +10,14 @@ The vast majority of Czech adjectives belong to this group. The dictionary form 
 
 **Model**: *Mladý* (Young)
 
+### Visual Cheatsheet
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Hard Adjective Declension Cheatsheet](/img/hard-adjective-cheatsheet.svg)
+
+</div>
+
 ### Singular Declension
 
 | Case | Masculine Animate | Masculine Inanimate | Feminine | Neuter |
@@ -40,6 +48,14 @@ The vast majority of Czech adjectives belong to this group. The dictionary form 
 These adjectives end in **-í** in the dictionary form. They are "soft" because the ending **-í** stays the same for **all genders** in the singular Nominative.
 
 **Model**: *Jarní* (Spring)
+
+### Visual Cheatsheet
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Soft Adjective Declension Cheatsheet](/img/soft-adjective-cheatsheet.svg)
+
+</div>
 
 ### Singular Declension
 

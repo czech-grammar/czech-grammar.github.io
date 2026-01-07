@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="nomGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="genGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+    <linearGradient id="datGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="accGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#43e97b"/>
+      <stop offset="100%" style="stop-color:#38f9d7"/>
+    </linearGradient>
+    <linearGradient id="vocGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fa709a"/>
+      <stop offset="100%" style="stop-color:#fee140"/>
+    </linearGradient>
+    <linearGradient id="locGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a8edea"/>
+      <stop offset="100%" style="stop-color:#fed6e3"/>
+    </linearGradient>
+    <linearGradient id="insGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffecd2"/>
+      <stop offset="100%" style="stop-color:#fcb69f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="960" height="710" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="500" y="60" text-anchor="middle" font-size="28" font-weight="bold" fill="white">The 7 Czech Cases at a Glance</text>
+  <text x="500" y="85" text-anchor="middle" font-size="14" fill="#a0aec0">Sedm pádů • Master these and you've conquered Czech nouns!</text>
+
+  <!-- Column headers -->
+  <text x="95" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">CASE</text>
+  <text x="230" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">QUESTION</text>
+  <text x="390" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">FUNCTION</text>
+  <text x="560" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">MASC</text>
+  <text x="680" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">FEM</text>
+  <text x="800" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">NEUT</text>
+  <text x="910" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#a0aec0">EXAMPLE</text>
+
+  <!-- 1. NOMINATIVE -->
+  <rect x="40" y="135" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#nomGrad)" stroke-width="2"/>
+  <rect x="40" y="135" width="110" height="75" rx="10" fill="url(#nomGrad)"/>
+  <text x="95" y="165" text-anchor="middle" font-size="14" font-weight="bold" fill="white">1. Nominativ</text>
+  <text x="95" y="185" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.8)">Nominative</text>
+
+  <text x="230" y="165" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">Kdo? Co?</text>
+  <text x="230" y="185" text-anchor="middle" font-size="11" fill="#a0aec0">Who? What?</text>
+
+  <text x="390" y="170" text-anchor="middle" font-size="12" fill="#e2e8f0">Subject</text>
+  <text x="390" y="188" text-anchor="middle" font-size="10" fill="#718096">(dictionary form)</text>
+
+  <text x="560" y="170" text-anchor="middle" font-size="13" fill="#90cdf4">pán, muž, hrad</text>
+  <text x="680" y="170" text-anchor="middle" font-size="13" fill="#fbb6ce">žena, růže</text>
+  <text x="800" y="170" text-anchor="middle" font-size="13" fill="#9ae6b4">město, moře</text>
+  <text x="910" y="170" text-anchor="middle" font-size="11" fill="#a0aec0">Petr čte.</text>
+
+  <!-- 2. GENITIVE -->
+  <rect x="40" y="220" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#genGrad)" stroke-width="2"/>
+  <rect x="40" y="220" width="110" height="75" rx="10" fill="url(#genGrad)"/>
+  <text x="95" y="250" text-anchor="middle" font-size="14" font-weight="bold" fill="white">2. Genitiv</text>
+  <text x="95" y="270" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.8)">Genitive</text>
+
+  <text x="230" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">Koho? Čeho?</text>
+  <text x="230" y="270" text-anchor="middle" font-size="11" fill="#a0aec0">Of whom? Of what?</text>
+
+  <text x="390" y="255" text-anchor="middle" font-size="12" fill="#e2e8f0">Possession, "of"</text>
+  <text x="390" y="273" text-anchor="middle" font-size="10" fill="#718096">bez, do, z, od, u</text>
+
+  <text x="560" y="255" text-anchor="middle" font-size="13" fill="#90cdf4">-a / -e / -u</text>
+  <text x="680" y="255" text-anchor="middle" font-size="13" fill="#fbb6ce">-y / -e / -i</text>
+  <text x="800" y="255" text-anchor="middle" font-size="13" fill="#9ae6b4">-a / -e</text>
+  <text x="910" y="255" text-anchor="middle" font-size="11" fill="#a0aec0">kniha Petra</text>
+
+  <!-- 3. DATIVE -->
+  <rect x="40" y="305" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#datGrad)" stroke-width="2"/>
+  <rect x="40" y="305" width="110" height="75" rx="10" fill="url(#datGrad)"/>
+  <text x="95" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="white">3. Dativ</text>
+  <text x="95" y="355" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.8)">Dative</text>
+
+  <text x="230" y="335" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">Komu? Čemu?</text>
+  <text x="230" y="355" text-anchor="middle" font-size="11" fill="#a0aec0">To whom? To what?</text>
+
+  <text x="390" y="340" text-anchor="middle" font-size="12" fill="#e2e8f0">Indirect object</text>
+  <text x="390" y="358" text-anchor="middle" font-size="10" fill="#718096">k, proti, díky</text>
+
+  <text x="560" y="340" text-anchor="middle" font-size="13" fill="#90cdf4">-ovi / -u / -i</text>
+  <text x="680" y="340" text-anchor="middle" font-size="13" fill="#fbb6ce">-ě / -i</text>
+  <text x="800" y="340" text-anchor="middle" font-size="13" fill="#9ae6b4">-u / -i</text>
+  <text x="910" y="340" text-anchor="middle" font-size="11" fill="#a0aec0">dám Petrovi</text>
+
+  <!-- 4. ACCUSATIVE -->
+  <rect x="40" y="390" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#accGrad)" stroke-width="2"/>
+  <rect x="40" y="390" width="110" height="75" rx="10" fill="url(#accGrad)"/>
+  <text x="95" y="420" text-anchor="middle" font-size="14" font-weight="bold" fill="white">4. Akuzativ</text>
+  <text x="95" y="440" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.8)">Accusative</text>
+
+  <text x="230" y="420" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">Koho? Co?</text>
+  <text x="230" y="440" text-anchor="middle" font-size="11" fill="#a0aec0">Whom? What?</text>
+
+  <text x="390" y="425" text-anchor="middle" font-size="12" fill="#e2e8f0">Direct object</text>
+  <text x="390" y="443" text-anchor="middle" font-size="10" fill="#718096">pro, přes, na (motion)</text>
+
+  <text x="560" y="420" text-anchor="middle" font-size="12" fill="#90cdf4">An: =Gen</text>
+  <text x="560" y="440" text-anchor="middle" font-size="12" fill="#90cdf4">In: =Nom</text>
+  <text x="680" y="425" text-anchor="middle" font-size="13" fill="#fbb6ce">-u / -i / =Nom</text>
+  <text x="800" y="425" text-anchor="middle" font-size="13" fill="#9ae6b4">=Nom</text>
+  <text x="910" y="425" text-anchor="middle" font-size="11" fill="#a0aec0">vidím Petra</text>
+
+  <!-- 5. VOCATIVE -->
+  <rect x="40" y="475" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#vocGrad)" stroke-width="2"/>
+  <rect x="40" y="475" width="110" height="75" rx="10" fill="url(#vocGrad)"/>
+  <text x="95" y="505" text-anchor="middle" font-size="14" font-weight="bold" fill="white">5. Vokativ</text>
+  <text x="95" y="525" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.8)">Vocative</text>
+
+  <text x="230" y="505" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">Oslovení!</text>
+  <text x="230" y="525" text-anchor="middle" font-size="11" fill="#a0aec0">Addressing!</text>
+
+  <text x="390" y="510" text-anchor="middle" font-size="12" fill="#e2e8f0">Calling someone</text>
+  <text x="390" y="528" text-anchor="middle" font-size="10" fill="#718096">(not optional!)</text>
+
+  <text x="560" y="510" text-anchor="middle" font-size="13" fill="#90cdf4">-e / -i / -u</text>
+  <text x="680" y="510" text-anchor="middle" font-size="13" fill="#fbb6ce">-o / -e / -i</text>
+  <text x="800" y="510" text-anchor="middle" font-size="13" fill="#9ae6b4">=Nom</text>
+  <text x="910" y="510" text-anchor="middle" font-size="11" fill="#a0aec0">Ahoj Petře!</text>
+
+  <!-- 6. LOCATIVE -->
+  <rect x="40" y="560" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#locGrad)" stroke-width="2"/>
+  <rect x="40" y="560" width="110" height="75" rx="10" fill="url(#locGrad)"/>
+  <text x="95" y="590" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a202c">6. Lokál</text>
+  <text x="95" y="610" text-anchor="middle" font-size="11" fill="rgba(0,0,0,0.6)">Locative</text>
+
+  <text x="230" y="590" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">O kom? O čem?</text>
+  <text x="230" y="610" text-anchor="middle" font-size="11" fill="#a0aec0">About? Where?</text>
+
+  <text x="390" y="595" text-anchor="middle" font-size="12" fill="#e2e8f0">Location, topic</text>
+  <text x="390" y="613" text-anchor="middle" font-size="10" fill="#718096">v, na, o, po, při</text>
+
+  <text x="560" y="595" text-anchor="middle" font-size="13" fill="#90cdf4">-u / -ovi / -i</text>
+  <text x="680" y="595" text-anchor="middle" font-size="13" fill="#fbb6ce">-ě / -e / -i</text>
+  <text x="800" y="595" text-anchor="middle" font-size="13" fill="#9ae6b4">-u / -ě / -i</text>
+  <text x="910" y="595" text-anchor="middle" font-size="11" fill="#a0aec0">v Praze</text>
+
+  <!-- 7. INSTRUMENTAL -->
+  <rect x="40" y="645" width="920" height="75" rx="10" fill="#2d3748" stroke="url(#insGrad)" stroke-width="2"/>
+  <rect x="40" y="645" width="110" height="75" rx="10" fill="url(#insGrad)"/>
+  <text x="95" y="675" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a202c">7. Instrumentál</text>
+  <text x="95" y="695" text-anchor="middle" font-size="11" fill="rgba(0,0,0,0.6)">Instrumental</text>
+
+  <text x="230" y="675" text-anchor="middle" font-size="13" font-weight="bold" fill="#e2e8f0">S kým? S čím?</text>
+  <text x="230" y="695" text-anchor="middle" font-size="11" fill="#a0aec0">With? By means of?</text>
+
+  <text x="390" y="680" text-anchor="middle" font-size="12" fill="#e2e8f0">Means, with</text>
+  <text x="390" y="698" text-anchor="middle" font-size="10" fill="#718096">s, za, před, pod, nad</text>
+
+  <text x="560" y="680" text-anchor="middle" font-size="13" fill="#90cdf4">-em</text>
+  <text x="680" y="680" text-anchor="middle" font-size="13" fill="#fbb6ce">-ou / -í</text>
+  <text x="800" y="680" text-anchor="middle" font-size="13" fill="#9ae6b4">-em</text>
+  <text x="910" y="680" text-anchor="middle" font-size="11" fill="#a0aec0">s Petrem</text>
+</svg>
