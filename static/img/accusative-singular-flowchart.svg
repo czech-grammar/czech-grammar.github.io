@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="animateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6ad55"/>
+      <stop offset="100%" style="stop-color:#ed8936"/>
+    </linearGradient>
+    <linearGradient id="noChangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#68d391"/>
+      <stop offset="100%" style="stop-color:#48bb78"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="580" fill="#fafbfc"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a202c">Accusative Singular: Which Ending?</text>
+  <text x="400" y="55" text-anchor="middle" font-size="13" fill="#718096">Koho? Co? • The simplest case to learn!</text>
+
+  <!-- Start node -->
+  <rect x="275" y="75" width="250" height="50" rx="25" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="400" y="100" text-anchor="middle" font-size="15" font-weight="600" fill="white">Is it MASCULINE ANIMATE?</text>
+  <text x="400" y="116" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.8)">(person or animal)</text>
+
+  <!-- Yes/No split -->
+  <path d="M325 125 L325 170" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M475 125 L475 170" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <rect x="295" y="145" width="60" height="22" rx="11" fill="#38a169"/>
+  <text x="325" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="white">YES</text>
+
+  <rect x="445" y="145" width="60" height="22" rx="11" fill="#e53e3e"/>
+  <text x="475" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="white">NO</text>
+
+  <!-- YES branch - Animate -->
+  <rect x="200" y="175" width="250" height="45" rx="10" fill="url(#animateGrad)" filter="url(#shadow)"/>
+  <text x="325" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Use GENITIVE endings!</text>
+  <text x="325" y="213" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.9)">Accusative = Genitive for animate</text>
+
+  <path d="M275 220 L275 260" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M375 220 L375 260" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <!-- Hard vs Soft for animate -->
+  <rect x="200" y="260" width="150" height="80" rx="10" fill="url(#animateGrad)" filter="url(#shadow)"/>
+  <text x="275" y="285" text-anchor="middle" font-size="18" font-weight="bold" fill="white">-a</text>
+  <text x="275" y="305" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.9)">hard stem</text>
+  <text x="275" y="330" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">pána, studenta</text>
+
+  <rect x="360" y="260" width="150" height="80" rx="10" fill="url(#animateGrad)" filter="url(#shadow)"/>
+  <text x="435" y="285" text-anchor="middle" font-size="18" font-weight="bold" fill="white">-e</text>
+  <text x="435" y="305" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.9)">soft stem</text>
+  <text x="435" y="330" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">muže, otce</text>
+
+  <!-- NO branch - splits to 3 -->
+  <rect x="350" y="175" width="250" height="35" rx="8" fill="#fefcbf" filter="url(#shadow)"/>
+  <text x="475" y="198" text-anchor="middle" font-size="12" fill="#744210">What gender?</text>
+
+  <path d="M475 210 L475 230 M475 230 L550 230 L550 270" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M475 230 L650 230 L650 270" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <text x="550" y="255" text-anchor="middle" font-size="10" fill="#718096">Masc Inan / Neut</text>
+  <text x="650" y="255" text-anchor="middle" font-size="10" fill="#718096">Feminine</text>
+
+  <!-- Masculine Inanimate + Neuter = NO CHANGE -->
+  <rect x="475" y="270" width="150" height="90" rx="12" fill="url(#noChangeGrad)" filter="url(#shadow)"/>
+  <text x="550" y="300" text-anchor="middle" font-size="20" font-weight="bold" fill="white">= NOM</text>
+  <text x="550" y="320" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.9)">No change!</text>
+  <text x="550" y="348" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">hrad, stroj, město, moře</text>
+
+  <!-- Feminine branch -->
+  <rect x="575" y="270" width="150" height="35" rx="8" fill="#fefcbf" filter="url(#shadow)"/>
+  <text x="650" y="292" text-anchor="middle" font-size="11" fill="#744210">Nom. ending?</text>
+
+  <path d="M610 305 L610 350" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M650 305 L650 350" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M690 305 L690 350" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <text x="610" y="340" text-anchor="middle" font-size="9" fill="#718096">-a</text>
+  <text x="650" y="340" text-anchor="middle" font-size="9" fill="#718096">-e</text>
+  <text x="690" y="340" text-anchor="middle" font-size="9" fill="#718096">cons.</text>
+
+  <!-- Feminine endings -->
+  <rect x="575" y="350" width="70" height="65" rx="10" fill="url(#femGrad)" filter="url(#shadow)"/>
+  <text x="610" y="378" text-anchor="middle" font-size="20" font-weight="bold" fill="white">-u</text>
+  <text x="610" y="400" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.9)">ženu, knihu</text>
+
+  <rect x="650" y="350" width="70" height="65" rx="10" fill="url(#femGrad)" filter="url(#shadow)"/>
+  <text x="685" y="378" text-anchor="middle" font-size="20" font-weight="bold" fill="white">-i</text>
+  <text x="685" y="400" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.9)">růži, práci</text>
+
+  <rect x="725" y="350" width="55" height="65" rx="10" fill="url(#noChangeGrad)" filter="url(#shadow)"/>
+  <text x="752" y="375" text-anchor="middle" font-size="14" font-weight="bold" fill="white">=NOM</text>
+  <text x="752" y="400" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.9)">píseň, kost</text>
+
+  <!-- Legend box -->
+  <rect x="150" y="450" width="500" height="110" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="400" y="475" text-anchor="middle" font-size="14" font-weight="600" fill="#4a5568">Quick Memory Trick</text>
+
+  <rect x="175" y="490" width="140" height="28" rx="6" fill="url(#animateGrad)"/>
+  <text x="245" y="509" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Animate = Genitive</text>
+
+  <rect x="330" y="490" width="140" height="28" rx="6" fill="url(#noChangeGrad)"/>
+  <text x="400" y="509" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Inanimate = Nom</text>
+
+  <rect x="485" y="490" width="140" height="28" rx="6" fill="url(#femGrad)"/>
+  <text x="555" y="509" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Fem -a → -u</text>
+
+  <text x="400" y="545" text-anchor="middle" font-size="12" fill="#718096">"Do I see a person/animal? → Change it! Otherwise → Probably no change"</text>
+</svg>

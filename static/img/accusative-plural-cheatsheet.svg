@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="animateGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6ad55"/>
+      <stop offset="100%" style="stop-color:#ed8936"/>
+    </linearGradient>
+    <linearGradient id="noChangeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#68d391"/>
+      <stop offset="100%" style="stop-color:#48bb78"/>
+    </linearGradient>
+    <linearGradient id="ruleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="760" height="380" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="400" y="55" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Accusative Plural Cheat Sheet</text>
+  <text x="400" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Good news: Plural is simpler than singular!</text>
+
+  <!-- THE BIG RULE -->
+  <rect x="150" y="95" width="500" height="45" rx="12" fill="url(#ruleGrad)" filter="url(#shadow)"/>
+  <text x="400" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="white">🔑 PLURAL RULE: Almost always = Nominative Plural</text>
+  <text x="400" y="132" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.9)">Masculine Animate has its own endings, but simple ones</text>
+
+  <!-- Divider -->
+  <line x1="50" y1="155" x2="750" y2="155" stroke="#4a5568" stroke-width="1"/>
+
+  <!-- Two columns -->
+
+  <!-- Masculine Animate -->
+  <rect x="50" y="170" width="330" height="210" rx="12" fill="#1a202c" stroke="url(#animateGrad)" stroke-width="3"/>
+
+  <rect x="50" y="170" width="330" height="45" rx="12" fill="url(#animateGrad)"/>
+  <rect x="50" y="200" width="330" height="15" fill="url(#animateGrad)"/>
+  <text x="215" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MASCULINE ANIMATE</text>
+
+  <text x="140" y="245" font-size="20" font-weight="bold" fill="#f6ad55">-y</text>
+  <text x="170" y="245" font-size="12" fill="#a0aec0">(hard: pán)</text>
+  <text x="80" y="270" font-size="13" fill="#e2e8f0">Vidím pán<tspan fill="#f6ad55" font-weight="bold">y</tspan>, student<tspan fill="#f6ad55" font-weight="bold">y</tspan></text>
+
+  <line x1="70" y1="290" x2="360" y2="290" stroke="#4a5568" stroke-width="1"/>
+
+  <text x="140" y="315" font-size="20" font-weight="bold" fill="#f6ad55">-e</text>
+  <text x="170" y="315" font-size="12" fill="#a0aec0">(soft: muž)</text>
+  <text x="80" y="340" font-size="13" fill="#e2e8f0">Vidím muž<tspan fill="#f6ad55" font-weight="bold">e</tspan>, učitel<tspan fill="#f6ad55" font-weight="bold">e</tspan></text>
+
+  <rect x="65" y="355" width="300" height="20" rx="5" fill="#744210"/>
+  <text x="215" y="369" text-anchor="middle" font-size="10" fill="#fbd38d">Different from Nom Pl (páni/muži) but easy!</text>
+
+  <!-- Everything else = Nominative -->
+  <rect x="420" y="170" width="330" height="210" rx="12" fill="#1a202c" stroke="url(#noChangeGrad)" stroke-width="3"/>
+
+  <rect x="420" y="170" width="330" height="45" rx="12" fill="url(#noChangeGrad)"/>
+  <rect x="420" y="200" width="330" height="15" fill="url(#noChangeGrad)"/>
+  <text x="585" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">EVERYTHING ELSE</text>
+
+  <text x="585" y="250" text-anchor="middle" font-size="22" font-weight="bold" fill="#68d391">= NOM PL</text>
+  <text x="585" y="275" text-anchor="middle" font-size="12" fill="#a0aec0">Just use nominative plural!</text>
+
+  <text x="450" y="305" font-size="12" fill="#e2e8f0">Masc In: <tspan fill="#68d391">hrady, stroje</tspan></text>
+  <text x="450" y="325" font-size="12" fill="#e2e8f0">Feminine: <tspan fill="#68d391">ženy, růže, kosti</tspan></text>
+  <text x="450" y="345" font-size="12" fill="#e2e8f0">Neuter: <tspan fill="#68d391">města, moře</tspan></text>
+
+  <rect x="435" y="355" width="300" height="20" rx="5" fill="#276749"/>
+  <text x="585" y="369" text-anchor="middle" font-size="10" fill="#9ae6b4">Vidím hrady, ženy, města ✓</text>
+</svg>
