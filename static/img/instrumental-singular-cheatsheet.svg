@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="ruleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="480" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="24" font-weight="bold" fill="white">Instrumental Singular Cheat Sheet</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">S kým? S čím? • With whom? With what? • By means of</text>
+
+  <!-- THE BIG RULE -->
+  <rect x="200" y="95" width="500" height="45" rx="12" fill="url(#ruleGrad)" filter="url(#shadow)"/>
+  <text x="450" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="white">SUPER SIMPLE PATTERN</text>
+  <text x="450" y="132" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.95)">Masc/Neut → -em • Fem hard → -ou • Fem soft → -í</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="155" x2="850" y2="155" stroke="#4a5568" stroke-width="1"/>
+
+  <!-- Three columns -->
+
+  <!-- Column 1: Masculine -->
+  <rect x="45" y="170" width="260" height="310" rx="12" fill="#1a202c" stroke="url(#mascGrad)" stroke-width="3"/>
+
+  <rect x="45" y="170" width="260" height="50" rx="12" fill="url(#mascGrad)"/>
+  <rect x="45" y="205" width="260" height="15" fill="url(#mascGrad)"/>
+  <text x="175" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MASCULINE (all)</text>
+
+  <text x="175" y="260" text-anchor="middle" font-size="36" font-weight="bold" fill="#4299e1">-em</text>
+  <text x="175" y="290" text-anchor="middle" font-size="12" fill="#a0aec0">Same for animate &amp; inanimate!</text>
+
+  <text x="70" y="325" font-size="13" fill="#e2e8f0">pán → pán<tspan fill="#4299e1" font-weight="bold">em</tspan></text>
+  <text x="70" y="350" font-size="13" fill="#e2e8f0">muž → muž<tspan fill="#4299e1" font-weight="bold">em</tspan></text>
+  <text x="70" y="375" font-size="13" fill="#e2e8f0">hrad → hrad<tspan fill="#4299e1" font-weight="bold">em</tspan></text>
+  <text x="70" y="400" font-size="13" fill="#e2e8f0">stroj → stroj<tspan fill="#4299e1" font-weight="bold">em</tspan></text>
+
+  <rect x="60" y="420" width="230" height="45" rx="6" fill="#2d3748"/>
+  <text x="175" y="440" text-anchor="middle" font-size="11" fill="#63b3ed">Jdu s Petrem</text>
+  <text x="175" y="455" text-anchor="middle" font-size="10" fill="#718096">(I'm going with Peter)</text>
+
+  <!-- Column 2: Feminine -->
+  <rect x="320" y="170" width="260" height="310" rx="12" fill="#1a202c" stroke="url(#femGrad)" stroke-width="3"/>
+
+  <rect x="320" y="170" width="260" height="50" rx="12" fill="url(#femGrad)"/>
+  <rect x="320" y="205" width="260" height="15" fill="url(#femGrad)"/>
+  <text x="450" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">FEMININE</text>
+
+  <text x="390" y="255" font-size="28" font-weight="bold" fill="#ed64a6">-ou</text>
+  <text x="440" y="255" font-size="11" fill="#a0aec0">(žena type)</text>
+  <text x="345" y="280" font-size="12" fill="#e2e8f0">žena → žen<tspan fill="#ed64a6" font-weight="bold">ou</tspan></text>
+  <text x="345" y="303" font-size="12" fill="#e2e8f0">kniha → knih<tspan fill="#ed64a6" font-weight="bold">ou</tspan></text>
+
+  <line x1="340" y1="320" x2="560" y2="320" stroke="#4a5568" stroke-width="1"/>
+
+  <text x="390" y="350" font-size="28" font-weight="bold" fill="#ed64a6">-í</text>
+  <text x="420" y="350" font-size="11" fill="#a0aec0">(soft types)</text>
+  <text x="345" y="375" font-size="12" fill="#e2e8f0">růže → růž<tspan fill="#ed64a6" font-weight="bold">í</tspan></text>
+  <text x="345" y="398" font-size="12" fill="#e2e8f0">píseň → písn<tspan fill="#ed64a6" font-weight="bold">í</tspan></text>
+  <text x="345" y="421" font-size="12" fill="#e2e8f0">kost → kost<tspan fill="#ed64a6" font-weight="bold">í</tspan></text>
+
+  <rect x="335" y="440" width="230" height="25" rx="6" fill="#702459"/>
+  <text x="450" y="457" text-anchor="middle" font-size="10" fill="#fbb6ce">-a nouns → -ou, everything else → -í</text>
+
+  <!-- Column 3: Neuter -->
+  <rect x="595" y="170" width="260" height="310" rx="12" fill="#1a202c" stroke="url(#neutGrad)" stroke-width="3"/>
+
+  <rect x="595" y="170" width="260" height="50" rx="12" fill="url(#neutGrad)"/>
+  <rect x="595" y="205" width="260" height="15" fill="url(#neutGrad)"/>
+  <text x="725" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">NEUTER (all)</text>
+
+  <text x="725" y="260" text-anchor="middle" font-size="36" font-weight="bold" fill="#48bb78">-em</text>
+  <text x="725" y="290" text-anchor="middle" font-size="12" fill="#a0aec0">Same as masculine!</text>
+
+  <text x="620" y="325" font-size="13" fill="#e2e8f0">město → měst<tspan fill="#48bb78" font-weight="bold">em</tspan></text>
+  <text x="620" y="350" font-size="13" fill="#e2e8f0">auto → aut<tspan fill="#48bb78" font-weight="bold">em</tspan></text>
+  <text x="620" y="375" font-size="13" fill="#e2e8f0">moře → moř<tspan fill="#48bb78" font-weight="bold">em</tspan></text>
+  <text x="620" y="400" font-size="13" fill="#e2e8f0">kuře → kuřet<tspan fill="#48bb78" font-weight="bold">em</tspan></text>
+
+  <rect x="610" y="420" width="230" height="45" rx="6" fill="#2d3748"/>
+  <text x="725" y="440" text-anchor="middle" font-size="11" fill="#68d391">Jedu autem</text>
+  <text x="725" y="455" text-anchor="middle" font-size="10" fill="#718096">(I'm going by car)</text>
+</svg>

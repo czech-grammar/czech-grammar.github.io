@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53e3e"/>
+      <stop offset="100%" style="stop-color:#c53030"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e"/>
+      <stop offset="100%" style="stop-color:#38ef7d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="620" fill="#fafbfc"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a202c">Vocative Singular: Which Ending?</text>
+  <text x="400" y="55" text-anchor="middle" font-size="13" fill="#718096">For calling/addressing someone • Ahoj Petře!</text>
+
+  <!-- Start node -->
+  <rect x="275" y="75" width="250" height="45" rx="22" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="400" y="103" text-anchor="middle" font-size="15" font-weight="600" fill="white">What gender?</text>
+
+  <!-- Three branches from start -->
+  <path d="M325 120 L325 170" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M400 120 L400 170" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M475 120 L475 170" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <text x="325" y="155" text-anchor="middle" font-size="10" fill="#718096">Masc</text>
+  <text x="400" y="155" text-anchor="middle" font-size="10" fill="#718096">Fem</text>
+  <text x="475" y="155" text-anchor="middle" font-size="10" fill="#718096">Neut</text>
+
+  <!-- NEUTER - Simple, no change -->
+  <rect x="550" y="175" width="140" height="70" rx="12" fill="url(#neutGrad)" filter="url(#shadow)"/>
+  <text x="620" y="205" text-anchor="middle" font-size="18" font-weight="bold" fill="white">= NOM</text>
+  <text x="620" y="230" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.9)">No change!</text>
+  <path d="M475 170 L475 180 L550 180 L550 210" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <!-- FEMININE branch -->
+  <rect x="325" y="175" width="150" height="35" rx="8" fill="#fefcbf" filter="url(#shadow)"/>
+  <text x="400" y="197" text-anchor="middle" font-size="12" fill="#744210">Ends in -a?</text>
+
+  <path d="M365 210 L365 260" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M435 210 L435 260" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <rect x="335" y="235" width="60" height="20" rx="10" fill="#38a169"/>
+  <text x="365" y="249" text-anchor="middle" font-size="11" font-weight="bold" fill="white">YES</text>
+
+  <rect x="405" y="235" width="60" height="20" rx="10" fill="#e53e3e"/>
+  <text x="435" y="249" text-anchor="middle" font-size="11" font-weight="bold" fill="white">NO</text>
+
+  <!-- Fem -a = -o -->
+  <rect x="305" y="265" width="120" height="75" rx="10" fill="url(#femGrad)" filter="url(#shadow)"/>
+  <text x="365" y="295" text-anchor="middle" font-size="24" font-weight="bold" fill="white">-o</text>
+  <text x="365" y="315" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">Jana → Jano!</text>
+  <text x="365" y="332" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">žena → ženo!</text>
+
+  <!-- Fem soft = -e/-i -->
+  <rect x="375" y="265" width="120" height="75" rx="10" fill="url(#femGrad)" filter="url(#shadow)"/>
+  <text x="435" y="295" text-anchor="middle" font-size="24" font-weight="bold" fill="white">-e/-i</text>
+  <text x="435" y="315" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">Marie → Marie!</text>
+  <text x="435" y="332" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">paní → paní!</text>
+
+  <!-- MASCULINE branch -->
+  <rect x="100" y="175" width="180" height="35" rx="8" fill="#fefcbf" filter="url(#shadow)"/>
+  <text x="190" y="197" text-anchor="middle" font-size="12" fill="#744210">What's the stem ending?</text>
+  <path d="M325 170 L325 180 L190 180 L190 210" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <!-- Three masc branches -->
+  <path d="M130 210 L130 280" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M190 210 L190 280" stroke="#a0aec0" stroke-width="2" fill="none"/>
+  <path d="M250 210 L250 280" stroke="#a0aec0" stroke-width="2" fill="none"/>
+
+  <text x="130" y="260" text-anchor="middle" font-size="9" fill="#718096">Hard</text>
+  <text x="130" y="272" text-anchor="middle" font-size="9" fill="#718096">(d,t,n...)</text>
+  <text x="190" y="260" text-anchor="middle" font-size="9" fill="#718096">Soft</text>
+  <text x="190" y="272" text-anchor="middle" font-size="9" fill="#718096">(š,č,ž...)</text>
+  <text x="250" y="260" text-anchor="middle" font-size="9" fill="#718096">-k,-h,-ch</text>
+
+  <!-- Masc hard = -e -->
+  <rect x="80" y="285" width="100" height="75" rx="10" fill="url(#mascGrad)" filter="url(#shadow)"/>
+  <text x="130" y="315" text-anchor="middle" font-size="24" font-weight="bold" fill="white">-e</text>
+  <text x="130" y="335" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">Petr → Petře!</text>
+  <text x="130" y="352" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">pán → pane!</text>
+
+  <!-- Masc soft = -i -->
+  <rect x="140" y="285" width="100" height="75" rx="10" fill="url(#mascGrad)" filter="url(#shadow)"/>
+  <text x="190" y="315" text-anchor="middle" font-size="24" font-weight="bold" fill="white">-i</text>
+  <text x="190" y="335" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">Tomáš → Tomáši!</text>
+  <text x="190" y="352" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">muž → muži!</text>
+
+  <!-- Masc -k,-h,-ch = -u -->
+  <rect x="200" y="285" width="100" height="75" rx="10" fill="url(#mascGrad)" filter="url(#shadow)"/>
+  <text x="250" y="315" text-anchor="middle" font-size="24" font-weight="bold" fill="white">-u</text>
+  <text x="250" y="335" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">Marek → Marku!</text>
+  <text x="250" y="352" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.9)">Zdeněk→Zdeňku!</text>
+
+  <!-- Legend box -->
+  <rect x="100" y="400" width="600" height="200" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="400" y="430" text-anchor="middle" font-size="15" font-weight="600" fill="#4a5568">Quick Reference: Common Czech Names</text>
+
+  <!-- Male names -->
+  <text x="150" y="460" font-size="13" font-weight="bold" fill="#3182ce">Male Names:</text>
+  <text x="150" y="485" font-size="11" fill="#2d3748">Petr → Petře    Jan → Jane    Pavel → Pavle</text>
+  <text x="150" y="505" font-size="11" fill="#2d3748">Tomáš → Tomáši    Jiří → Jiří    Ondřej → Ondřeji</text>
+  <text x="150" y="525" font-size="11" fill="#2d3748">Marek → Marku    Zdeněk → Zdeňku    Lukáš → Lukáši</text>
+
+  <!-- Female names -->
+  <text x="450" y="460" font-size="13" font-weight="bold" fill="#d53f8c">Female Names:</text>
+  <text x="450" y="485" font-size="11" fill="#2d3748">Jana → Jano    Eva → Evo    Petra → Petro</text>
+  <text x="450" y="505" font-size="11" fill="#2d3748">Marie → Marie    Lucie → Lucie    Julie → Julie</text>
+  <text x="450" y="525" font-size="11" fill="#2d3748">Tereza → Terezo    Kateřina → Kateřino</text>
+
+  <!-- Plural note -->
+  <rect x="200" y="555" width="400" height="30" rx="6" fill="#edf2f7"/>
+  <text x="400" y="575" text-anchor="middle" font-size="11" fill="#4a5568">Plural: Vocative = Nominative (no special ending needed)</text>
+</svg>

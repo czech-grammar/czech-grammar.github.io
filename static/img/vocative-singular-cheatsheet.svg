@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="ruleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53e3e"/>
+      <stop offset="100%" style="stop-color:#c53030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="520" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="24" font-weight="bold" fill="white">Vocative Singular Cheat Sheet</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">For addressing people! • NOT optional in Czech!</text>
+
+  <!-- THE BIG RULE -->
+  <rect x="175" y="95" width="550" height="45" rx="12" fill="url(#ruleGrad)" filter="url(#shadow)"/>
+  <text x="450" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="white">IMPORTANT: Using Nominative to address = sounds rude!</text>
+  <text x="450" y="132" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.95)">Masc: -e/-i/-u • Fem -a: -o • Neuter: no change</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="155" x2="850" y2="155" stroke="#4a5568" stroke-width="1"/>
+
+  <!-- Three columns -->
+
+  <!-- Column 1: Masculine -->
+  <rect x="45" y="170" width="270" height="350" rx="12" fill="#1a202c" stroke="url(#mascGrad)" stroke-width="3"/>
+
+  <rect x="45" y="170" width="270" height="50" rx="12" fill="url(#mascGrad)"/>
+  <rect x="45" y="205" width="270" height="15" fill="url(#mascGrad)"/>
+  <text x="180" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MASCULINE ANIMATE</text>
+
+  <text x="120" y="250" font-size="22" font-weight="bold" fill="#4299e1">-e</text>
+  <text x="150" y="250" font-size="11" fill="#a0aec0">(hard stems)</text>
+  <text x="65" y="275" font-size="12" fill="#e2e8f0">Petr → Petr<tspan fill="#4299e1" font-weight="bold">e</tspan>!</text>
+  <text x="65" y="295" font-size="12" fill="#e2e8f0">pán → pan<tspan fill="#4299e1" font-weight="bold">e</tspan>!</text>
+
+  <line x1="65" y1="310" x2="295" y2="310" stroke="#4a5568" stroke-width="1"/>
+
+  <text x="120" y="335" font-size="22" font-weight="bold" fill="#4299e1">-i</text>
+  <text x="150" y="335" font-size="11" fill="#a0aec0">(soft stems)</text>
+  <text x="65" y="360" font-size="12" fill="#e2e8f0">Tomáš → Tomáš<tspan fill="#4299e1" font-weight="bold">i</tspan>!</text>
+  <text x="65" y="380" font-size="12" fill="#e2e8f0">muž → muž<tspan fill="#4299e1" font-weight="bold">i</tspan>!</text>
+
+  <line x1="65" y1="395" x2="295" y2="395" stroke="#4a5568" stroke-width="1"/>
+
+  <text x="120" y="420" font-size="22" font-weight="bold" fill="#4299e1">-u</text>
+  <text x="150" y="420" font-size="11" fill="#a0aec0">(-k, -h, -ch)</text>
+  <text x="65" y="445" font-size="12" fill="#e2e8f0">Marek → Mark<tspan fill="#4299e1" font-weight="bold">u</tspan>!</text>
+  <text x="65" y="465" font-size="12" fill="#e2e8f0">Zdeněk → Zdeňk<tspan fill="#4299e1" font-weight="bold">u</tspan>!</text>
+
+  <rect x="60" y="485" width="240" height="25" rx="6" fill="#2c5282"/>
+  <text x="180" y="502" text-anchor="middle" font-size="10" fill="#bee3f8">-a nouns: kolega → kolego!</text>
+
+  <!-- Column 2: Feminine -->
+  <rect x="325" y="170" width="250" height="350" rx="12" fill="#1a202c" stroke="url(#femGrad)" stroke-width="3"/>
+
+  <rect x="325" y="170" width="250" height="50" rx="12" fill="url(#femGrad)"/>
+  <rect x="325" y="205" width="250" height="15" fill="url(#femGrad)"/>
+  <text x="450" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">FEMININE</text>
+
+  <text x="400" y="255" font-size="28" font-weight="bold" fill="#ed64a6">-o</text>
+  <text x="440" y="255" font-size="11" fill="#a0aec0">(žena type)</text>
+  <text x="345" y="285" font-size="12" fill="#e2e8f0">Jana → Jan<tspan fill="#ed64a6" font-weight="bold">o</tspan>!</text>
+  <text x="345" y="308" font-size="12" fill="#e2e8f0">maminka → maminko!</text>
+  <text x="345" y="331" font-size="12" fill="#e2e8f0">slečna → slečno!</text>
+
+  <line x1="345" y1="350" x2="555" y2="350" stroke="#4a5568" stroke-width="1"/>
+
+  <text x="400" y="380" font-size="28" font-weight="bold" fill="#ed64a6">-e/-i</text>
+  <text x="470" y="380" font-size="11" fill="#a0aec0">(soft)</text>
+  <text x="345" y="410" font-size="12" fill="#e2e8f0">Marie → Mari<tspan fill="#ed64a6" font-weight="bold">e</tspan>!</text>
+  <text x="345" y="433" font-size="12" fill="#e2e8f0">růže → růž<tspan fill="#ed64a6" font-weight="bold">e</tspan>!</text>
+  <text x="345" y="456" font-size="12" fill="#e2e8f0">paní → pan<tspan fill="#ed64a6" font-weight="bold">í</tspan>!</text>
+
+  <rect x="340" y="475" width="220" height="35" rx="6" fill="#702459"/>
+  <text x="450" y="492" text-anchor="middle" font-size="10" fill="#fbb6ce">Most common: -a names → -o</text>
+  <text x="450" y="505" text-anchor="middle" font-size="9" fill="#fbb6ce">Katka→Katko, Petra→Petro</text>
+
+  <!-- Column 3: Neuter -->
+  <rect x="585" y="170" width="250" height="200" rx="12" fill="#1a202c" stroke="url(#neutGrad)" stroke-width="3"/>
+
+  <rect x="585" y="170" width="250" height="50" rx="12" fill="url(#neutGrad)"/>
+  <rect x="585" y="205" width="250" height="15" fill="url(#neutGrad)"/>
+  <text x="710" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">NEUTER</text>
+
+  <text x="710" y="270" text-anchor="middle" font-size="32" font-weight="bold" fill="#48bb78">= NOM</text>
+  <text x="710" y="300" text-anchor="middle" font-size="13" fill="#a0aec0">No change needed!</text>
+  <text x="710" y="335" text-anchor="middle" font-size="12" fill="#e2e8f0">dítě → dítě!</text>
+  <text x="710" y="358" text-anchor="middle" font-size="11" fill="#718096">(but rarely addressed)</text>
+
+  <!-- Irregulars box -->
+  <rect x="585" y="385" width="250" height="135" rx="12" fill="#744210" filter="url(#shadow)"/>
+  <text x="710" y="410" text-anchor="middle" font-size="13" font-weight="bold" fill="#fbd38d">Common Irregulars</text>
+
+  <text x="605" y="440" font-size="12" fill="#fef3c7">Bůh → <tspan font-weight="bold">Bože</tspan>!</text>
+  <text x="605" y="463" font-size="12" fill="#fef3c7">člověk → <tspan font-weight="bold">člověče</tspan>!</text>
+  <text x="605" y="486" font-size="12" fill="#fef3c7">syn → <tspan font-weight="bold">synu</tspan>!</text>
+  <text x="605" y="509" font-size="12" fill="#fef3c7">přítel → <tspan font-weight="bold">příteli</tspan>!</text>
+</svg>

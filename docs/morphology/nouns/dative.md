@@ -9,6 +9,26 @@ sidebar_position: 7
 
 The Dative is the "To/For" case. It is primarily used for the **Indirect Object**.
 
+## Quick Reference (Singular)
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Dative Singular Cheat Sheet](/img/dative-singular-cheatsheet.svg)
+
+</div>
+
+### Decision Flowchart
+
+The key to dative is knowing **-ovi** is the special animate ending:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Dative Singular Flowchart](/img/dative-singular-flowchart.svg)
+
+</div>
+
+---
+
 ## Declension (Singular)
 
 | Gender | Model | Ending | Example (Nom -> Dat) |
@@ -50,3 +70,47 @@ The Dative is the "To/For" case. It is primarily used for the **Indirect Object*
 *   **Líbit se** (to like): *To se **mi** líbí.* (I like it - lit. "It pleases me".)
 *   **Chutnat** (to taste good): *Chutná **mi** to.* (It tastes good to me.)
 *   **Volat** (to call - phone): *Volám **mamince**.*
+
+---
+
+## Declension (Plural)
+
+Good news: Dative Plural is very regular! The pattern is simple.
+
+### Quick Reference (Plural)
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Dative Plural Cheat Sheet](/img/dative-plural-cheatsheet.svg)
+
+</div>
+
+### Endings by Gender
+
+| Gender | Hard Stem | Soft Stem | Examples |
+| :--- | :--- | :--- | :--- |
+| **Masc** | **-ům** | **-ům** | *pánům, hradům, mužům, strojům* |
+| **Fem** | **-ám** (-a type) | **-ím** | *ženám, růžím, písním, kostem* |
+| **Neut** | **-ům** | **-ím** | *městům, mořím, kuřatům* |
+
+:::tip Simple Pattern
+- Masculine & Neuter hard: **-ům**
+- Feminine -a type: **-ám**
+- Soft stems (all genders): **-ím**
+
+The long vowel (ů/á/í) + **m** is the dative plural marker!
+:::
+
+### Examples
+
+**Masculine:**
+- *Dám to **studentům**.* (I'll give it to the students.)
+- *Pomáhám **mužům**.* (I help the men.)
+
+**Feminine:**
+- *Píšu **ženám**.* (I write to the women.)
+- *Volám **kamarádkám**.* (I call my friends [fem].)
+
+**Neuter:**
+- *Díky **městům**.* (Thanks to the cities.)
+- *Blíží se k **mořím**.* (It approaches the seas.)
