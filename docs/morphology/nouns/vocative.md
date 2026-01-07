@@ -13,17 +13,17 @@ The Vocative is used exclusively for **addressing people** (or things, poeticall
 
 | Gender | Model | Ending | Example (Nom -> Voc) |
 | :--- | :--- | :--- | :--- |
-| **Masc An** | Pán | **-e** | *Pán -> Pan**e*** (*Petr -> Petr**e***) |
-| | (Soft ending) | **-i** | *Tomáš -> Tomáš**i*** |
-| | (Ending in -k, -h, -ch) | **-u** | *Marek -> Mark**u*** |
-| | Muž | **-i** | *Muž -> Muž**i*** |
-| | Předseda | **-o** | *Předseda -> Předsed**o*** (*Kolega -> Koleg**o***) |
-| | Soudce | **-e** | *Soudce -> Soudc**e*** |
-| **Fem** | Žena | **-o** | *Žena -> Žen**o*** (*Jana -> Jan**o***) |
-| | Růže | **-e** | *Růže -> Růž**e*** (*Marie -> Mari**e***) |
-| | Píseň | **-i** | *Píseň -> Písn**i*** |
-| | Kost | **-i** | *Kost -> Kost**i*** |
-| **Neut** | All | **= Nom** | *Město -> Město!* |
+| **Masc An** | pán | **-e** | *pán -> pan**e*** (*Petr -> Petr**e***) |
+| | (soft ending) | **-i** | *Tomáš -> Tomáš**i*** |
+| | (ending in -k, -h, -ch) | **-u** | *Marek -> Mark**u*** |
+| | muž | **-i** | *muž -> muž**i*** |
+| | předseda | **-o** | *předseda -> předsed**o*** (*kolega -> koleg**o***) |
+| | soudce | **-e** | *soudce -> soudc**e*** |
+| **Fem** | žena | **-o** | *žena -> žen**o*** (*Jana -> Jan**o***) |
+| | růže | **-e** | *růže -> růž**e*** (*Marie -> Mari**e***) |
+| | píseň | **-i** | *píseň -> písn**i*** |
+| | kost | **-i** | *kost -> kost**i*** |
+| **Neut** | all | **= Nom** | *město -> město!* |
 
 ## Common Irregularities
 *   **Syn** (Son) -> **Synu!**

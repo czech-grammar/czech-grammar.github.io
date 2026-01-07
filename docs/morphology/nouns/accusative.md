@@ -13,16 +13,16 @@ The Accusative is the most common case after Nominative. It marks the **Direct O
 
 | Gender | Model | Ending | Example (Nom -> Acc) |
 | :--- | :--- | :--- | :--- |
-| **Masc An** | Pán | **-a** | *Pán -> Pán**a*** (= Genitive) |
-| | Muž | **-e** | *Muž -> Muž**e*** (= Genitive) |
-| | Předseda | **-u** | *Předseda -> Předsed**u*** |
-| | Soudce | **-e** | *Soudce -> Soudc**e*** |
-| **Masc In** | All | **= Nom** | *Hrad -> Hrad*, *Stroj -> Stroj* |
-| **Fem** | Žena | **-u** | *Žena -> Žen**u*** |
-| | Růže | **-i** | *Růže -> Růž**i*** |
-| | Píseň | **= Nom** | *Píseň -> Píseň* |
-| | Kost | **= Nom** | *Kost -> Kost* |
-| **Neut** | All | **= Nom** | *Město -> Město*, *Moře -> Moře* |
+| **Masc An** | pán | **-a** | *pán -> pán**a*** (= Genitive) |
+| | muž | **-e** | *muž -> muž**e*** (= Genitive) |
+| | předseda | **-u** | *předseda -> předsed**u*** |
+| | soudce | **-e** | *soudce -> soudc**e*** |
+| **Masc In** | all | **= Nom** | *hrad -> hrad*, *stroj -> stroj* |
+| **Fem** | žena | **-u** | *žena -> žen**u*** |
+| | růže | **-i** | *růže -> růž**i*** |
+| | píseň | **= Nom** | *píseň -> píseň* |
+| | kost | **= Nom** | *kost -> kost* |
+| **Neut** | all | **= Nom** | *město -> město*, *moře -> moře* |
 
 *Key Rule: For Masculine Inanimate and Neuter, Accusative = Nominative. For Feminine "Žena", -a becomes -u.*
 

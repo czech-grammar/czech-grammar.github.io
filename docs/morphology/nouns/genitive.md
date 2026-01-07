@@ -13,20 +13,20 @@ The Genitive is the "Of" case. It indicates possession, quantity, and follows ma
 
 | Gender | Model | Ending | Example (Nom -> Gen) |
 | :--- | :--- | :--- | :--- |
-| **Masc An** | Pán | **-a** | *Pán -> Pán**a*** |
-| | Muž | **-e** | *Muž -> Muž**e*** |
-| | Předseda | **-y** | *Předseda -> Předsed**y*** |
-| | Soudce | **-e** | *Soudce -> Soudc**e*** |
-| **Masc In** | Hrad | **-u / -a** | *Hrad -> Hrad**u*** (*Les -> Les**a***) |
-| | Stroj | **-e** | *Stroj -> Stroj**e*** |
-| **Fem** | Žena | **-y** | *Žena -> Žen**y*** |
-| | Růže | **-e** | *Růže -> Růž**e*** |
-| | Píseň | **-ě/-e** | *Píseň -> Písn**ě*** |
-| | Kost | **-i** | *Kost -> Kost**i*** |
-| **Neut** | Město | **-a** | *Město -> Měst**a*** |
-| | Moře | **-e** | *Moře -> Moř**e*** |
-| | Kuře | **-ete** | *Kuře -> Kuř**ete*** |
-| | Stavení | **-í** | *Stavení -> Stavení* |
+| **Masc An** | pán | **-a** | *pán -> pán**a*** |
+| | muž | **-e** | *muž -> muž**e*** |
+| | předseda | **-y** | *předseda -> předsed**y*** |
+| | soudce | **-e** | *soudce -> soudc**e*** |
+| **Masc In** | hrad | **-u / -a** | *hrad -> hrad**u*** (*les -> les**a***) |
+| | stroj | **-e** | *stroj -> stroj**e*** |
+| **Fem** | žena | **-y** | *žena -> žen**y*** |
+| | růže | **-e** | *růže -> růž**e*** |
+| | píseň | **-ě/-e** | *píseň -> písn**ě*** |
+| | kost | **-i** | *kost -> kost**i*** |
+| **Neut** | město | **-a** | *město -> měst**a*** |
+| | moře | **-e** | *moře -> moř**e*** |
+| | kuře | **-ete** | *kuře -> kuř**ete*** |
+| | stavení | **-í** | *stavení -> stavení* |
 
 ## Usage
 

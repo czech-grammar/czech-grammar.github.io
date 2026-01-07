@@ -13,22 +13,22 @@ The Locative is the only case that is **ALWAYS** used with a preposition. It nev
 
 | Gender | Model | Ending | Example (Nom -> Loc) |
 | :--- | :--- | :--- | :--- |
-| **Masc An** | Pán | **-ovi / -u** | *Pán -> o Pán**ovi*** |
-| | Muž | **-ovi / -i** | *Muž -> o Muž**ovi*** |
-| **Masc In** | Hrad | **-u / -ě** | *Hrad -> o Hrad**u*** (*Les -> v Les**e***) |
-| | Stroj | **-i** | *Stroj -> o Stroj**i*** |
-| **Fem** | Žena | **-ě / -e** | *Žena -> o Žen**ě*** (*Praha -> v Praz**e***) |
-| | Růže | **-i** | *Růže -> o Růž**i*** |
-| | Píseň | **-i** | *Píseň -> o Písn**i*** |
-| | Kost | **-i** | *Kost -> o Kost**i*** |
-| **Neut** | Město | **-ě / -u** | *Město -> ve Měst**ě*** |
-| | Moře | **-i** | *Moře -> v Moř**i*** |
-| | Kuře | **-eti** | *Kuře -> o Kuř**eti*** |
+| **Masc An** | pán | **-ovi / -u** | *pán -> o pán**ovi*** |
+| | muž | **-ovi / -i** | *muž -> o muž**ovi*** |
+| **Masc In** | hrad | **-u / -ě** | *hrad -> o hrad**u*** (*les -> v les**e***) |
+| | stroj | **-i** | *stroj -> o stroj**i*** |
+| **Fem** | žena | **-ě / -e** | *žena -> o žen**ě*** (*Praha -> v Praz**e***) |
+| | růže | **-i** | *růže -> o růž**i*** |
+| | píseň | **-i** | *píseň -> o písn**i*** |
+| | kost | **-i** | *kost -> o kost**i*** |
+| **Neut** | město | **-ě / -u** | *město -> ve měst**ě*** |
+| | moře | **-i** | *moře -> v moř**i*** |
+| | kuře | **-eti** | *kuře -> o kuř**eti*** |
 
 *Softening (Palatalization):* In the Locative, hard consonants often soften before **-ě**.
-*   *Praha -> v Praze* (h -> z)
-*   *Kniha -> v knize* (h -> z)
-*   *Škola -> ve škole* (l -> l)
+*   *Praha -> v Praze* (h -> z) — proper noun, stays capitalized
+*   *kniha -> v knize* (h -> z)
+*   *škola -> ve škole* (l -> l)
 
 ## Usage
 
@@ -62,10 +62,10 @@ All Locative Plural endings end in **-ch**:
 
 | Model | Ending | Example (Nom Sg -> Loc Pl) |
 | :--- | :--- | :--- |
-| **Pán** (hard) | **-ech** | *pán -> o pán**ech*** |
-| **Muž** (soft) | **-ích** | *muž -> o muž**ích*** |
-| **Soudce** | **-ích** | *soudce -> o soudc**ích*** |
-| **Předseda** | **-ech** | *předseda -> o předsed**ech*** |
+| **pán** (hard) | **-ech** | *pán -> o pán**ech*** |
+| **muž** (soft) | **-ích** | *muž -> o muž**ích*** |
+| **soudce** | **-ích** | *soudce -> o soudc**ích*** |
+| **předseda** | **-ech** | *předseda -> o předsed**ech*** |
 
 **Examples in context:**
 - *Mluvili jsme o těch **doktorech**.* (We talked about those doctors.)
@@ -77,8 +77,8 @@ All Locative Plural endings end in **-ch**:
 
 | Model | Ending | Example (Nom Sg -> Loc Pl) |
 | :--- | :--- | :--- |
-| **Hrad** (hard) | **-ech** | *hrad -> na hrad**ech*** |
-| **Stroj** (soft) | **-ích** | *stroj -> ve stroj**ích*** |
+| **hrad** (hard) | **-ech** | *hrad -> na hrad**ech*** |
+| **stroj** (soft) | **-ích** | *stroj -> ve stroj**ích*** |
 
 **Examples in context:**
 - *Na těchto **hradech** se natáčely filmy.* (Films were shot at these castles.)
@@ -90,10 +90,10 @@ All Locative Plural endings end in **-ch**:
 
 | Model | Ending | Example (Nom Sg -> Loc Pl) |
 | :--- | :--- | :--- |
-| **Žena** (hard) | **-ách** | *žena -> o žen**ách*** |
-| **Růže** (soft) | **-ích** | *růže -> o růž**ích*** |
-| **Píseň** (soft) | **-ích** | *píseň -> o písn**ích*** |
-| **Kost** | **-ech** | *kost -> o kost**ech*** |
+| **žena** (hard) | **-ách** | *žena -> o žen**ách*** |
+| **růže** (soft) | **-ích** | *růže -> o růž**ích*** |
+| **píseň** (soft) | **-ích** | *píseň -> o písn**ích*** |
+| **kost** | **-ech** | *kost -> o kost**ech*** |
 
 **Examples in context:**
 - *V těchto **zemích** se mluví slovanskými jazyky.* (Slavic languages are spoken in these countries.)
@@ -106,10 +106,10 @@ All Locative Plural endings end in **-ch**:
 
 | Model | Ending | Example (Nom Sg -> Loc Pl) |
 | :--- | :--- | :--- |
-| **Město** (hard) | **-ech** | *město -> ve měst**ech*** |
-| **Moře** (soft) | **-ích** | *moře -> v moř**ích*** |
-| **Kuře** (-ata pl.) | **-atech** | *kuře -> o kuřat**ech*** |
-| **Stavení** | **-ích** | *stavení -> ve staven**ích*** |
+| **město** (hard) | **-ech** | *město -> ve měst**ech*** |
+| **moře** (soft) | **-ích** | *moře -> v moř**ích*** |
+| **kuře** (-ata pl.) | **-atech** | *kuře -> o kuřat**ech*** |
+| **stavení** | **-ích** | *stavení -> ve staven**ích*** |
 
 **Examples in context:**
 - *V českých **městech** je krásná architektura.* (There's beautiful architecture in Czech cities.)

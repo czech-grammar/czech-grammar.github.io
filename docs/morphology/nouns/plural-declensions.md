@@ -7,9 +7,9 @@ sidebar_position: 12
 
 Declining nouns in the plural can be challenging, but there are some consistent patterns across genders, especially in the Dative, Locative, and Instrumental cases.
 
-## Masculine Animate (Páni / Muži)
+## Masculine Animate (páni / muži)
 
-| Case | Hard (Pán) | Soft (Muž) | Ending Pattern |
+| Case | Hard (pán) | Soft (muž) | Ending Pattern |
 | :--- | :--- | :--- | :--- |
 | **Nom** | pán**i** | muž**i** | -i / -ové |
 | **Gen** | pán**ů** | muž**ů** | -ů |
@@ -19,9 +19,9 @@ Declining nouns in the plural can be challenging, but there are some consistent 
 | **Loc** | pán**ech** | muž**ích** | -ech / -ích |
 | **Instr** | pán**y** | muž**i** | -y / -i |
 
-## Masculine Inanimate (Hrady / Stroje)
+## Masculine Inanimate (hrady / stroje)
 
-| Case | Hard (Hrad) | Soft (Stroj) | Ending Pattern |
+| Case | Hard (hrad) | Soft (stroj) | Ending Pattern |
 | :--- | :--- | :--- | :--- |
 | **Nom** | hrad**y** | stroj**e** | -y / -e |
 | **Gen** | hrad**ů** | stroj**ů** | -ů |
@@ -31,9 +31,9 @@ Declining nouns in the plural can be challenging, but there are some consistent 
 | **Loc** | hrad**ech** | stroj**ích** | -ech / -ích |
 | **Instr** | hrad**y** | stroj**i** | -y / -i |
 
-## Feminine (Ženy / Růže / Kosti)
+## Feminine (ženy / růže / kosti)
 
-| Case | Hard (Žena) | Soft (Růže) | Consonant (Kost) |
+| Case | Hard (žena) | Soft (růže) | Consonant (kost) |
 | :--- | :--- | :--- | :--- |
 | **Nom** | žen**y** | růž**e** | kost**i** |
 | **Gen** | žen | růž**í** | kost**í** |
@@ -43,11 +43,11 @@ Declining nouns in the plural can be challenging, but there are some consistent 
 | **Loc** | žen**ách** | růž**ích** | kost**ech** |
 | **Instr** | žen**ami** | růž**emi** | kost**mi** |
 
-*Note: The Genitive Plural for "Žena" type has **zero ending** (žena -> žen).*
+*Note: The Genitive Plural for "žena" type has **zero ending** (žena -> žen).*
 
-## Neuter (Města / Moře)
+## Neuter (města / moře)
 
-| Case | Hard (Město) | Soft (Moře) |
+| Case | Hard (město) | Soft (moře) |
 | :--- | :--- | :--- |
 | **Nom** | měst**a** | moř**e** |
 | **Gen** | měst | moř**í** |

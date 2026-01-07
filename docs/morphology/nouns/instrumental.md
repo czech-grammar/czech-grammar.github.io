@@ -13,18 +13,18 @@ The Instrumental expresses the **means** by which something is done, or **accomp
 
 | Gender | Model | Ending | Example (Nom -> Instr) |
 | :--- | :--- | :--- | :--- |
-| **Masc An** | Pán | **-em** | *Pán -> Pán**em*** |
-| | Muž | **-em** | *Muž -> Muž**em*** |
-| **Masc In** | Hrad | **-em** | *Hrad -> Hrad**em*** |
-| | Stroj | **-em** | *Stroj -> Stroj**em*** |
-| **Fem** | Žena | **-ou** | *Žena -> Žen**ou*** |
-| | Růže | **-í** | *Růže -> Růž**í*** |
-| | Píseň | **-í** | *Píseň -> Písn**í*** |
-| | Kost | **-í** | *Kost -> Kost**í*** |
-| **Neut** | Město | **-em** | *Město -> Měst**em*** |
-| | Moře | **-em** | *Moře -> Moř**em*** |
-| | Kuře | **-etem** | *Kuře -> Kuř**etem*** |
-| | Stavení | **-ím** | *Stavení -> Staven**ím*** |
+| **Masc An** | pán | **-em** | *pán -> pán**em*** |
+| | muž | **-em** | *muž -> muž**em*** |
+| **Masc In** | hrad | **-em** | *hrad -> hrad**em*** |
+| | stroj | **-em** | *stroj -> stroj**em*** |
+| **Fem** | žena | **-ou** | *žena -> žen**ou*** |
+| | růže | **-í** | *růže -> růž**í*** |
+| | píseň | **-í** | *píseň -> písn**í*** |
+| | kost | **-í** | *kost -> kost**í*** |
+| **Neut** | město | **-em** | *město -> měst**em*** |
+| | moře | **-em** | *moře -> moř**em*** |
+| | kuře | **-etem** | *kuře -> kuř**etem*** |
+| | stavení | **-ím** | *stavení -> staven**ím*** |
 
 *Rule of Thumb: Masculine and Neuter usually end in **-em**. Feminine ends in **-ou** (Hard) or **-í** (Soft).*
 

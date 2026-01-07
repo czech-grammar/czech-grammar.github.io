@@ -13,20 +13,20 @@ The Dative is the "To/For" case. It is primarily used for the **Indirect Object*
 
 | Gender | Model | Ending | Example (Nom -> Dat) |
 | :--- | :--- | :--- | :--- |
-| **Masc An** | Pán | **-ovi / -u** | *Pán -> Pán**ovi*** |
-| | Muž | **-ovi / -i** | *Muž -> Muž**ovi*** |
-| | Předseda | **-ovi** | *Předseda -> Předsed**ovi*** |
-| | Soudce | **-ovi** | *Soudce -> Soudc**ovi*** |
-| **Masc In** | Hrad | **-u** | *Hrad -> Hrad**u*** |
-| | Stroj | **-i** | *Stroj -> Stroj**i*** |
-| **Fem** | Žena | **-ě / -e** | *Žena -> Žen**ě*** |
-| | Růže | **-i** | *Růže -> Růž**i*** |
-| | Píseň | **-i** | *Píseň -> Písn**i*** |
-| | Kost | **-i** | *Kost -> Kost**i*** |
-| **Neut** | Město | **-u** | *Město -> Měst**u*** |
-| | Moře | **-i** | *Moře -> Moř**i*** |
-| | Kuře | **-eti** | *Kuře -> Kuř**eti*** |
-| | Stavení | **-í** | *Stavení -> Stavení* |
+| **Masc An** | pán | **-ovi / -u** | *pán -> pán**ovi*** |
+| | muž | **-ovi / -i** | *muž -> muž**ovi*** |
+| | předseda | **-ovi** | *předseda -> předsed**ovi*** |
+| | soudce | **-ovi** | *soudce -> soudc**ovi*** |
+| **Masc In** | hrad | **-u** | *hrad -> hrad**u*** |
+| | stroj | **-i** | *stroj -> stroj**i*** |
+| **Fem** | žena | **-ě / -e** | *žena -> žen**ě*** |
+| | růže | **-i** | *růže -> růž**i*** |
+| | píseň | **-i** | *píseň -> písn**i*** |
+| | kost | **-i** | *kost -> kost**i*** |
+| **Neut** | město | **-u** | *město -> měst**u*** |
+| | moře | **-i** | *moře -> moř**i*** |
+| | kuře | **-eti** | *kuře -> kuř**eti*** |
+| | stavení | **-í** | *stavení -> stavení* |
 
 *Note: For Masculine Animate, the ending **-ovi** is standard. **-u** is used only if the noun is followed by a surname (Panu Novákovi).*
 

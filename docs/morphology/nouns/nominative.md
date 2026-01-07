@@ -17,37 +17,37 @@ Czech nouns are categorized into "Models" (Vzory) based on their gender and endi
 
 | Model | Ending | Example | Plural (Nom) |
 | :--- | :--- | :--- | :--- |
-| **Pán** | Consonant (Hard) | *Student, Pes* | **-i / -ové** (*Páni, Studenti*) |
-| **Muž** | Consonant (Soft) | *Otec, Cizinec* | **-i / -ové** (*Muži, Otcové*) |
-| **Předseda** | **-a** | *Hrdina, Kolega* | **-ové** (*Předsedové*) |
-| **Soudce** | **-e** | *Průvodce, Zrádce* | **-i** (*Soudci*) |
+| **pán** | consonant (hard) | *student, pes* | **-i / -ové** (*páni, studenti*) |
+| **muž** | consonant (soft) | *otec, cizinec* | **-i / -ové** (*muži, otcové*) |
+| **předseda** | **-a** | *hrdina, kolega* | **-ové** (*předsedové*) |
+| **soudce** | **-e** | *průvodce, zrádce* | **-i** (*soudci*) |
 
 ### Masculine Inanimate (Neživotné)
 
 | Model | Ending | Example | Plural (Nom) |
 | :--- | :--- | :--- | :--- |
-| **Hrad** | Consonant (Hard) | *Dům, Stůl* | **-y** (*Hrady, Domy*) |
-| **Stroj** | Consonant (Soft) | *Počítač, Čaj* | **-e** (*Stroje, Počítače*) |
-| **Les** | Consonant | *Sníh* | **-y** (*Lesy*) |
-| **(Chleba)** | **-a** | *Chleba* | *Rare* |
+| **hrad** | consonant (hard) | *dům, stůl* | **-y** (*hrady, domy*) |
+| **stroj** | consonant (soft) | *počítač, čaj* | **-e** (*stroje, počítače*) |
+| **les** | consonant | *sníh* | **-y** (*lesy*) |
+| **(chleba)** | **-a** | *chleba* | *rare* |
 
 ### Feminine (Rod ženský)
 
 | Model | Ending | Example | Plural (Nom) |
 | :--- | :--- | :--- | :--- |
-| **Žena** | **-a** | *Kniha, Voda* | **-y** (*Ženy, Knihy*) |
-| **Růže** | **-e** | *Práce, Židle* | **-e** (*Růže, Práce*) |
-| **Píseň** | Consonant (Soft) | *Skříň, Kancelář* | **-ě/-e** (*Písně, Skříně*) |
-| **Kost** | Consonant (Soft) | *Věc, Noc* | **-i** (*Kosti, Věci*) |
+| **žena** | **-a** | *kniha, voda* | **-y** (*ženy, knihy*) |
+| **růže** | **-e** | *práce, židle* | **-e** (*růže, práce*) |
+| **píseň** | consonant (soft) | *skříň, kancelář* | **-ě/-e** (*písně, skříně*) |
+| **kost** | consonant (soft) | *věc, noc* | **-i** (*kosti, věci*) |
 
 ### Neuter (Rod střední)
 
 | Model | Ending | Example | Plural (Nom) |
 | :--- | :--- | :--- | :--- |
-| **Město** | **-o** | *Auto, Pivo* | **-a** (*Města, Auta*) |
-| **Moře** | **-e** | *Pole, Srdce* | **-e** (*Moře, Pole*) |
-| **Kuře** | **-e** | *Dítě, Kotě* | **-ata** (*Kuřata, Koťata*) |
-| **Stavení** | **-í** | *Nádraží, Náměstí* | **-í** (*Stavení*) |
+| **město** | **-o** | *auto, pivo* | **-a** (*města, auta*) |
+| **moře** | **-e** | *pole, srdce* | **-e** (*moře, pole*) |
+| **kuře** | **-e** | *dítě, kotě* | **-ata** (*kuřata, koťata*) |
+| **stavení** | **-í** | *nádraží, náměstí* | **-í** (*stavení*) |
 
 ## Usage
 
