@@ -52,6 +52,26 @@ Used with preposition **o**.
 
 The Locative Plural is characterized by endings containing **-ch**. The specific vowel before *-ch* depends on the noun's gender and declension class.
 
+### Quick Reference
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Locative Plural Cheat Sheet](/img/locative-plural-cheatsheet.svg)
+
+</div>
+
+### Decision Flowchart
+
+Not sure which ending to use? Follow this flowchart:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Locative Plural Flowchart](/img/locative-plural-flowchart.svg)
+
+</div>
+
+---
+
 ### Universal Pattern
 All Locative Plural endings end in **-ch**:
 - **-ech** (hard consonant stems)
