@@ -85,6 +85,12 @@ const config: Config = {
           label: 'Vocabulary',
         },
         {
+          type: 'doc',
+          docId: 'quick-reference',
+          position: 'left',
+          label: '📖 Quick Reference',
+        },
+        {
           href: 'https://github.com/czech-grammar/czech-grammar.github.io',
           label: 'GitHub',
           position: 'right',

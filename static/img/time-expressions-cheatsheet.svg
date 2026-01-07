@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 750" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="daysGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#5a67d8"/>
+    </linearGradient>
+    <linearGradient id="monthsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="seasonsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="clockGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="dateGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="1060" height="710" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="550" y="60" text-anchor="middle" font-size="28" font-weight="bold" fill="white">Time Expressions Cheat Sheet</text>
+  <text x="550" y="85" text-anchor="middle" font-size="14" fill="#a0aec0">Časové výrazy • Days, Months, Seasons &amp; Telling Time</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="105" x2="1050" y2="105" stroke="#4a5568" stroke-width="1"/>
+
+  <!-- Row 1: Days of Week -->
+  <rect x="35" y="120" width="330" height="280" rx="12" fill="#1a202c" stroke="url(#daysGrad)" stroke-width="3"/>
+  <rect x="35" y="120" width="330" height="40" rx="12" fill="url(#daysGrad)"/>
+  <rect x="35" y="148" width="330" height="12" fill="url(#daysGrad)"/>
+  <text x="200" y="148" text-anchor="middle" font-size="16" font-weight="bold" fill="white">DAYS OF WEEK (Dny v týdnu)</text>
+
+  <text x="55" y="185" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">pondělí</tspan> - Monday</text>
+  <text x="55" y="208" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">úterý</tspan> - Tuesday</text>
+  <text x="55" y="231" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">středa</tspan> - Wednesday</text>
+  <text x="55" y="254" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">čtvrtek</tspan> - Thursday</text>
+  <text x="55" y="277" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">pátek</tspan> - Friday</text>
+  <text x="55" y="300" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">sobota</tspan> - Saturday</text>
+  <text x="55" y="323" font-size="13" fill="#e2e8f0"><tspan fill="#667eea" font-weight="bold">neděle</tspan> - Sunday</text>
+
+  <rect x="50" y="340" width="300" height="50" rx="8" fill="#2d3748"/>
+  <text x="200" y="358" text-anchor="middle" font-size="11" fill="#a0aec0">Use <tspan fill="#667eea">v + accusative</tspan> for "on":</text>
+  <text x="200" y="378" text-anchor="middle" font-size="12" fill="#e2e8f0">v pondělí, v úterý, ve středu...</text>
+
+  <!-- Months -->
+  <rect x="385" y="120" width="330" height="280" rx="12" fill="#1a202c" stroke="url(#monthsGrad)" stroke-width="3"/>
+  <rect x="385" y="120" width="330" height="40" rx="12" fill="url(#monthsGrad)"/>
+  <rect x="385" y="148" width="330" height="12" fill="url(#monthsGrad)"/>
+  <text x="550" y="148" text-anchor="middle" font-size="16" font-weight="bold" fill="white">MONTHS (Měsíce)</text>
+
+  <text x="405" y="185" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">leden</tspan> - Jan</text>
+  <text x="405" y="205" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">únor</tspan> - Feb</text>
+  <text x="405" y="225" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">březen</tspan> - Mar</text>
+  <text x="405" y="245" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">duben</tspan> - Apr</text>
+  <text x="405" y="265" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">květen</tspan> - May</text>
+  <text x="405" y="285" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">červen</tspan> - Jun</text>
+
+  <text x="545" y="185" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">červenec</tspan> - Jul</text>
+  <text x="545" y="205" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">srpen</tspan> - Aug</text>
+  <text x="545" y="225" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">září</tspan> - Sep</text>
+  <text x="545" y="245" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">říjen</tspan> - Oct</text>
+  <text x="545" y="265" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">listopad</tspan> - Nov</text>
+  <text x="545" y="285" font-size="12" fill="#e2e8f0"><tspan fill="#48bb78" font-weight="bold">prosinec</tspan> - Dec</text>
+
+  <rect x="400" y="300" width="300" height="90" rx="8" fill="#2d3748"/>
+  <text x="550" y="320" text-anchor="middle" font-size="11" fill="#a0aec0">Use <tspan fill="#48bb78">v + locative</tspan> for "in":</text>
+  <text x="550" y="340" text-anchor="middle" font-size="12" fill="#e2e8f0">v lednu, v únoru, v březnu...</text>
+  <text x="550" y="365" text-anchor="middle" font-size="11" fill="#a0aec0">Months are <tspan fill="#48bb78">masculine</tspan> (except září = neuter)</text>
+
+  <!-- Seasons -->
+  <rect x="735" y="120" width="330" height="280" rx="12" fill="#1a202c" stroke="url(#seasonsGrad)" stroke-width="3"/>
+  <rect x="735" y="120" width="330" height="40" rx="12" fill="url(#seasonsGrad)"/>
+  <rect x="735" y="148" width="330" height="12" fill="url(#seasonsGrad)"/>
+  <text x="900" y="148" text-anchor="middle" font-size="16" font-weight="bold" fill="white">SEASONS (Roční období)</text>
+
+  <text x="755" y="190" font-size="14" fill="#e2e8f0"><tspan fill="#ed8936" font-weight="bold">jaro</tspan> - spring (n)</text>
+  <text x="755" y="220" font-size="14" fill="#e2e8f0"><tspan fill="#ed8936" font-weight="bold">léto</tspan> - summer (n)</text>
+  <text x="755" y="250" font-size="14" fill="#e2e8f0"><tspan fill="#ed8936" font-weight="bold">podzim</tspan> - autumn (m)</text>
+  <text x="755" y="280" font-size="14" fill="#e2e8f0"><tspan fill="#ed8936" font-weight="bold">zima</tspan> - winter (f)</text>
+
+  <rect x="750" y="300" width="300" height="90" rx="8" fill="#2d3748"/>
+  <text x="900" y="320" text-anchor="middle" font-size="11" fill="#a0aec0">Use <tspan fill="#ed8936">na + accusative</tspan> (neuter) or <tspan fill="#ed8936">v + locative</tspan>:</text>
+  <text x="900" y="342" text-anchor="middle" font-size="12" fill="#e2e8f0">na jaře, v létě</text>
+  <text x="900" y="362" text-anchor="middle" font-size="12" fill="#e2e8f0">na podzim, v zimě</text>
+
+  <!-- Row 2: Telling Time -->
+  <rect x="35" y="415" width="505" height="300" rx="12" fill="#1a202c" stroke="url(#clockGrad)" stroke-width="3"/>
+  <rect x="35" y="415" width="505" height="40" rx="12" fill="url(#clockGrad)"/>
+  <rect x="35" y="443" width="505" height="12" fill="url(#clockGrad)"/>
+  <text x="287" y="443" text-anchor="middle" font-size="16" font-weight="bold" fill="white">TELLING TIME (Kolik je hodin?)</text>
+
+  <!-- Hour column -->
+  <text x="55" y="480" font-size="14" font-weight="bold" fill="#ed64a6">Hours:</text>
+  <text x="55" y="505" font-size="12" fill="#e2e8f0">1:00 = <tspan fill="#ed64a6">jedna hodina</tspan></text>
+  <text x="55" y="525" font-size="12" fill="#e2e8f0">2:00 = <tspan fill="#ed64a6">dvě hodiny</tspan></text>
+  <text x="55" y="545" font-size="12" fill="#e2e8f0">3:00 = <tspan fill="#ed64a6">tři hodiny</tspan></text>
+  <text x="55" y="565" font-size="12" fill="#e2e8f0">4:00 = <tspan fill="#ed64a6">čtyři hodiny</tspan></text>
+  <text x="55" y="585" font-size="12" fill="#e2e8f0">5-12 = <tspan fill="#ed64a6">pět/... hodin</tspan></text>
+
+  <!-- Minutes column -->
+  <text x="220" y="480" font-size="14" font-weight="bold" fill="#ed64a6">Minutes:</text>
+  <text x="220" y="505" font-size="12" fill="#e2e8f0">1 min = <tspan fill="#ed64a6">jedna minuta</tspan></text>
+  <text x="220" y="525" font-size="12" fill="#e2e8f0">2-4 min = <tspan fill="#ed64a6">dvě minuty</tspan></text>
+  <text x="220" y="545" font-size="12" fill="#e2e8f0">5+ min = <tspan fill="#ed64a6">pět minut</tspan></text>
+  <text x="220" y="575" font-size="12" fill="#e2e8f0">:15 = <tspan fill="#ed64a6">čtvrt</tspan></text>
+  <text x="220" y="595" font-size="12" fill="#e2e8f0">:30 = <tspan fill="#ed64a6">půl</tspan></text>
+  <text x="220" y="615" font-size="12" fill="#e2e8f0">:45 = <tspan fill="#ed64a6">třičtvrtě</tspan></text>
+
+  <!-- Time examples -->
+  <text x="380" y="480" font-size="14" font-weight="bold" fill="#ed64a6">Examples:</text>
+  <text x="380" y="505" font-size="12" fill="#e2e8f0">8:15 = čtvrt na devět</text>
+  <text x="380" y="525" font-size="12" fill="#e2e8f0">8:30 = půl deváté</text>
+  <text x="380" y="545" font-size="12" fill="#e2e8f0">8:45 = třičtvrtě na devět</text>
+  <text x="380" y="575" font-size="11" fill="#a0aec0">Or simply:</text>
+  <text x="380" y="595" font-size="12" fill="#e2e8f0">8:15 = osm patnáct</text>
+
+  <rect x="50" y="630" width="475" height="75" rx="8" fill="#2d3748"/>
+  <text x="287" y="652" text-anchor="middle" font-size="11" fill="#a0aec0">Time of day:</text>
+  <text x="287" y="672" text-anchor="middle" font-size="12" fill="#e2e8f0"><tspan fill="#ed64a6">ráno</tspan> (morning) • <tspan fill="#ed64a6">dopoledne</tspan> (late morning) • <tspan fill="#ed64a6">poledne</tspan> (noon)</text>
+  <text x="287" y="692" text-anchor="middle" font-size="12" fill="#e2e8f0"><tspan fill="#ed64a6">odpoledne</tspan> (afternoon) • <tspan fill="#ed64a6">večer</tspan> (evening) • <tspan fill="#ed64a6">noc</tspan> (night)</text>
+
+  <!-- Dates -->
+  <rect x="560" y="415" width="505" height="300" rx="12" fill="#1a202c" stroke="url(#dateGrad)" stroke-width="3"/>
+  <rect x="560" y="415" width="505" height="40" rx="12" fill="url(#dateGrad)"/>
+  <rect x="560" y="443" width="505" height="12" fill="url(#dateGrad)"/>
+  <text x="812" y="443" text-anchor="middle" font-size="16" font-weight="bold" fill="white">DATES &amp; DURATION (Kdy? Jak dlouho?)</text>
+
+  <text x="580" y="480" font-size="14" font-weight="bold" fill="#4299e1">Ordinal numbers for dates:</text>
+  <text x="580" y="505" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">prvního</tspan> - 1st (gen.)</text>
+  <text x="580" y="525" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">druhého</tspan> - 2nd</text>
+  <text x="580" y="545" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">třetího</tspan> - 3rd</text>
+  <text x="580" y="565" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">čtvrtého</tspan> - 4th</text>
+
+  <text x="740" y="505" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">pátého</tspan> - 5th</text>
+  <text x="740" y="525" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">dvacátého</tspan> - 20th</text>
+  <text x="740" y="545" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">třicátého</tspan> - 30th</text>
+
+  <text x="580" y="600" font-size="14" font-weight="bold" fill="#4299e1">Date format:</text>
+  <text x="580" y="625" font-size="12" fill="#e2e8f0">15. května 2024 = <tspan fill="#4299e1">patnáctého května</tspan></text>
+  <text x="580" y="645" font-size="12" fill="#e2e8f0">Dates use ordinal + genitive of month</text>
+
+  <rect x="870" y="475" width="180" height="130" rx="8" fill="#2d3748"/>
+  <text x="960" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#4299e1">Duration:</text>
+  <text x="960" y="520" text-anchor="middle" font-size="11" fill="#e2e8f0">za hodinu - in an hour</text>
+  <text x="960" y="540" text-anchor="middle" font-size="11" fill="#e2e8f0">před týdnem - a week ago</text>
+  <text x="960" y="560" text-anchor="middle" font-size="11" fill="#e2e8f0">celý den - all day</text>
+  <text x="960" y="580" text-anchor="middle" font-size="11" fill="#e2e8f0">každý rok - every year</text>
+
+  <rect x="575" y="630" width="475" height="75" rx="8" fill="#2d3748"/>
+  <text x="812" y="652" text-anchor="middle" font-size="11" fill="#a0aec0">Common expressions:</text>
+  <text x="812" y="672" text-anchor="middle" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">dnes</tspan> (today) • <tspan fill="#4299e1">včera</tspan> (yesterday) • <tspan fill="#4299e1">zítra</tspan> (tomorrow)</text>
+  <text x="812" y="692" text-anchor="middle" font-size="12" fill="#e2e8f0"><tspan fill="#4299e1">minulý týden</tspan> (last week) • <tspan fill="#4299e1">příští měsíc</tspan> (next month)</text>
+</svg>

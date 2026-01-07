@@ -9,6 +9,12 @@ sidebar_position: 5
 
 The Nominative is the basic dictionary form of the noun. It is used for the **Subject** of the sentence.
 
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Nominative Case Cheat Sheet](/img/nominative-cheatsheet.svg)
+
+</div>
+
 ## Declension Models (Vzory)
 
 Czech nouns are categorized into "Models" (Vzory) based on their gender and ending.
