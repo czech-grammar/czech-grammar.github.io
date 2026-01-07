@@ -7,6 +7,16 @@ sidebar_position: 11
 
 Reflexive verbs always come with a reflexive pronoun: **se** or **si**.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Reflexive Verbs Cheatsheet](/img/reflexive-verbs-cheatsheet.svg)
+
+</div>
+
+---
+
 ## SE (Accusative)
 Action reflects back to the subject ("oneself").
 *   **Mýt se**: To wash oneself. (*Myji se.*)

@@ -7,6 +7,16 @@ sidebar_position: 8
 
 Modal verbs modify the meaning of the main verb, expressing necessity, possibility, ability, or desire. They are followed by an **infinitive**.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Modal Verbs Cheatsheet](/img/modal-verbs-cheatsheet.svg)
+
+</div>
+
+---
+
 ## The Big 5
 
 | Verb | Meaning | 1st Person (Já) | 3rd Person (On) |

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="whoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="whichGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="advGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="540" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Interrogative Pronouns (Tázací zájmena)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Question words • Most decline through all 7 cases!</text>
+
+  <!-- KDO / CO section -->
+  <rect x="40" y="100" width="400" height="240" rx="12" fill="#2d3748" stroke="url(#whoGrad)" stroke-width="3"/>
+  <rect x="40" y="100" width="400" height="40" rx="12" fill="url(#whoGrad)"/>
+  <rect x="40" y="125" width="400" height="15" fill="url(#whoGrad)"/>
+  <text x="240" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="white">KDO (who) &amp; CO (what)</text>
+
+  <text x="80" y="165" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="180" y="165" font-size="11" font-weight="bold" fill="#f687b3">Kdo (animate)</text>
+  <text x="310" y="165" font-size="11" font-weight="bold" fill="#fbd38d">Co (inanimate)</text>
+
+  <text x="80" y="192" font-size="12" fill="#e2e8f0">Nom</text>
+  <text x="180" y="192" font-size="14" font-weight="bold" fill="#f687b3">kdo</text>
+  <text x="310" y="192" font-size="14" font-weight="bold" fill="#fbd38d">co</text>
+
+  <text x="80" y="217" font-size="12" fill="#e2e8f0">Gen</text>
+  <text x="180" y="217" font-size="14" font-weight="bold" fill="#f687b3">koho</text>
+  <text x="310" y="217" font-size="14" font-weight="bold" fill="#fbd38d">čeho</text>
+
+  <text x="80" y="242" font-size="12" fill="#e2e8f0">Dat</text>
+  <text x="180" y="242" font-size="14" font-weight="bold" fill="#f687b3">komu</text>
+  <text x="310" y="242" font-size="14" font-weight="bold" fill="#fbd38d">čemu</text>
+
+  <text x="80" y="267" font-size="12" fill="#e2e8f0">Acc</text>
+  <text x="180" y="267" font-size="14" font-weight="bold" fill="#f687b3">koho</text>
+  <text x="310" y="267" font-size="14" font-weight="bold" fill="#fbd38d">co</text>
+
+  <text x="80" y="292" font-size="12" fill="#e2e8f0">Loc</text>
+  <text x="180" y="292" font-size="14" font-weight="bold" fill="#f687b3">(o) kom</text>
+  <text x="310" y="292" font-size="14" font-weight="bold" fill="#fbd38d">(o) čem</text>
+
+  <text x="80" y="317" font-size="12" fill="#e2e8f0">Instr</text>
+  <text x="180" y="317" font-size="14" font-weight="bold" fill="#f687b3">kým</text>
+  <text x="310" y="317" font-size="14" font-weight="bold" fill="#fbd38d">čím</text>
+
+  <!-- JAKÝ / KTERÝ section -->
+  <rect x="460" y="100" width="400" height="240" rx="12" fill="#2d3748" stroke="url(#whichGrad)" stroke-width="3"/>
+  <rect x="460" y="100" width="400" height="40" rx="12" fill="url(#whichGrad)"/>
+  <rect x="460" y="125" width="400" height="15" fill="url(#whichGrad)"/>
+  <text x="660" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="white">JAKÝ &amp; KTERÝ (what kind / which)</text>
+
+  <text x="480" y="165" font-size="13" fill="#63b3ed">jaký, jaká, jaké</text>
+  <text x="620" y="165" font-size="11" fill="#a0aec0">= what kind of? (quality)</text>
+
+  <text x="480" y="190" font-size="13" fill="#63b3ed">který, která, které</text>
+  <text x="640" y="190" font-size="11" fill="#a0aec0">= which? (selection)</text>
+
+  <text x="480" y="225" font-size="11" fill="#a0aec0">Both decline like hard adjectives!</text>
+
+  <text x="500" y="255" font-size="12" fill="#e2e8f0">Jaké je počasí?</text>
+  <text x="680" y="255" font-size="10" fill="#718096">(What's the weather like?)</text>
+
+  <text x="500" y="280" font-size="12" fill="#e2e8f0">Který autobus jede?</text>
+  <text x="680" y="280" font-size="10" fill="#718096">(Which bus is going?)</text>
+
+  <rect x="480" y="300" width="360" height="30" rx="4" fill="#4a5568"/>
+  <text x="660" y="320" text-anchor="middle" font-size="12" fill="#fbd38d">čí = whose? (also declines!)</text>
+
+  <!-- Interrogative adverbs -->
+  <rect x="40" y="355" width="820" height="115" rx="12" fill="url(#advGrad)" filter="url(#shadow)"/>
+  <text x="450" y="385" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Interrogative Adverbs (Don't decline!)</text>
+
+  <text x="80" y="420" font-size="14" font-weight="bold" fill="white">kde</text>
+  <text x="130" y="420" font-size="11" fill="rgba(255,255,255,0.8)">where (static)</text>
+
+  <text x="230" y="420" font-size="14" font-weight="bold" fill="white">kam</text>
+  <text x="280" y="420" font-size="11" fill="rgba(255,255,255,0.8)">where to</text>
+
+  <text x="380" y="420" font-size="14" font-weight="bold" fill="white">odkud</text>
+  <text x="440" y="420" font-size="11" fill="rgba(255,255,255,0.8)">where from</text>
+
+  <text x="550" y="420" font-size="14" font-weight="bold" fill="white">kdy</text>
+  <text x="600" y="420" font-size="11" fill="rgba(255,255,255,0.8)">when</text>
+
+  <text x="700" y="420" font-size="14" font-weight="bold" fill="white">jak</text>
+  <text x="750" y="420" font-size="11" fill="rgba(255,255,255,0.8)">how</text>
+
+  <text x="80" y="455" font-size="14" font-weight="bold" fill="white">proč</text>
+  <text x="130" y="455" font-size="11" fill="rgba(255,255,255,0.8)">why</text>
+
+  <text x="230" y="455" font-size="14" font-weight="bold" fill="white">kolik</text>
+  <text x="290" y="455" font-size="11" fill="rgba(255,255,255,0.8)">how much/many</text>
+
+  <text x="420" y="455" font-size="14" font-weight="bold" fill="white">jak dlouho</text>
+  <text x="520" y="455" font-size="11" fill="rgba(255,255,255,0.8)">how long</text>
+
+  <text x="630" y="455" font-size="14" font-weight="bold" fill="white">jak často</text>
+  <text x="720" y="455" font-size="11" fill="rgba(255,255,255,0.8)">how often</text>
+
+  <!-- Examples -->
+  <rect x="40" y="485" width="820" height="65" rx="12" fill="#4a5568"/>
+  <text x="450" y="510" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Case Matters!</text>
+  <text x="80" y="535" font-size="11" fill="#e2e8f0">S kým jdeš? (With whom?) → Instr</text>
+  <text x="300" y="535" font-size="11" fill="#e2e8f0">O kom mluvíš? (About whom?) → Loc</text>
+  <text x="540" y="535" font-size="11" fill="#e2e8f0">Komu to dáš? (To whom?) → Dat</text>
+  <text x="750" y="535" font-size="11" fill="#e2e8f0">Koho vidíš? → Acc</text>
+</svg>

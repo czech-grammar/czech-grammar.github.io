@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="mustGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53e3e"/>
+      <stop offset="100%" style="stop-color:#c53030"/>
+    </linearGradient>
+    <linearGradient id="canGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="mayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="wantGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="shouldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9f7aea"/>
+      <stop offset="100%" style="stop-color:#805ad5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="540" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Modal Verbs (Způsobová slovesa)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Modal + Infinitive • Express ability, permission, necessity, desire</text>
+
+  <!-- MUSET - must -->
+  <rect x="40" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#mustGrad)" stroke-width="3"/>
+  <rect x="40" y="100" width="260" height="35" rx="12" fill="url(#mustGrad)"/>
+  <rect x="40" y="120" width="260" height="15" fill="url(#mustGrad)"/>
+  <text x="170" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MUSET (must)</text>
+
+  <text x="60" y="160" font-size="12" fill="#e2e8f0">já</text>
+  <text x="120" y="160" font-size="14" font-weight="bold" fill="#fc8181">musím</text>
+  <text x="60" y="182" font-size="12" fill="#e2e8f0">ty</text>
+  <text x="120" y="182" font-size="14" font-weight="bold" fill="#fc8181">musíš</text>
+  <text x="60" y="204" font-size="12" fill="#e2e8f0">on/ona</text>
+  <text x="120" y="204" font-size="14" font-weight="bold" fill="#fc8181">musí</text>
+  <text x="180" y="160" font-size="12" fill="#e2e8f0">my</text>
+  <text x="220" y="160" font-size="14" font-weight="bold" fill="#fc8181">musíme</text>
+  <text x="180" y="182" font-size="12" fill="#e2e8f0">vy</text>
+  <text x="220" y="182" font-size="14" font-weight="bold" fill="#fc8181">musíte</text>
+  <text x="180" y="204" font-size="12" fill="#e2e8f0">oni</text>
+  <text x="220" y="204" font-size="14" font-weight="bold" fill="#fc8181">musí</text>
+
+  <text x="170" y="240" text-anchor="middle" font-size="11" fill="#a0aec0">Musím jít. (I must go.)</text>
+  <text x="170" y="258" text-anchor="middle" font-size="10" fill="#718096">Past: musel jsem</text>
+  <text x="170" y="275" text-anchor="middle" font-size="10" fill="#718096">Neg: nemusím (don't have to)</text>
+  <text x="170" y="292" text-anchor="middle" font-size="10" fill="#fbd38d">≠ nesmím (must not)!</text>
+
+  <!-- MOCI - can -->
+  <rect x="320" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#canGrad)" stroke-width="3"/>
+  <rect x="320" y="100" width="260" height="35" rx="12" fill="url(#canGrad)"/>
+  <rect x="320" y="120" width="260" height="15" fill="url(#canGrad)"/>
+  <text x="450" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MOCI (can, be able)</text>
+
+  <text x="340" y="160" font-size="12" fill="#e2e8f0">já</text>
+  <text x="400" y="160" font-size="14" font-weight="bold" fill="#68d391">mohu/můžu</text>
+  <text x="340" y="182" font-size="12" fill="#e2e8f0">ty</text>
+  <text x="400" y="182" font-size="14" font-weight="bold" fill="#68d391">můžeš</text>
+  <text x="340" y="204" font-size="12" fill="#e2e8f0">on/ona</text>
+  <text x="400" y="204" font-size="14" font-weight="bold" fill="#68d391">může</text>
+  <text x="460" y="160" font-size="12" fill="#e2e8f0">my</text>
+  <text x="500" y="160" font-size="14" font-weight="bold" fill="#68d391">můžeme</text>
+  <text x="460" y="182" font-size="12" fill="#e2e8f0">vy</text>
+  <text x="500" y="182" font-size="14" font-weight="bold" fill="#68d391">můžete</text>
+  <text x="460" y="204" font-size="12" fill="#e2e8f0">oni</text>
+  <text x="500" y="204" font-size="14" font-weight="bold" fill="#68d391">mohou/můžou</text>
+
+  <text x="450" y="240" text-anchor="middle" font-size="11" fill="#a0aec0">Můžeš mi pomoct? (Can you help?)</text>
+  <text x="450" y="258" text-anchor="middle" font-size="10" fill="#718096">Past: mohl jsem</text>
+  <text x="450" y="275" text-anchor="middle" font-size="10" fill="#718096">mohu = formal, můžu = colloquial</text>
+
+  <!-- SMĚT - may -->
+  <rect x="600" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#mayGrad)" stroke-width="3"/>
+  <rect x="600" y="100" width="260" height="35" rx="12" fill="url(#mayGrad)"/>
+  <rect x="600" y="120" width="260" height="15" fill="url(#mayGrad)"/>
+  <text x="730" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="white">SMĚT (may, be allowed)</text>
+
+  <text x="620" y="160" font-size="12" fill="#e2e8f0">já</text>
+  <text x="680" y="160" font-size="14" font-weight="bold" fill="#63b3ed">smím</text>
+  <text x="620" y="182" font-size="12" fill="#e2e8f0">ty</text>
+  <text x="680" y="182" font-size="14" font-weight="bold" fill="#63b3ed">smíš</text>
+  <text x="620" y="204" font-size="12" fill="#e2e8f0">on/ona</text>
+  <text x="680" y="204" font-size="14" font-weight="bold" fill="#63b3ed">smí</text>
+  <text x="740" y="160" font-size="12" fill="#e2e8f0">my</text>
+  <text x="780" y="160" font-size="14" font-weight="bold" fill="#63b3ed">smíme</text>
+  <text x="740" y="182" font-size="12" fill="#e2e8f0">vy</text>
+  <text x="780" y="182" font-size="14" font-weight="bold" fill="#63b3ed">smíte</text>
+  <text x="740" y="204" font-size="12" fill="#e2e8f0">oni</text>
+  <text x="780" y="204" font-size="14" font-weight="bold" fill="#63b3ed">smějí</text>
+
+  <text x="730" y="240" text-anchor="middle" font-size="11" fill="#a0aec0">Smím vstoupit? (May I enter?)</text>
+  <text x="730" y="258" text-anchor="middle" font-size="10" fill="#718096">Past: směl jsem</text>
+  <text x="730" y="275" text-anchor="middle" font-size="10" fill="#fbd38d">nesmím = must not (prohibition)</text>
+
+  <!-- CHTÍT - want -->
+  <rect x="40" y="320" width="260" height="180" rx="12" fill="#2d3748" stroke="url(#wantGrad)" stroke-width="3"/>
+  <rect x="40" y="320" width="260" height="35" rx="12" fill="url(#wantGrad)"/>
+  <rect x="40" y="340" width="260" height="15" fill="url(#wantGrad)"/>
+  <text x="170" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">CHTÍT (want)</text>
+
+  <text x="60" y="380" font-size="12" fill="#e2e8f0">já</text>
+  <text x="120" y="380" font-size="14" font-weight="bold" fill="#f6ad55">chci</text>
+  <text x="60" y="402" font-size="12" fill="#e2e8f0">ty</text>
+  <text x="120" y="402" font-size="14" font-weight="bold" fill="#f6ad55">chceš</text>
+  <text x="60" y="424" font-size="12" fill="#e2e8f0">on/ona</text>
+  <text x="120" y="424" font-size="14" font-weight="bold" fill="#f6ad55">chce</text>
+  <text x="180" y="380" font-size="12" fill="#e2e8f0">my</text>
+  <text x="220" y="380" font-size="14" font-weight="bold" fill="#f6ad55">chceme</text>
+  <text x="180" y="402" font-size="12" fill="#e2e8f0">vy</text>
+  <text x="220" y="402" font-size="14" font-weight="bold" fill="#f6ad55">chcete</text>
+  <text x="180" y="424" font-size="12" fill="#e2e8f0">oni</text>
+  <text x="220" y="424" font-size="14" font-weight="bold" fill="#f6ad55">chtějí</text>
+
+  <text x="170" y="460" text-anchor="middle" font-size="11" fill="#a0aec0">Chci jít domů. (I want to go home.)</text>
+  <text x="170" y="478" text-anchor="middle" font-size="10" fill="#718096">Past: chtěl jsem</text>
+  <text x="170" y="495" text-anchor="middle" font-size="10" fill="#718096">Polite: Chtěl bych... (I would like...)</text>
+
+  <!-- MÍT - should -->
+  <rect x="320" y="320" width="260" height="180" rx="12" fill="#2d3748" stroke="url(#shouldGrad)" stroke-width="3"/>
+  <rect x="320" y="320" width="260" height="35" rx="12" fill="url(#shouldGrad)"/>
+  <rect x="320" y="340" width="260" height="15" fill="url(#shouldGrad)"/>
+  <text x="450" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MÍT (should, supposed to)</text>
+
+  <text x="340" y="380" font-size="12" fill="#e2e8f0">já</text>
+  <text x="400" y="380" font-size="14" font-weight="bold" fill="#b794f4">mám</text>
+  <text x="340" y="402" font-size="12" fill="#e2e8f0">ty</text>
+  <text x="400" y="402" font-size="14" font-weight="bold" fill="#b794f4">máš</text>
+  <text x="340" y="424" font-size="12" fill="#e2e8f0">on/ona</text>
+  <text x="400" y="424" font-size="14" font-weight="bold" fill="#b794f4">má</text>
+  <text x="460" y="380" font-size="12" fill="#e2e8f0">my</text>
+  <text x="500" y="380" font-size="14" font-weight="bold" fill="#b794f4">máme</text>
+  <text x="460" y="402" font-size="12" fill="#e2e8f0">vy</text>
+  <text x="500" y="402" font-size="14" font-weight="bold" fill="#b794f4">máte</text>
+  <text x="460" y="424" font-size="12" fill="#e2e8f0">oni</text>
+  <text x="500" y="424" font-size="14" font-weight="bold" fill="#b794f4">mají</text>
+
+  <text x="450" y="460" text-anchor="middle" font-size="11" fill="#a0aec0">Máš to udělat. (You should do it.)</text>
+  <text x="450" y="478" text-anchor="middle" font-size="10" fill="#718096">Past: měl jsem (I was supposed to)</text>
+  <text x="450" y="495" text-anchor="middle" font-size="10" fill="#718096">Měl bys... = You should...</text>
+
+  <!-- Key note -->
+  <rect x="600" y="320" width="260" height="180" rx="12" fill="#4a5568"/>
+  <text x="730" y="355" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Key Distinctions</text>
+
+  <text x="620" y="385" font-size="12" fill="#fc8181">nemusím</text>
+  <text x="700" y="385" font-size="11" fill="#e2e8f0">= don't have to</text>
+  <text x="620" y="410" font-size="12" fill="#fc8181">nesmím</text>
+  <text x="700" y="410" font-size="11" fill="#e2e8f0">= must not (forbidden)</text>
+
+  <text x="620" y="445" font-size="12" fill="#68d391">umím</text>
+  <text x="700" y="445" font-size="11" fill="#e2e8f0">= know how to (skill)</text>
+  <text x="620" y="470" font-size="12" fill="#68d391">mohu</text>
+  <text x="700" y="470" font-size="11" fill="#e2e8f0">= am able to (possibility)</text>
+</svg>

@@ -7,6 +7,16 @@ sidebar_position: 9
 
 Czech distinguishes between **determinate** (one-way, right now) and **indeterminate** (repeated, general, round-trip) motion.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Motion Verbs Cheatsheet](/img/motion-verbs-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Walking (Jít vs. Chodit)
 
 | Type | Verb | Meaning | Example |
