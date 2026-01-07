@@ -7,6 +7,16 @@ sidebar_position: 2
 
 Aspect is a feature of Slavic languages that often confuses learners. Almost every Czech verb comes in a **pair**:
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Aspect Cheatsheet](/img/aspect-cheatsheet.svg)
+
+</div>
+
+---
+
 1.  **Imperfective** (*Nedokonavý*): Focuses on the **process**, duration, or repetition.
     *   "I was doing", "I used to do", "I am doing".
 2.  **Perfective** (*Dokonavý*): Focuses on the **result**, completion, or single event.

@@ -7,6 +7,16 @@ sidebar_position: 7
 
 The conditional corresponds to the English **"would"**. It is used for hypothetical situations and polite requests.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Conditional Cheatsheet](/img/conditional-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Formation
 
 It is formed very similarly to the Past Tense:

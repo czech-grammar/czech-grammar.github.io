@@ -7,6 +7,16 @@ sidebar_position: 6
 
 The imperative is used for commands, requests, or strong advice. It exists for **Ty** (You sg.), **My** (Let's), and **Vy** (You pl.).
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Imperative Cheatsheet](/img/imperative-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Formation
 
 Start with the **3rd person plural** (they) of the present tense, and remove the ending (*-ou* or *-í*).

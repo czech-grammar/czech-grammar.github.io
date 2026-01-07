@@ -7,6 +7,16 @@ sidebar_position: 5
 
 The formation of the future tense depends entirely on the **Aspect** of the verb.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Future Tense Cheatsheet](/img/future-tense-cheatsheet.svg)
+
+</div>
+
+---
+
 ## 1. Imperfective Verbs (Process)
 Use the future form of **být** + the **Infinitive**.
 

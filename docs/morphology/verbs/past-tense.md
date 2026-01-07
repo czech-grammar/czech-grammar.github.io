@@ -7,6 +7,16 @@ sidebar_position: 4
 
 The past tense is formed using the **l-participle** of the main verb + the auxiliary verb **být** (to be).
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Past Tense Cheatsheet](/img/past-tense-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Formation
 
 1.  Take the infinitive (*dělat*).
