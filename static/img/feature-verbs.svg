@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+  </defs>
+  <rect x="25" y="40" width="150" height="120" rx="10" fill="#2d3748"/>
+  <text x="100" y="75" text-anchor="middle" font-family="system-ui" font-size="13" fill="#a0aec0">dělat → dělám</text>
+  <text x="100" y="100" text-anchor="middle" font-family="system-ui" font-size="13" fill="#a0aec0">mluvit → mluvím</text>
+  <text x="100" y="125" text-anchor="middle" font-family="system-ui" font-size="13" fill="#a0aec0">psát → píšu</text>
+  <rect x="40" y="135" width="120" height="4" rx="2" fill="url(#grad3)"/>
+</svg>

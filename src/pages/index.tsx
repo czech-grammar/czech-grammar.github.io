@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/phonology/intro">
+            to="/docs/morphology/nouns/cases-overview">
             Get Started
           </Link>
         </div>
@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Learn Czech Grammar"
+      description="A comprehensive guide to Czech grammar with visual cheatsheets, declension tables, and verb conjugation patterns.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Visual Cheatsheets',
+    Svg: require('@site/static/img/feature-visuals.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn Czech grammar with beautiful, comprehensive visual diagrams.
+        Every concept explained with clear, colorful cheatsheets you can reference anytime.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'All 7 Cases Covered',
+    Svg: require('@site/static/img/feature-cases.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Master the Czech case system with complete declension tables for nouns,
+        adjectives, and pronouns. Includes prepositions and their required cases.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Verb Conjugation',
+    Svg: require('@site/static/img/feature-verbs.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        All conjugation classes, tenses, aspects, and moods. From present tense
+        to conditionals, motion verbs to reflexives — everything explained clearly.
       </>
     ),
   },
