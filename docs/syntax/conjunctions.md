@@ -7,6 +7,16 @@ sidebar_position: 5
 
 Conjunctions link words or sentences.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Conjunctions Cheatsheet](/img/conjunctions-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Coordinating Conjunctions
 Link two equal elements.
 

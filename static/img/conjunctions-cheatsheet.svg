@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="coordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="condGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="timeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="540" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Conjunctions (Spojky)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Coordinating (equal clauses) vs Subordinating (main + dependent)</text>
+
+  <!-- Coordinating -->
+  <rect x="40" y="100" width="400" height="200" rx="12" fill="url(#coordGrad)" filter="url(#shadow)"/>
+  <text x="240" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Coordinating (Souřadicí)</text>
+
+  <text x="60" y="165" font-size="14" font-weight="bold" fill="white">a</text>
+  <text x="100" y="165" font-size="12" fill="rgba(255,255,255,0.9)">and</text>
+  <text x="180" y="165" font-size="11" fill="rgba(255,255,255,0.7)">Petr a Pavel</text>
+
+  <text x="60" y="195" font-size="14" font-weight="bold" fill="white">ale</text>
+  <text x="100" y="195" font-size="12" fill="rgba(255,255,255,0.9)">but</text>
+  <text x="180" y="195" font-size="11" fill="rgba(255,255,255,0.7)">Chci, ale nemůžu.</text>
+
+  <text x="60" y="225" font-size="14" font-weight="bold" fill="white">nebo</text>
+  <text x="110" y="225" font-size="12" fill="rgba(255,255,255,0.9)">or</text>
+  <text x="180" y="225" font-size="11" fill="rgba(255,255,255,0.7)">Čaj nebo káva?</text>
+
+  <text x="60" y="255" font-size="14" font-weight="bold" fill="white">ani</text>
+  <text x="100" y="255" font-size="12" fill="rgba(255,255,255,0.9)">nor/not even</text>
+  <text x="200" y="255" font-size="11" fill="rgba(255,255,255,0.7)">Ani já. (Me neither.)</text>
+
+  <text x="60" y="285" font-size="14" font-weight="bold" fill="white">však, avšak</text>
+  <text x="150" y="285" font-size="12" fill="rgba(255,255,255,0.9)">however</text>
+
+  <!-- Subordinating - that/because -->
+  <rect x="460" y="100" width="400" height="200" rx="12" fill="url(#subGrad)" filter="url(#shadow)"/>
+  <text x="660" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Subordinating (Podřadicí)</text>
+
+  <text x="480" y="165" font-size="14" font-weight="bold" fill="white">že</text>
+  <text x="520" y="165" font-size="12" fill="rgba(255,255,255,0.9)">that</text>
+  <text x="600" y="165" font-size="11" fill="rgba(255,255,255,0.7)">Vím, že přijde.</text>
+
+  <text x="480" y="195" font-size="14" font-weight="bold" fill="white">protože</text>
+  <text x="560" y="195" font-size="12" fill="rgba(255,255,255,0.9)">because</text>
+  <text x="640" y="195" font-size="11" fill="rgba(255,255,255,0.7)">...protože prší.</text>
+
+  <text x="480" y="225" font-size="14" font-weight="bold" fill="white">aby</text>
+  <text x="520" y="225" font-size="12" fill="rgba(255,255,255,0.9)">so that, in order to</text>
+  <text x="670" y="225" font-size="11" fill="rgba(255,255,255,0.7)">(+ conditional!)</text>
+
+  <text x="480" y="255" font-size="14" font-weight="bold" fill="white">zda / jestli</text>
+  <text x="580" y="255" font-size="12" fill="rgba(255,255,255,0.9)">if/whether</text>
+  <text x="680" y="255" font-size="11" fill="rgba(255,255,255,0.7)">Nevím, jestli přijde.</text>
+
+  <text x="480" y="285" font-size="14" font-weight="bold" fill="white">ačkoli</text>
+  <text x="550" y="285" font-size="12" fill="rgba(255,255,255,0.9)">although</text>
+
+  <!-- Conditional -->
+  <rect x="40" y="315" width="400" height="115" rx="12" fill="url(#condGrad)" filter="url(#shadow)"/>
+  <text x="240" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Conditional Conjunctions</text>
+
+  <text x="60" y="380" font-size="14" font-weight="bold" fill="white">když</text>
+  <text x="110" y="380" font-size="12" fill="rgba(255,255,255,0.9)">when/if (real)</text>
+  <text x="230" y="380" font-size="11" fill="rgba(255,255,255,0.7)">Když přijdeš, zavolej.</text>
+
+  <text x="60" y="410" font-size="14" font-weight="bold" fill="white">kdyby</text>
+  <text x="120" y="410" font-size="12" fill="rgba(255,255,255,0.9)">if (hypothetical)</text>
+  <text x="250" y="410" font-size="11" fill="rgba(255,255,255,0.7)">Kdyby pršelo...</text>
+  <text x="370" y="410" font-size="10" fill="#fbd38d">(+ cond.)</text>
+
+  <!-- Time -->
+  <rect x="460" y="315" width="400" height="115" rx="12" fill="url(#timeGrad)" filter="url(#shadow)"/>
+  <text x="660" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Time Conjunctions</text>
+
+  <text x="480" y="375" font-size="13" font-weight="bold" fill="white">až</text>
+  <text x="510" y="375" font-size="12" fill="rgba(255,255,255,0.9)">when (future), until</text>
+  <text x="480" y="400" font-size="13" font-weight="bold" fill="white">zatímco</text>
+  <text x="560" y="400" font-size="12" fill="rgba(255,255,255,0.9)">while</text>
+  <text x="680" y="375" font-size="13" font-weight="bold" fill="white">než</text>
+  <text x="720" y="375" font-size="12" fill="rgba(255,255,255,0.9)">before</text>
+  <text x="680" y="400" font-size="13" font-weight="bold" fill="white">jakmile</text>
+  <text x="750" y="400" font-size="12" fill="rgba(255,255,255,0.9)">as soon as</text>
+
+  <!-- Comma rule -->
+  <rect x="40" y="445" width="820" height="105" rx="12" fill="#4a5568"/>
+  <text x="450" y="475" text-anchor="middle" font-size="14" font-weight="bold" fill="#fbd38d">Comma Rule!</text>
+  <text x="450" y="505" text-anchor="middle" font-size="12" fill="#e2e8f0">Subordinate clauses are ALWAYS separated by a comma in Czech:</text>
+  <text x="450" y="530" text-anchor="middle" font-size="12" fill="#e2e8f0">Řekl<tspan fill="#fc8181">,</tspan> že přijde. • Nevím<tspan fill="#fc8181">,</tspan> jestli to udělá. • Když přijdeš<tspan fill="#fc8181">,</tspan> zavolej mi.</text>
+</svg>

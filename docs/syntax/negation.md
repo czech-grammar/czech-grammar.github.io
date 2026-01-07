@@ -7,6 +7,16 @@ sidebar_position: 4
 
 Negation in Czech is very straightforward, but it has one feature that English speakers find strange: **Double Negation**.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Negation Cheatsheet](/img/negation-cheatsheet.svg)
+
+</div>
+
+---
+
 ## 1. Verbal Negation
 To negate a verb, simply add the prefix **ne-** to it. It is written as one word.
 

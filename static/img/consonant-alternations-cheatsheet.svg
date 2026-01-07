@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="velarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="dentalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="labialGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="otherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9f7aea"/>
+      <stop offset="100%" style="stop-color:#805ad5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="540" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Consonant Alternations (Střídání souhlásek)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Why endings cause consonant changes • Essential for declension &amp; conjugation!</text>
+
+  <!-- Velar consonants -->
+  <rect x="40" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#velarGrad)" stroke-width="3"/>
+  <rect x="40" y="100" width="260" height="35" rx="12" fill="url(#velarGrad)"/>
+  <rect x="40" y="120" width="260" height="15" fill="url(#velarGrad)"/>
+  <text x="170" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Velars (before -e, -i, -ě)</text>
+
+  <text x="80" y="165" font-size="18" font-weight="bold" fill="#63b3ed">k → c</text>
+  <text x="170" y="165" font-size="12" fill="#e2e8f0">ruka → ruce (hand)</text>
+
+  <text x="80" y="200" font-size="18" font-weight="bold" fill="#63b3ed">h → z</text>
+  <text x="170" y="200" font-size="12" fill="#e2e8f0">noha → noze (leg)</text>
+
+  <text x="80" y="235" font-size="18" font-weight="bold" fill="#63b3ed">ch → š</text>
+  <text x="170" y="235" font-size="12" fill="#e2e8f0">ucho → uši (ear)</text>
+
+  <text x="80" y="270" font-size="18" font-weight="bold" fill="#63b3ed">g → z</text>
+  <text x="170" y="270" font-size="12" fill="#e2e8f0">(rare, foreign words)</text>
+
+  <!-- Dental consonants -->
+  <rect x="320" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#dentalGrad)" stroke-width="3"/>
+  <rect x="320" y="100" width="260" height="35" rx="12" fill="url(#dentalGrad)"/>
+  <rect x="320" y="120" width="260" height="15" fill="url(#dentalGrad)"/>
+  <text x="450" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Dentals (before -e, -i, -ě)</text>
+
+  <text x="360" y="165" font-size="18" font-weight="bold" fill="#68d391">d → ď</text>
+  <text x="450" y="165" font-size="12" fill="#e2e8f0">mladý → mladí (young)</text>
+
+  <text x="360" y="200" font-size="18" font-weight="bold" fill="#68d391">t → ť</text>
+  <text x="450" y="200" font-size="12" fill="#e2e8f0">bohatý → bohatí (rich)</text>
+
+  <text x="360" y="235" font-size="18" font-weight="bold" fill="#68d391">n → ň</text>
+  <text x="450" y="235" font-size="12" fill="#e2e8f0">černý → černí (black)</text>
+
+  <text x="360" y="270" font-size="18" font-weight="bold" fill="#68d391">r → ř</text>
+  <text x="450" y="270" font-size="12" fill="#e2e8f0">starý → staří (old)</text>
+
+  <!-- Labial consonants -->
+  <rect x="600" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#labialGrad)" stroke-width="3"/>
+  <rect x="600" y="100" width="260" height="35" rx="12" fill="url(#labialGrad)"/>
+  <rect x="600" y="120" width="260" height="15" fill="url(#labialGrad)"/>
+  <text x="730" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Labials (add -ě → insert j)</text>
+
+  <text x="640" y="165" font-size="18" font-weight="bold" fill="#f6ad55">b → bě [bje]</text>
+  <text x="640" y="195" font-size="18" font-weight="bold" fill="#f6ad55">p → pě [pje]</text>
+  <text x="640" y="225" font-size="18" font-weight="bold" fill="#f6ad55">v → vě [vje]</text>
+  <text x="640" y="255" font-size="18" font-weight="bold" fill="#f6ad55">m → mě [mňe]</text>
+  <text x="640" y="285" font-size="18" font-weight="bold" fill="#f6ad55">f → fě [fje]</text>
+
+  <!-- Where it happens -->
+  <rect x="40" y="315" width="400" height="115" rx="12" fill="url(#otherGrad)" filter="url(#shadow)"/>
+  <text x="240" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Where Alternations Happen</text>
+
+  <text x="60" y="375" font-size="12" fill="rgba(255,255,255,0.9)">• Locative singular: o <tspan font-weight="bold">Praze</tspan> (about Prague)</text>
+  <text x="60" y="400" font-size="12" fill="rgba(255,255,255,0.9)">• Vocative: <tspan font-weight="bold">člověče!</tspan> (man!), from člověk</text>
+  <text x="60" y="425" font-size="12" fill="rgba(255,255,255,0.9)">• Masc animate plural: <tspan font-weight="bold">Češi</tspan> (Czechs), from Čech</text>
+
+  <!-- More examples -->
+  <rect x="460" y="315" width="400" height="115" rx="12" fill="#4a5568"/>
+  <text x="660" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">More Examples</text>
+
+  <text x="480" y="375" font-size="12" fill="#e2e8f0">kluk → kluci (boys) — k→c</text>
+  <text x="480" y="400" font-size="12" fill="#e2e8f0">Bůh → Boží (God's) — h→ž</text>
+  <text x="480" y="425" font-size="12" fill="#e2e8f0">Praha → v Praze — h→z</text>
+
+  <text x="700" y="375" font-size="12" fill="#e2e8f0">duch → duši (soul) — ch→š</text>
+  <text x="700" y="400" font-size="12" fill="#e2e8f0">matka → matce — k→c</text>
+  <text x="700" y="425" font-size="12" fill="#e2e8f0">moucha → mouše — ch→š</text>
+
+  <!-- Key rule -->
+  <rect x="40" y="445" width="820" height="105" rx="12" fill="#2d3748" stroke="#fbd38d" stroke-width="2"/>
+  <text x="450" y="475" text-anchor="middle" font-size="14" font-weight="bold" fill="#fbd38d">The Golden Rule</text>
+  <text x="450" y="505" text-anchor="middle" font-size="13" fill="#e2e8f0">Velars (k, h, ch, g) and dentals (d, t, n, r) CANNOT appear before -i or -ě</text>
+  <text x="450" y="530" text-anchor="middle" font-size="12" fill="#a0aec0">They must change to their soft counterparts: c/z/š/ž and ď/ť/ň/ř</text>
+</svg>

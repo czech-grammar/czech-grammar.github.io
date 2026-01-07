@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="neGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53e3e"/>
+      <stop offset="100%" style="stop-color:#c53030"/>
+    </linearGradient>
+    <linearGradient id="doubleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="niGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9f7aea"/>
+      <stop offset="100%" style="stop-color:#805ad5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="480" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Negation (Zápor)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Prefix NE- on verbs • Double/triple negatives are REQUIRED!</text>
+
+  <!-- Basic negation -->
+  <rect x="40" y="100" width="400" height="150" rx="12" fill="url(#neGrad)" filter="url(#shadow)"/>
+  <text x="240" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Basic Negation: NE- Prefix</text>
+
+  <text x="60" y="165" font-size="13" fill="rgba(255,255,255,0.95)">Add <tspan font-weight="bold">ne-</tspan> directly to the verb:</text>
+
+  <text x="80" y="195" font-size="13" fill="white">dělám → <tspan font-weight="bold">ne</tspan>dělám</text>
+  <text x="260" y="195" font-size="11" fill="rgba(255,255,255,0.8)">(I do → I don't do)</text>
+
+  <text x="80" y="220" font-size="13" fill="white">jsem → <tspan font-weight="bold">ne</tspan>jsem</text>
+  <text x="260" y="220" font-size="11" fill="rgba(255,255,255,0.8)">(I am → I am not)</text>
+
+  <text x="80" y="245" font-size="13" fill="white">mám → <tspan font-weight="bold">ne</tspan>mám</text>
+  <text x="260" y="245" font-size="11" fill="rgba(255,255,255,0.8)">(I have → I don't have)</text>
+
+  <!-- Double negative rule -->
+  <rect x="460" y="100" width="400" height="150" rx="12" fill="url(#doubleGrad)" filter="url(#shadow)"/>
+  <text x="660" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Double Negative = REQUIRED!</text>
+
+  <text x="480" y="165" font-size="12" fill="rgba(255,255,255,0.95)">Unlike English, Czech REQUIRES multiple negatives:</text>
+
+  <text x="500" y="200" font-size="13" fill="white"><tspan font-weight="bold" fill="#fbd38d">Nikdo</tspan> to <tspan font-weight="bold" fill="#fbd38d">ne</tspan>ví.</text>
+  <text x="500" y="220" font-size="11" fill="rgba(255,255,255,0.8)">Nobody knows it. (lit: "Nobody doesn't know it")</text>
+
+  <text x="500" y="248" font-size="12" fill="#fc8181">✗ Nikdo to ví. (WRONG!)</text>
+
+  <!-- Negative pronouns/adverbs -->
+  <rect x="40" y="265" width="820" height="140" rx="12" fill="url(#niGrad)" filter="url(#shadow)"/>
+  <text x="450" y="295" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Negative Words (NI- / ŽÁD-)</text>
+
+  <text x="80" y="330" font-size="13" fill="white"><tspan font-weight="bold">nikdo</tspan></text>
+  <text x="80" y="350" font-size="11" fill="rgba(255,255,255,0.8)">nobody</text>
+
+  <text x="180" y="330" font-size="13" fill="white"><tspan font-weight="bold">nic</tspan></text>
+  <text x="180" y="350" font-size="11" fill="rgba(255,255,255,0.8)">nothing</text>
+
+  <text x="260" y="330" font-size="13" fill="white"><tspan font-weight="bold">nikdy</tspan></text>
+  <text x="260" y="350" font-size="11" fill="rgba(255,255,255,0.8)">never</text>
+
+  <text x="350" y="330" font-size="13" fill="white"><tspan font-weight="bold">nikde</tspan></text>
+  <text x="350" y="350" font-size="11" fill="rgba(255,255,255,0.8)">nowhere</text>
+
+  <text x="440" y="330" font-size="13" fill="white"><tspan font-weight="bold">nikam</tspan></text>
+  <text x="440" y="350" font-size="11" fill="rgba(255,255,255,0.8)">to nowhere</text>
+
+  <text x="530" y="330" font-size="13" fill="white"><tspan font-weight="bold">nijak</tspan></text>
+  <text x="530" y="350" font-size="11" fill="rgba(255,255,255,0.8)">in no way</text>
+
+  <text x="620" y="330" font-size="13" fill="white"><tspan font-weight="bold">žádný</tspan></text>
+  <text x="620" y="350" font-size="11" fill="rgba(255,255,255,0.8)">no/none</text>
+
+  <text x="720" y="330" font-size="13" fill="white"><tspan font-weight="bold">ničí</tspan></text>
+  <text x="720" y="350" font-size="11" fill="rgba(255,255,255,0.8)">nobody's</text>
+
+  <text x="450" y="390" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.9)">All of these REQUIRE a negative verb!</text>
+
+  <!-- Examples -->
+  <rect x="40" y="420" width="820" height="70" rx="12" fill="#4a5568"/>
+  <text x="450" y="448" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Triple Negative Examples</text>
+
+  <text x="80" y="475" font-size="12" fill="#b794f4">Nikdo nikdy nic neřekl.</text>
+  <text x="280" y="475" font-size="10" fill="#a0aec0">(Nobody ever said anything.)</text>
+
+  <text x="500" y="475" font-size="12" fill="#b794f4">Nikde jsem nikoho neviděl.</text>
+  <text x="720" y="475" font-size="10" fill="#a0aec0">(I didn't see anyone anywhere.)</text>
+</svg>

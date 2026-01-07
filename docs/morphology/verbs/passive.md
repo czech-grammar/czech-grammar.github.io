@@ -7,6 +7,16 @@ sidebar_position: 10
 
 Czech has two ways to form the passive voice: **Reflexive** and **Periphrastic** (using *být*).
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Passive Voice Cheatsheet](/img/passive-voice-cheatsheet.svg)
+
+</div>
+
+---
+
 ## 1. Reflexive Passive (Zvratné pasivum)
 Formed with the reflexive particle **se**. It is very common for general statements or processes where the agent is unknown or irrelevant.
 
