@@ -7,6 +7,16 @@ sidebar_position: 4
 
 Personal pronouns decline just like nouns. They are often the hardest part of Czech morphology because they have **short (clitic)** and **long (emphatic)** forms.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Personal Pronouns Cheatsheet](/img/personal-pronouns-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Basic Forms (Nominative)
 
 | Person | Singular | Plural |

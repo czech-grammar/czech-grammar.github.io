@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 680" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="mujGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="nasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="indecGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="910" height="640" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="475" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Possessive Pronouns (Přivlastňovací zájmena)</text>
+  <text x="475" y="80" text-anchor="middle" font-size="13" fill="#a0aec0">Čí? (Whose?) • Must agree with the noun they modify in gender, number, case</text>
+
+  <!-- Overview box -->
+  <rect x="40" y="95" width="870" height="70" rx="10" fill="#4a5568"/>
+  <text x="475" y="120" text-anchor="middle" font-size="13" font-weight="bold" fill="#fbd38d">Overview: Which pattern to follow?</text>
+  <text x="200" y="145" text-anchor="middle" font-size="12" fill="#90cdf4">můj, tvůj, svůj → MŮJ pattern</text>
+  <text x="475" y="145" text-anchor="middle" font-size="12" fill="#68d391">náš, váš → NÁŠ pattern</text>
+  <text x="750" y="145" text-anchor="middle" font-size="12" fill="#f6ad55">jeho, její, jejich → INDECLINABLE</text>
+
+  <!-- MŮJ Pattern -->
+  <rect x="40" y="180" width="420" height="470" rx="12" fill="#2d3748" stroke="url(#mujGrad)" stroke-width="3"/>
+  <rect x="40" y="180" width="420" height="45" rx="12" fill="url(#mujGrad)"/>
+  <rect x="40" y="210" width="420" height="15" fill="url(#mujGrad)"/>
+  <text x="250" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="white">MŮJ Pattern (my) — also tvůj, svůj</text>
+
+  <!-- Singular header -->
+  <text x="250" y="255" text-anchor="middle" font-size="13" font-weight="bold" fill="#a0aec0">SINGULAR</text>
+
+  <!-- Column headers -->
+  <text x="70" y="280" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="140" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.An</text>
+  <text x="200" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.In</text>
+  <text x="280" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#fbb6ce">Fem</text>
+  <text x="380" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#9ae6b4">Neut</text>
+
+  <!-- Singular rows -->
+  <text x="55" y="305" font-size="11" fill="#e2e8f0">Nom</text>
+  <text x="140" y="305" text-anchor="middle" font-size="12" fill="#90cdf4">můj</text>
+  <text x="200" y="305" text-anchor="middle" font-size="12" fill="#90cdf4">můj</text>
+  <text x="280" y="305" text-anchor="middle" font-size="12" fill="#fbb6ce">moje/má</text>
+  <text x="380" y="305" text-anchor="middle" font-size="12" fill="#9ae6b4">moje/mé</text>
+
+  <rect x="50" y="315" width="400" height="22" rx="4" fill="#3d4a5c"/>
+  <text x="55" y="331" font-size="11" fill="#e2e8f0">Gen</text>
+  <text x="140" y="331" text-anchor="middle" font-size="12" fill="#90cdf4">mého</text>
+  <text x="200" y="331" text-anchor="middle" font-size="12" fill="#90cdf4">mého</text>
+  <text x="280" y="331" text-anchor="middle" font-size="12" fill="#fbb6ce">mojí/mé</text>
+  <text x="380" y="331" text-anchor="middle" font-size="12" fill="#9ae6b4">mého</text>
+
+  <text x="55" y="355" font-size="11" fill="#e2e8f0">Dat</text>
+  <text x="140" y="355" text-anchor="middle" font-size="12" fill="#90cdf4">mému</text>
+  <text x="200" y="355" text-anchor="middle" font-size="12" fill="#90cdf4">mému</text>
+  <text x="280" y="355" text-anchor="middle" font-size="12" fill="#fbb6ce">mojí/mé</text>
+  <text x="380" y="355" text-anchor="middle" font-size="12" fill="#9ae6b4">mému</text>
+
+  <rect x="50" y="365" width="400" height="22" rx="4" fill="#3d4a5c"/>
+  <text x="55" y="381" font-size="11" fill="#e2e8f0">Acc</text>
+  <text x="140" y="381" text-anchor="middle" font-size="12" fill="#f6ad55">mého</text>
+  <text x="200" y="381" text-anchor="middle" font-size="12" fill="#90cdf4">můj</text>
+  <text x="280" y="381" text-anchor="middle" font-size="12" fill="#fbb6ce">moji/mou</text>
+  <text x="380" y="381" text-anchor="middle" font-size="12" fill="#9ae6b4">moje/mé</text>
+
+  <text x="55" y="405" font-size="11" fill="#e2e8f0">Loc</text>
+  <text x="140" y="405" text-anchor="middle" font-size="12" fill="#90cdf4">mém</text>
+  <text x="200" y="405" text-anchor="middle" font-size="12" fill="#90cdf4">mém</text>
+  <text x="280" y="405" text-anchor="middle" font-size="12" fill="#fbb6ce">mojí/mé</text>
+  <text x="380" y="405" text-anchor="middle" font-size="12" fill="#9ae6b4">mém</text>
+
+  <rect x="50" y="415" width="400" height="22" rx="4" fill="#3d4a5c"/>
+  <text x="55" y="431" font-size="11" fill="#e2e8f0">Instr</text>
+  <text x="140" y="431" text-anchor="middle" font-size="12" fill="#90cdf4">mým</text>
+  <text x="200" y="431" text-anchor="middle" font-size="12" fill="#90cdf4">mým</text>
+  <text x="280" y="431" text-anchor="middle" font-size="12" fill="#fbb6ce">mojí/mou</text>
+  <text x="380" y="431" text-anchor="middle" font-size="12" fill="#9ae6b4">mým</text>
+
+  <!-- Plural header -->
+  <text x="250" y="470" text-anchor="middle" font-size="13" font-weight="bold" fill="#a0aec0">PLURAL (simplified)</text>
+
+  <text x="55" y="495" font-size="11" fill="#e2e8f0">Nom/Acc</text>
+  <text x="200" y="495" text-anchor="middle" font-size="12" fill="#90cdf4">moji/mí (M.An)</text>
+  <text x="350" y="495" text-anchor="middle" font-size="12" fill="#a0aec0">moje/mé (others)</text>
+
+  <text x="55" y="520" font-size="11" fill="#e2e8f0">Gen/Loc</text>
+  <text x="250" y="520" text-anchor="middle" font-size="12" fill="#81e6d9">mých</text>
+
+  <text x="55" y="545" font-size="11" fill="#e2e8f0">Dat</text>
+  <text x="250" y="545" text-anchor="middle" font-size="12" fill="#81e6d9">mým</text>
+
+  <text x="55" y="570" font-size="11" fill="#e2e8f0">Instr</text>
+  <text x="250" y="570" text-anchor="middle" font-size="12" fill="#81e6d9">mými</text>
+
+  <!-- Muj note -->
+  <rect x="50" y="590" width="400" height="50" rx="6" fill="#2c5282"/>
+  <text x="250" y="612" text-anchor="middle" font-size="11" fill="#bee3f8">Long forms (moje, mojí) = colloquial</text>
+  <text x="250" y="630" text-anchor="middle" font-size="11" fill="#bee3f8">Short forms (má, mé, mou) = formal/written</text>
+
+  <!-- NÁŠ Pattern -->
+  <rect x="490" y="180" width="420" height="300" rx="12" fill="#2d3748" stroke="url(#nasGrad)" stroke-width="3"/>
+  <rect x="490" y="180" width="420" height="45" rx="12" fill="url(#nasGrad)"/>
+  <rect x="490" y="210" width="420" height="15" fill="url(#nasGrad)"/>
+  <text x="700" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="white">NÁŠ Pattern (our) — also váš</text>
+
+  <!-- Singular header -->
+  <text x="700" y="255" text-anchor="middle" font-size="13" font-weight="bold" fill="#a0aec0">SINGULAR</text>
+
+  <!-- Column headers -->
+  <text x="520" y="280" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="590" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.An</text>
+  <text x="660" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.In</text>
+  <text x="750" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#fbb6ce">Fem</text>
+  <text x="850" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#9ae6b4">Neut</text>
+
+  <!-- Singular rows -->
+  <text x="505" y="305" font-size="11" fill="#e2e8f0">Nom</text>
+  <text x="590" y="305" text-anchor="middle" font-size="12" fill="#68d391">náš</text>
+  <text x="660" y="305" text-anchor="middle" font-size="12" fill="#68d391">náš</text>
+  <text x="750" y="305" text-anchor="middle" font-size="12" fill="#fbb6ce">naše</text>
+  <text x="850" y="305" text-anchor="middle" font-size="12" fill="#9ae6b4">naše</text>
+
+  <rect x="500" y="315" width="400" height="22" rx="4" fill="#3d4a5c"/>
+  <text x="505" y="331" font-size="11" fill="#e2e8f0">Gen</text>
+  <text x="590" y="331" text-anchor="middle" font-size="12" fill="#68d391">našeho</text>
+  <text x="660" y="331" text-anchor="middle" font-size="12" fill="#68d391">našeho</text>
+  <text x="750" y="331" text-anchor="middle" font-size="12" fill="#fbb6ce">naší</text>
+  <text x="850" y="331" text-anchor="middle" font-size="12" fill="#9ae6b4">našeho</text>
+
+  <text x="505" y="355" font-size="11" fill="#e2e8f0">Dat</text>
+  <text x="590" y="355" text-anchor="middle" font-size="12" fill="#68d391">našemu</text>
+  <text x="660" y="355" text-anchor="middle" font-size="12" fill="#68d391">našemu</text>
+  <text x="750" y="355" text-anchor="middle" font-size="12" fill="#fbb6ce">naší</text>
+  <text x="850" y="355" text-anchor="middle" font-size="12" fill="#9ae6b4">našemu</text>
+
+  <rect x="500" y="365" width="400" height="22" rx="4" fill="#3d4a5c"/>
+  <text x="505" y="381" font-size="11" fill="#e2e8f0">Acc</text>
+  <text x="590" y="381" text-anchor="middle" font-size="12" fill="#f6ad55">našeho</text>
+  <text x="660" y="381" text-anchor="middle" font-size="12" fill="#68d391">náš</text>
+  <text x="750" y="381" text-anchor="middle" font-size="12" fill="#fbb6ce">naši</text>
+  <text x="850" y="381" text-anchor="middle" font-size="12" fill="#9ae6b4">naše</text>
+
+  <text x="505" y="405" font-size="11" fill="#e2e8f0">Loc</text>
+  <text x="590" y="405" text-anchor="middle" font-size="12" fill="#68d391">našem</text>
+  <text x="660" y="405" text-anchor="middle" font-size="12" fill="#68d391">našem</text>
+  <text x="750" y="405" text-anchor="middle" font-size="12" fill="#fbb6ce">naší</text>
+  <text x="850" y="405" text-anchor="middle" font-size="12" fill="#9ae6b4">našem</text>
+
+  <rect x="500" y="415" width="400" height="22" rx="4" fill="#3d4a5c"/>
+  <text x="505" y="431" font-size="11" fill="#e2e8f0">Instr</text>
+  <text x="590" y="431" text-anchor="middle" font-size="12" fill="#68d391">naším</text>
+  <text x="660" y="431" text-anchor="middle" font-size="12" fill="#68d391">naším</text>
+  <text x="750" y="431" text-anchor="middle" font-size="12" fill="#fbb6ce">naší</text>
+  <text x="850" y="431" text-anchor="middle" font-size="12" fill="#9ae6b4">naším</text>
+
+  <text x="700" y="465" text-anchor="middle" font-size="11" fill="#718096">Plural: naši (M.An Nom), naše (others), našich, našim, našimi</text>
+
+  <!-- Indeclinable box -->
+  <rect x="490" y="500" width="420" height="150" rx="12" fill="#2d3748" stroke="url(#indecGrad)" stroke-width="3"/>
+  <rect x="490" y="500" width="420" height="40" rx="12" fill="url(#indecGrad)"/>
+  <rect x="490" y="525" width="420" height="15" fill="url(#indecGrad)"/>
+  <text x="700" y="528" text-anchor="middle" font-size="14" font-weight="bold" fill="white">INDECLINABLE (never change!)</text>
+
+  <text x="590" y="570" text-anchor="middle" font-size="18" font-weight="bold" fill="#f6ad55">jeho</text>
+  <text x="590" y="590" text-anchor="middle" font-size="12" fill="#a0aec0">his/its</text>
+
+  <text x="700" y="570" text-anchor="middle" font-size="18" font-weight="bold" fill="#fbb6ce">její</text>
+  <text x="700" y="590" text-anchor="middle" font-size="12" fill="#a0aec0">her</text>
+
+  <text x="810" y="570" text-anchor="middle" font-size="18" font-weight="bold" fill="#81e6d9">jejich</text>
+  <text x="810" y="590" text-anchor="middle" font-size="12" fill="#a0aec0">their</text>
+
+  <text x="700" y="635" text-anchor="middle" font-size="11" fill="#718096">jeho auto, jeho auta, v jeho autě — ALWAYS "jeho"!</text>
+</svg>

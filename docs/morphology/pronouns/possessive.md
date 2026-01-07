@@ -7,6 +7,16 @@ sidebar_position: 5
 
 These pronouns answer the question **Čí?** (Whose?).
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Possessive Pronouns Cheatsheet](/img/possessive-pronouns-cheatsheet.svg)
+
+</div>
+
+---
+
 ## The Forms
 
 | Person | Pronoun | Meaning |
