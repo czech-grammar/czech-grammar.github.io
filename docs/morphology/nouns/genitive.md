@@ -9,6 +9,26 @@ sidebar_position: 6
 
 The Genitive is the "Of" case. It indicates possession, quantity, and follows many prepositions.
 
+## Quick Reference (Singular)
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Genitive Singular Cheat Sheet](/img/genitive-singular-cheatsheet.svg)
+
+</div>
+
+### Decision Flowchart
+
+Not sure which ending to use? Follow this flowchart:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Genitive Singular Flowchart](/img/genitive-singular-flowchart.svg)
+
+</div>
+
+---
+
 ## Declension (Singular)
 
 | Gender | Model | Ending | Example (Nom -> Gen) |
@@ -56,3 +76,55 @@ Used after numbers (5+) and quantity words.
 *   **Ptát se** (to ask): *Ptám se **učitele**.*
 *   **Bát se** (to be afraid of): *Bojím se **psa**.*
 *   **Všímat si** (to notice): *Všiml si **chyby**.*
+
+---
+
+## Declension (Plural)
+
+The Genitive Plural is essential for counting (5+) and quantity expressions. Watch out for **zero endings**!
+
+### Quick Reference (Plural)
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Genitive Plural Cheat Sheet](/img/genitive-plural-cheatsheet.svg)
+
+</div>
+
+### Endings by Gender
+
+| Gender | Model | Ending | Example (Nom Sg -> Gen Pl) |
+| :--- | :--- | :--- | :--- |
+| **Masc** | pán | **-ů** | *pán -> pán**ů*** |
+| | muž | **-ů** | *muž -> muž**ů*** |
+| | hrad | **-ů** | *hrad -> hrad**ů*** |
+| **Fem** | žena | **∅ (zero)** | *žena -> žen* |
+| | růže | **-í** | *růže -> růž**í*** |
+| | kost | **-í** | *kost -> kost**í*** |
+| **Neut** | město | **∅ (zero)** | *město -> měst* |
+| | moře | **-í** | *moře -> moř**í*** |
+| | kuře | **-at** | *kuře -> kuř**at*** |
+
+:::caution Zero Endings
+The hardest part of Genitive Plural: **žena** and **město** types lose their ending entirely!
+- *pět žen* (five women) — not ~~ženů~~
+- *hodně měst* (many cities) — not ~~městů~~
+:::
+
+### Usage with Numbers
+
+| Number | Case Required | Example |
+| :--- | :--- | :--- |
+| 1 | Nominative Sg | *jeden student* |
+| 2, 3, 4 | Nominative Pl | *dva studenti* |
+| 5+ | **Genitive Pl** | *pět student**ů*** |
+| 0 | **Genitive Pl** | *nula student**ů*** |
+
+### Common Quantity Words (+ Genitive)
+
+- *hodně* (a lot): *hodně **lidí*** (many people)
+- *málo* (few): *málo **času*** (little time)
+- *kolik* (how many): *kolik **let**?* (how many years?)
+- *několik* (several): *několik **knih*** (several books)
+- *trochu* (a little): *trochu **vody*** (a little water)
+- *dost* (enough): *dost **peněz*** (enough money)
