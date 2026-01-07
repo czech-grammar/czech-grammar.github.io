@@ -7,6 +7,16 @@ sidebar_position: 2
 
 While flexible, Czech word order is not random. It is governed by **Topic-Focus Articulation** and the **Clitic Rule**.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Word Order Cheatsheet](/img/word-order-cheatsheet.svg)
+
+</div>
+
+---
+
 ## 1. Topic-Focus Articulation
 Czech sentences are usually organized from "Old Information" (Topic) to "New Information" (Focus). The most important information comes **last**.
 

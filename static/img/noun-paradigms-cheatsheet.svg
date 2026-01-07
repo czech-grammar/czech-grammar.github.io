@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="640" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="white">Noun Declension Paradigms</text>
+  <text x="450" y="72" text-anchor="middle" font-size="12" fill="#a0aec0">The classic patterns every noun follows • Hard vs Soft stems</text>
+
+  <!-- MASCULINE ANIMATE -->
+  <rect x="40" y="90" width="400" height="175" rx="10" fill="#2d3748" stroke="url(#mascGrad)" stroke-width="2"/>
+  <rect x="40" y="90" width="400" height="28" rx="10" fill="url(#mascGrad)"/>
+  <rect x="40" y="108" width="400" height="10" fill="url(#mascGrad)"/>
+  <text x="240" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="white">MASCULINE ANIMATE</text>
+
+  <text x="55" y="135" font-size="10" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="105" y="135" font-size="10" font-weight="bold" fill="#63b3ed">pán (hard)</text>
+  <text x="185" y="135" font-size="10" font-weight="bold" fill="#63b3ed">muž (soft)</text>
+  <text x="275" y="135" font-size="10" font-weight="bold" fill="#a0aec0">Pl</text>
+  <text x="315" y="135" font-size="10" font-weight="bold" fill="#63b3ed">páni</text>
+  <text x="370" y="135" font-size="10" font-weight="bold" fill="#63b3ed">muži</text>
+
+  <text x="55" y="153" font-size="9" fill="#e2e8f0">N</text>
+  <text x="105" y="153" font-size="11" fill="#e2e8f0">pán</text>
+  <text x="185" y="153" font-size="11" fill="#e2e8f0">muž</text>
+  <text x="275" y="153" font-size="9" fill="#e2e8f0">N</text>
+  <text x="315" y="153" font-size="11" fill="#e2e8f0">páni</text>
+  <text x="370" y="153" font-size="11" fill="#e2e8f0">muži</text>
+
+  <text x="55" y="170" font-size="9" fill="#e2e8f0">G</text>
+  <text x="105" y="170" font-size="11" font-weight="bold" fill="#63b3ed">pána</text>
+  <text x="185" y="170" font-size="11" font-weight="bold" fill="#63b3ed">muže</text>
+  <text x="275" y="170" font-size="9" fill="#e2e8f0">G</text>
+  <text x="315" y="170" font-size="11" fill="#e2e8f0">pánů</text>
+  <text x="370" y="170" font-size="11" fill="#e2e8f0">mužů</text>
+
+  <text x="55" y="187" font-size="9" fill="#e2e8f0">D</text>
+  <text x="105" y="187" font-size="11" fill="#e2e8f0">pánovi</text>
+  <text x="185" y="187" font-size="11" fill="#e2e8f0">mužovi</text>
+  <text x="275" y="187" font-size="9" fill="#e2e8f0">D</text>
+  <text x="315" y="187" font-size="11" fill="#e2e8f0">pánům</text>
+  <text x="370" y="187" font-size="11" fill="#e2e8f0">mužům</text>
+
+  <text x="55" y="204" font-size="9" fill="#e2e8f0">A</text>
+  <text x="105" y="204" font-size="11" font-weight="bold" fill="#fbd38d">pána</text>
+  <text x="185" y="204" font-size="11" font-weight="bold" fill="#fbd38d">muže</text>
+  <text x="275" y="204" font-size="9" fill="#e2e8f0">A</text>
+  <text x="315" y="204" font-size="11" fill="#e2e8f0">pány</text>
+  <text x="370" y="204" font-size="11" fill="#e2e8f0">muže</text>
+
+  <text x="55" y="221" font-size="9" fill="#e2e8f0">L</text>
+  <text x="105" y="221" font-size="11" fill="#e2e8f0">pánovi</text>
+  <text x="185" y="221" font-size="11" fill="#e2e8f0">mužovi</text>
+  <text x="275" y="221" font-size="9" fill="#e2e8f0">L</text>
+  <text x="315" y="221" font-size="11" fill="#e2e8f0">pánech</text>
+  <text x="370" y="221" font-size="11" fill="#e2e8f0">mužích</text>
+
+  <text x="55" y="238" font-size="9" fill="#e2e8f0">I</text>
+  <text x="105" y="238" font-size="11" fill="#e2e8f0">pánem</text>
+  <text x="185" y="238" font-size="11" fill="#e2e8f0">mužem</text>
+  <text x="275" y="238" font-size="9" fill="#e2e8f0">I</text>
+  <text x="315" y="238" font-size="11" fill="#e2e8f0">pány</text>
+  <text x="370" y="238" font-size="11" fill="#e2e8f0">muži</text>
+
+  <text x="55" y="255" font-size="9" fill="#e2e8f0">V</text>
+  <text x="105" y="255" font-size="11" fill="#fc8181">pane!</text>
+  <text x="185" y="255" font-size="11" fill="#fc8181">muži!</text>
+
+  <!-- MASCULINE INANIMATE -->
+  <rect x="460" y="90" width="400" height="175" rx="10" fill="#2d3748" stroke="url(#mascGrad)" stroke-width="2"/>
+  <rect x="460" y="90" width="400" height="28" rx="10" fill="url(#mascGrad)"/>
+  <rect x="460" y="108" width="400" height="10" fill="url(#mascGrad)"/>
+  <text x="660" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="white">MASCULINE INANIMATE</text>
+
+  <text x="475" y="135" font-size="10" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="525" y="135" font-size="10" font-weight="bold" fill="#63b3ed">hrad (hard)</text>
+  <text x="610" y="135" font-size="10" font-weight="bold" fill="#63b3ed">stroj (soft)</text>
+  <text x="700" y="135" font-size="10" font-weight="bold" fill="#a0aec0">Pl</text>
+  <text x="740" y="135" font-size="10" font-weight="bold" fill="#63b3ed">hrady</text>
+  <text x="800" y="135" font-size="10" font-weight="bold" fill="#63b3ed">stroje</text>
+
+  <text x="475" y="153" font-size="9" fill="#e2e8f0">N</text>
+  <text x="525" y="153" font-size="11" fill="#e2e8f0">hrad</text>
+  <text x="610" y="153" font-size="11" fill="#e2e8f0">stroj</text>
+  <text x="700" y="153" font-size="9" fill="#e2e8f0">N</text>
+  <text x="740" y="153" font-size="11" fill="#e2e8f0">hrady</text>
+  <text x="800" y="153" font-size="11" fill="#e2e8f0">stroje</text>
+
+  <text x="475" y="170" font-size="9" fill="#e2e8f0">G</text>
+  <text x="525" y="170" font-size="11" font-weight="bold" fill="#63b3ed">hradu</text>
+  <text x="610" y="170" font-size="11" font-weight="bold" fill="#63b3ed">stroje</text>
+  <text x="700" y="170" font-size="9" fill="#e2e8f0">G</text>
+  <text x="740" y="170" font-size="11" fill="#e2e8f0">hradů</text>
+  <text x="800" y="170" font-size="11" fill="#e2e8f0">strojů</text>
+
+  <text x="475" y="187" font-size="9" fill="#e2e8f0">D</text>
+  <text x="525" y="187" font-size="11" fill="#e2e8f0">hradu</text>
+  <text x="610" y="187" font-size="11" fill="#e2e8f0">stroji</text>
+  <text x="700" y="187" font-size="9" fill="#e2e8f0">D</text>
+  <text x="740" y="187" font-size="11" fill="#e2e8f0">hradům</text>
+  <text x="800" y="187" font-size="11" fill="#e2e8f0">strojům</text>
+
+  <text x="475" y="204" font-size="9" fill="#e2e8f0">A</text>
+  <text x="525" y="204" font-size="11" font-weight="bold" fill="#fbd38d">hrad</text>
+  <text x="610" y="204" font-size="11" font-weight="bold" fill="#fbd38d">stroj</text>
+  <text x="700" y="204" font-size="9" fill="#e2e8f0">A</text>
+  <text x="740" y="204" font-size="11" fill="#e2e8f0">hrady</text>
+  <text x="800" y="204" font-size="11" fill="#e2e8f0">stroje</text>
+
+  <text x="475" y="221" font-size="9" fill="#e2e8f0">L</text>
+  <text x="525" y="221" font-size="11" fill="#e2e8f0">hradě</text>
+  <text x="610" y="221" font-size="11" fill="#e2e8f0">stroji</text>
+  <text x="700" y="221" font-size="9" fill="#e2e8f0">L</text>
+  <text x="740" y="221" font-size="11" fill="#e2e8f0">hradech</text>
+  <text x="800" y="221" font-size="11" fill="#e2e8f0">strojích</text>
+
+  <text x="475" y="238" font-size="9" fill="#e2e8f0">I</text>
+  <text x="525" y="238" font-size="11" fill="#e2e8f0">hradem</text>
+  <text x="610" y="238" font-size="11" fill="#e2e8f0">strojem</text>
+  <text x="700" y="238" font-size="9" fill="#e2e8f0">I</text>
+  <text x="740" y="238" font-size="11" fill="#e2e8f0">hrady</text>
+  <text x="800" y="238" font-size="11" fill="#e2e8f0">stroji</text>
+
+  <text x="660" y="258" text-anchor="middle" font-size="9" fill="#fbd38d">Acc = Nom (inanimate!)</text>
+
+  <!-- FEMININE -->
+  <rect x="40" y="280" width="400" height="190" rx="10" fill="#2d3748" stroke="url(#femGrad)" stroke-width="2"/>
+  <rect x="40" y="280" width="400" height="28" rx="10" fill="url(#femGrad)"/>
+  <rect x="40" y="298" width="400" height="10" fill="url(#femGrad)"/>
+  <text x="240" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="white">FEMININE</text>
+
+  <text x="55" y="325" font-size="10" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="100" y="325" font-size="10" font-weight="bold" fill="#f687b3">žena -a</text>
+  <text x="170" y="325" font-size="10" font-weight="bold" fill="#f687b3">růže -e</text>
+  <text x="240" y="325" font-size="10" font-weight="bold" fill="#f687b3">píseň -∅</text>
+  <text x="320" y="325" font-size="10" font-weight="bold" fill="#f687b3">kost -∅</text>
+
+  <text x="55" y="345" font-size="9" fill="#e2e8f0">N</text>
+  <text x="100" y="345" font-size="11" fill="#e2e8f0">žena</text>
+  <text x="170" y="345" font-size="11" fill="#e2e8f0">růže</text>
+  <text x="240" y="345" font-size="11" fill="#e2e8f0">píseň</text>
+  <text x="320" y="345" font-size="11" fill="#e2e8f0">kost</text>
+
+  <text x="55" y="362" font-size="9" fill="#e2e8f0">G</text>
+  <text x="100" y="362" font-size="11" font-weight="bold" fill="#f687b3">ženy</text>
+  <text x="170" y="362" font-size="11" font-weight="bold" fill="#f687b3">růže</text>
+  <text x="240" y="362" font-size="11" font-weight="bold" fill="#f687b3">písně</text>
+  <text x="320" y="362" font-size="11" font-weight="bold" fill="#f687b3">kosti</text>
+
+  <text x="55" y="379" font-size="9" fill="#e2e8f0">D</text>
+  <text x="100" y="379" font-size="11" fill="#e2e8f0">ženě</text>
+  <text x="170" y="379" font-size="11" fill="#e2e8f0">růži</text>
+  <text x="240" y="379" font-size="11" fill="#e2e8f0">písni</text>
+  <text x="320" y="379" font-size="11" fill="#e2e8f0">kosti</text>
+
+  <text x="55" y="396" font-size="9" fill="#e2e8f0">A</text>
+  <text x="100" y="396" font-size="11" font-weight="bold" fill="#fbd38d">ženu</text>
+  <text x="170" y="396" font-size="11" font-weight="bold" fill="#fbd38d">růži</text>
+  <text x="240" y="396" font-size="11" font-weight="bold" fill="#fbd38d">píseň</text>
+  <text x="320" y="396" font-size="11" font-weight="bold" fill="#fbd38d">kost</text>
+
+  <text x="55" y="413" font-size="9" fill="#e2e8f0">L</text>
+  <text x="100" y="413" font-size="11" fill="#e2e8f0">ženě</text>
+  <text x="170" y="413" font-size="11" fill="#e2e8f0">růži</text>
+  <text x="240" y="413" font-size="11" fill="#e2e8f0">písni</text>
+  <text x="320" y="413" font-size="11" fill="#e2e8f0">kosti</text>
+
+  <text x="55" y="430" font-size="9" fill="#e2e8f0">I</text>
+  <text x="100" y="430" font-size="11" fill="#e2e8f0">ženou</text>
+  <text x="170" y="430" font-size="11" fill="#e2e8f0">růží</text>
+  <text x="240" y="430" font-size="11" fill="#e2e8f0">písní</text>
+  <text x="320" y="430" font-size="11" fill="#e2e8f0">kostí</text>
+
+  <text x="55" y="447" font-size="9" fill="#e2e8f0">V</text>
+  <text x="100" y="447" font-size="11" fill="#fc8181">ženo!</text>
+  <text x="170" y="447" font-size="11" fill="#fc8181">růže!</text>
+  <text x="240" y="447" font-size="11" fill="#fc8181">písni!</text>
+  <text x="320" y="447" font-size="11" fill="#fc8181">kosti!</text>
+
+  <text x="55" y="465" font-size="9" fill="#a0aec0">Pl G</text>
+  <text x="100" y="465" font-size="10" fill="#a0aec0">žen</text>
+  <text x="170" y="465" font-size="10" fill="#a0aec0">růží</text>
+  <text x="240" y="465" font-size="10" fill="#a0aec0">písní</text>
+  <text x="320" y="465" font-size="10" fill="#a0aec0">kostí</text>
+
+  <!-- NEUTER -->
+  <rect x="460" y="280" width="400" height="190" rx="10" fill="#2d3748" stroke="url(#neutGrad)" stroke-width="2"/>
+  <rect x="460" y="280" width="400" height="28" rx="10" fill="url(#neutGrad)"/>
+  <rect x="460" y="298" width="400" height="10" fill="url(#neutGrad)"/>
+  <text x="660" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="white">NEUTER</text>
+
+  <text x="475" y="325" font-size="10" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="525" y="325" font-size="10" font-weight="bold" fill="#68d391">město -o</text>
+  <text x="610" y="325" font-size="10" font-weight="bold" fill="#68d391">moře -e</text>
+  <text x="700" y="325" font-size="10" font-weight="bold" fill="#68d391">kuře -ě</text>
+  <text x="785" y="325" font-size="10" font-weight="bold" fill="#68d391">stavení</text>
+
+  <text x="475" y="345" font-size="9" fill="#e2e8f0">N</text>
+  <text x="525" y="345" font-size="11" fill="#e2e8f0">město</text>
+  <text x="610" y="345" font-size="11" fill="#e2e8f0">moře</text>
+  <text x="700" y="345" font-size="11" fill="#e2e8f0">kuře</text>
+  <text x="785" y="345" font-size="11" fill="#e2e8f0">stavení</text>
+
+  <text x="475" y="362" font-size="9" fill="#e2e8f0">G</text>
+  <text x="525" y="362" font-size="11" font-weight="bold" fill="#68d391">města</text>
+  <text x="610" y="362" font-size="11" font-weight="bold" fill="#68d391">moře</text>
+  <text x="700" y="362" font-size="11" font-weight="bold" fill="#68d391">kuřete</text>
+  <text x="785" y="362" font-size="11" font-weight="bold" fill="#68d391">stavení</text>
+
+  <text x="475" y="379" font-size="9" fill="#e2e8f0">D</text>
+  <text x="525" y="379" font-size="11" fill="#e2e8f0">městu</text>
+  <text x="610" y="379" font-size="11" fill="#e2e8f0">moři</text>
+  <text x="700" y="379" font-size="11" fill="#e2e8f0">kuřeti</text>
+  <text x="785" y="379" font-size="11" fill="#e2e8f0">stavení</text>
+
+  <text x="475" y="396" font-size="9" fill="#e2e8f0">A</text>
+  <text x="525" y="396" font-size="11" font-weight="bold" fill="#fbd38d">město</text>
+  <text x="610" y="396" font-size="11" font-weight="bold" fill="#fbd38d">moře</text>
+  <text x="700" y="396" font-size="11" font-weight="bold" fill="#fbd38d">kuře</text>
+  <text x="785" y="396" font-size="11" font-weight="bold" fill="#fbd38d">stavení</text>
+
+  <text x="475" y="413" font-size="9" fill="#e2e8f0">L</text>
+  <text x="525" y="413" font-size="11" fill="#e2e8f0">městě</text>
+  <text x="610" y="413" font-size="11" fill="#e2e8f0">moři</text>
+  <text x="700" y="413" font-size="11" fill="#e2e8f0">kuřeti</text>
+  <text x="785" y="413" font-size="11" fill="#e2e8f0">stavení</text>
+
+  <text x="475" y="430" font-size="9" fill="#e2e8f0">I</text>
+  <text x="525" y="430" font-size="11" fill="#e2e8f0">městem</text>
+  <text x="610" y="430" font-size="11" fill="#e2e8f0">mořem</text>
+  <text x="700" y="430" font-size="11" fill="#e2e8f0">kuřetem</text>
+  <text x="785" y="430" font-size="11" fill="#e2e8f0">stavením</text>
+
+  <text x="475" y="455" font-size="9" fill="#a0aec0">Pl N</text>
+  <text x="525" y="455" font-size="10" fill="#a0aec0">města</text>
+  <text x="610" y="455" font-size="10" fill="#a0aec0">moře</text>
+  <text x="700" y="455" font-size="10" fill="#a0aec0">kuřata</text>
+  <text x="785" y="455" font-size="10" fill="#a0aec0">stavení</text>
+
+  <text x="660" y="468" text-anchor="middle" font-size="9" fill="#fbd38d">Acc = Nom (neuter!)</text>
+
+  <!-- Key patterns -->
+  <rect x="40" y="485" width="820" height="165" rx="12" fill="#4a5568"/>
+  <text x="450" y="510" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Pattern Recognition Tips</text>
+
+  <text x="60" y="540" font-size="11" fill="#63b3ed">Masculine:</text>
+  <text x="140" y="540" font-size="10" fill="#e2e8f0">Animate Acc = Gen • Inanimate Acc = Nom • Hard: -a/-u (gen) • Soft: -e (gen)</text>
+
+  <text x="60" y="565" font-size="11" fill="#f687b3">Feminine:</text>
+  <text x="140" y="565" font-size="10" fill="#e2e8f0">-a → žena pattern • -e → růže pattern • consonant → píseň/kost • D=L often same</text>
+
+  <text x="60" y="590" font-size="11" fill="#68d391">Neuter:</text>
+  <text x="140" y="590" font-size="10" fill="#e2e8f0">Acc = Nom always • -o → město • -e → moře • -ě/-e with -t- stem → kuře (pl: -ata)</text>
+
+  <text x="60" y="620" font-size="11" fill="#fbd38d">Soft consonants:</text>
+  <text x="160" y="620" font-size="10" fill="#e2e8f0">ž, š, č, ř, c, j, ď, ť, ň → use soft patterns (muž, růže, moře)</text>
+
+  <text x="500" y="620" font-size="11" fill="#fbd38d">Vocative:</text>
+  <text x="570" y="620" font-size="10" fill="#e2e8f0">Only for calling people! Masc -e/-u, Fem -o</text>
+</svg>

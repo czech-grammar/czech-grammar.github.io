@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="oneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="twoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="fiveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="ordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="580" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Numerals (Číslovky)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">1-4 decline and agree • 5+ take genitive plural</text>
+
+  <!-- JEDEN section -->
+  <rect x="40" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#oneGrad)" stroke-width="3"/>
+  <rect x="40" y="100" width="260" height="35" rx="12" fill="url(#oneGrad)"/>
+  <rect x="40" y="120" width="260" height="15" fill="url(#oneGrad)"/>
+  <text x="170" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="white">JEDEN (1)</text>
+
+  <text x="170" y="155" text-anchor="middle" font-size="11" fill="#fbd38d">Declines like ten/ta/to!</text>
+
+  <text x="60" y="180" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="120" y="180" font-size="11" font-weight="bold" fill="#90cdf4">M</text>
+  <text x="175" y="180" font-size="11" font-weight="bold" fill="#fbb6ce">F</text>
+  <text x="230" y="180" font-size="11" font-weight="bold" fill="#9ae6b4">N</text>
+
+  <text x="60" y="205" font-size="11" fill="#e2e8f0">Nom</text>
+  <text x="120" y="205" font-size="12" font-weight="bold" fill="#f687b3">jeden</text>
+  <text x="175" y="205" font-size="12" font-weight="bold" fill="#f687b3">jedna</text>
+  <text x="230" y="205" font-size="12" font-weight="bold" fill="#f687b3">jedno</text>
+
+  <text x="60" y="228" font-size="11" fill="#e2e8f0">Gen</text>
+  <text x="120" y="228" font-size="12" fill="#e2e8f0">jednoho</text>
+  <text x="175" y="228" font-size="12" fill="#e2e8f0">jedné</text>
+  <text x="230" y="228" font-size="12" fill="#e2e8f0">jednoho</text>
+
+  <text x="60" y="251" font-size="11" fill="#e2e8f0">Acc</text>
+  <text x="120" y="251" font-size="12" fill="#e2e8f0">jeden/oho</text>
+  <text x="175" y="251" font-size="12" fill="#e2e8f0">jednu</text>
+  <text x="230" y="251" font-size="12" fill="#e2e8f0">jedno</text>
+
+  <text x="60" y="274" font-size="11" fill="#e2e8f0">Instr</text>
+  <text x="120" y="274" font-size="12" fill="#e2e8f0">jedním</text>
+  <text x="175" y="274" font-size="12" fill="#e2e8f0">jednou</text>
+  <text x="230" y="274" font-size="12" fill="#e2e8f0">jedním</text>
+
+  <!-- DVA section -->
+  <rect x="320" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#twoGrad)" stroke-width="3"/>
+  <rect x="320" y="100" width="260" height="35" rx="12" fill="url(#twoGrad)"/>
+  <rect x="320" y="120" width="260" height="15" fill="url(#twoGrad)"/>
+  <text x="450" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="white">DVA/DVĚ (2)</text>
+
+  <text x="340" y="160" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="420" y="160" font-size="11" font-weight="bold" fill="#90cdf4">M/N</text>
+  <text x="510" y="160" font-size="11" font-weight="bold" fill="#fbb6ce">F</text>
+
+  <text x="340" y="185" font-size="11" fill="#e2e8f0">Nom</text>
+  <text x="420" y="185" font-size="14" font-weight="bold" fill="#63b3ed">dva</text>
+  <text x="510" y="185" font-size="14" font-weight="bold" fill="#63b3ed">dvě</text>
+
+  <text x="340" y="210" font-size="11" fill="#e2e8f0">Gen</text>
+  <text x="420" y="210" font-size="12" fill="#e2e8f0">dvou</text>
+  <text x="510" y="210" font-size="12" fill="#e2e8f0">dvou</text>
+
+  <text x="340" y="235" font-size="11" fill="#e2e8f0">Dat</text>
+  <text x="420" y="235" font-size="12" fill="#e2e8f0">dvěma</text>
+  <text x="510" y="235" font-size="12" fill="#e2e8f0">dvěma</text>
+
+  <text x="340" y="260" font-size="11" fill="#e2e8f0">Instr</text>
+  <text x="420" y="260" font-size="12" fill="#e2e8f0">dvěma</text>
+  <text x="510" y="260" font-size="12" fill="#e2e8f0">dvěma</text>
+
+  <text x="450" y="290" text-anchor="middle" font-size="10" fill="#a0aec0">oba/obě (both) declines same way</text>
+
+  <!-- TŘI/ČTYŘI section -->
+  <rect x="600" y="100" width="260" height="200" rx="12" fill="#2d3748" stroke="url(#fiveGrad)" stroke-width="3"/>
+  <rect x="600" y="100" width="260" height="35" rx="12" fill="url(#fiveGrad)"/>
+  <rect x="600" y="120" width="260" height="15" fill="url(#fiveGrad)"/>
+  <text x="730" y="125" text-anchor="middle" font-size="14" font-weight="bold" fill="white">TŘI (3) &amp; ČTYŘI (4)</text>
+
+  <text x="730" y="160" text-anchor="middle" font-size="11" fill="#fbd38d">Same for all genders!</text>
+
+  <text x="620" y="185" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="700" y="185" font-size="11" font-weight="bold" fill="#68d391">Tři</text>
+  <text x="790" y="185" font-size="11" font-weight="bold" fill="#68d391">Čtyři</text>
+
+  <text x="620" y="210" font-size="11" fill="#e2e8f0">Nom/Acc</text>
+  <text x="700" y="210" font-size="14" font-weight="bold" fill="#68d391">tři</text>
+  <text x="790" y="210" font-size="14" font-weight="bold" fill="#68d391">čtyři</text>
+
+  <text x="620" y="235" font-size="11" fill="#e2e8f0">Gen</text>
+  <text x="700" y="235" font-size="12" fill="#e2e8f0">tří</text>
+  <text x="790" y="235" font-size="12" fill="#e2e8f0">čtyř</text>
+
+  <text x="620" y="260" font-size="11" fill="#e2e8f0">Dat</text>
+  <text x="700" y="260" font-size="12" fill="#e2e8f0">třem</text>
+  <text x="790" y="260" font-size="12" fill="#e2e8f0">čtyřem</text>
+
+  <text x="620" y="285" font-size="11" fill="#e2e8f0">Instr</text>
+  <text x="700" y="285" font-size="12" fill="#e2e8f0">třemi</text>
+  <text x="790" y="285" font-size="12" fill="#e2e8f0">čtyřmi</text>
+
+  <!-- Cardinal numbers 5+ -->
+  <rect x="40" y="315" width="540" height="140" rx="12" fill="#4a5568"/>
+  <text x="310" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Cardinal Numbers (Základní číslovky)</text>
+
+  <text x="60" y="375" font-size="13" fill="#68d391">5 pět</text>
+  <text x="130" y="375" font-size="13" fill="#68d391">6 šest</text>
+  <text x="200" y="375" font-size="13" fill="#68d391">7 sedm</text>
+  <text x="270" y="375" font-size="13" fill="#68d391">8 osm</text>
+  <text x="340" y="375" font-size="13" fill="#68d391">9 devět</text>
+  <text x="420" y="375" font-size="13" fill="#68d391">10 deset</text>
+
+  <text x="60" y="405" font-size="12" fill="#e2e8f0">11 jedenáct</text>
+  <text x="160" y="405" font-size="12" fill="#e2e8f0">12 dvanáct</text>
+  <text x="260" y="405" font-size="12" fill="#e2e8f0">13 třináct</text>
+  <text x="360" y="405" font-size="12" fill="#e2e8f0">20 dvacet</text>
+  <text x="460" y="405" font-size="12" fill="#e2e8f0">21 dvacet jedna</text>
+
+  <text x="60" y="435" font-size="12" fill="#e2e8f0">100 sto</text>
+  <text x="140" y="435" font-size="12" fill="#e2e8f0">200 dvě stě</text>
+  <text x="240" y="435" font-size="12" fill="#e2e8f0">1000 tisíc</text>
+  <text x="350" y="435" font-size="12" fill="#e2e8f0">1M milion</text>
+
+  <!-- 5+ rule -->
+  <rect x="600" y="315" width="260" height="140" rx="12" fill="url(#fiveGrad)"/>
+  <text x="730" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="white">5+ Rule!</text>
+  <text x="730" y="375" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.9)">Numbers 5+ take</text>
+  <text x="730" y="395" text-anchor="middle" font-size="14" font-weight="bold" fill="white">GENITIVE PLURAL</text>
+
+  <text x="620" y="425" font-size="11" fill="rgba(255,255,255,0.85)">5 mužů (5 men)</text>
+  <text x="620" y="445" font-size="11" fill="rgba(255,255,255,0.85)">10 žen (10 women)</text>
+  <text x="750" y="425" font-size="11" fill="rgba(255,255,255,0.85)">7 dětí (7 children)</text>
+  <text x="750" y="445" font-size="11" fill="rgba(255,255,255,0.85)">100 korun (100 CZK)</text>
+
+  <!-- Ordinal numbers -->
+  <rect x="40" y="470" width="820" height="120" rx="12" fill="url(#ordGrad)" filter="url(#shadow)"/>
+  <text x="450" y="500" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Ordinal Numbers (Řadové číslovky) - Decline like adjectives!</text>
+
+  <text x="70" y="535" font-size="13" fill="white">1st <tspan font-weight="bold">první</tspan></text>
+  <text x="170" y="535" font-size="13" fill="white">2nd <tspan font-weight="bold">druhý</tspan></text>
+  <text x="280" y="535" font-size="13" fill="white">3rd <tspan font-weight="bold">třetí</tspan></text>
+  <text x="390" y="535" font-size="13" fill="white">4th <tspan font-weight="bold">čtvrtý</tspan></text>
+  <text x="500" y="535" font-size="13" fill="white">5th <tspan font-weight="bold">pátý</tspan></text>
+  <text x="600" y="535" font-size="13" fill="white">6th <tspan font-weight="bold">šestý</tspan></text>
+  <text x="710" y="535" font-size="13" fill="white">7th <tspan font-weight="bold">sedmý</tspan></text>
+
+  <text x="70" y="565" font-size="12" fill="rgba(255,255,255,0.85)">8th osmý</text>
+  <text x="170" y="565" font-size="12" fill="rgba(255,255,255,0.85)">9th devátý</text>
+  <text x="280" y="565" font-size="12" fill="rgba(255,255,255,0.85)">10th desátý</text>
+  <text x="400" y="565" font-size="12" fill="rgba(255,255,255,0.85)">100th stý</text>
+  <text x="500" y="565" font-size="12" fill="rgba(255,255,255,0.85)">1000th tisící</text>
+  <text x="620" y="565" font-size="11" fill="rgba(255,255,255,0.7)">první/třetí = soft, others = hard</text>
+</svg>

@@ -7,6 +7,16 @@ sidebar_position: 1
 
 Nouns in Czech are complex because they change their form (inflect) based on their role in the sentence. This process is called **declension** (*skloňování*).
 
+## Declension Paradigms
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Noun Paradigms Cheatsheet](/img/noun-paradigms-cheatsheet.svg)
+
+</div>
+
+---
+
 To correctly use a noun, you need to know three things about it:
 
 1.  **Gender** (*Rod*): Masculine, Feminine, or Neuter.

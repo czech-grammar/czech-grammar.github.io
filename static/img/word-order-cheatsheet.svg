@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="ruleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="orderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="exGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="540" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Word Order (Slovosled)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Flexible but NOT random • Clitics have strict rules!</text>
+
+  <!-- Second position rule -->
+  <rect x="40" y="100" width="820" height="100" rx="12" fill="url(#ruleGrad)" filter="url(#shadow)"/>
+  <text x="450" y="130" text-anchor="middle" font-size="16" font-weight="bold" fill="white">The Second Position Rule</text>
+  <text x="450" y="155" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.95)">Clitics (unstressed short words) go in the SECOND position</text>
+  <text x="450" y="180" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.85)">After the first stressed element (word, phrase, or clause connector)</text>
+
+  <!-- Clitic order -->
+  <rect x="40" y="215" width="820" height="130" rx="12" fill="url(#orderGrad)" filter="url(#shadow)"/>
+  <text x="450" y="245" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Clitic Order (when multiple clitics occur)</text>
+
+  <!-- Order boxes -->
+  <rect x="70" y="265" width="80" height="60" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="110" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="white">1. AUX</text>
+  <text x="110" y="310" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">jsem, jsi</text>
+  <text x="110" y="322" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">bych, bys</text>
+
+  <text x="165" y="295" font-size="20" fill="white">→</text>
+
+  <rect x="190" y="265" width="80" height="60" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="230" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="white">2. REFL</text>
+  <text x="230" y="310" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">se, si</text>
+
+  <text x="285" y="295" font-size="20" fill="white">→</text>
+
+  <rect x="310" y="265" width="100" height="60" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="360" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="white">3. DAT PRON</text>
+  <text x="360" y="310" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">mi, ti, mu, jí</text>
+  <text x="360" y="322" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">nám, vám, jim</text>
+
+  <text x="425" y="295" font-size="20" fill="white">→</text>
+
+  <rect x="450" y="265" width="100" height="60" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="500" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="white">4. ACC PRON</text>
+  <text x="500" y="310" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">mě, tě, ho/jej</text>
+  <text x="500" y="322" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">nás, vás, je</text>
+
+  <text x="565" y="295" font-size="20" fill="white">→</text>
+
+  <rect x="590" y="265" width="100" height="60" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="640" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="white">5. OTHER</text>
+  <text x="640" y="310" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">tu, tam, to</text>
+
+  <rect x="720" y="265" width="120" height="60" rx="6" fill="rgba(0,0,0,0.2)"/>
+  <text x="780" y="295" text-anchor="middle" font-size="11" font-weight="bold" fill="#fbd38d">Full words</text>
+  <text x="780" y="315" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.7)">(rest of sentence)</text>
+
+  <!-- Examples section -->
+  <rect x="40" y="360" width="400" height="190" rx="12" fill="url(#exGrad)" filter="url(#shadow)"/>
+  <text x="240" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Examples</text>
+
+  <text x="60" y="420" font-size="12" fill="white">Verb first:</text>
+  <text x="60" y="440" font-size="12" fill="rgba(255,255,255,0.9)">Dělám <tspan font-weight="bold" fill="#fbd38d">to</tspan>.</text>
+  <text x="200" y="440" font-size="10" fill="rgba(255,255,255,0.7)">(I'm doing it.)</text>
+
+  <text x="60" y="470" font-size="12" fill="white">Subject first:</text>
+  <text x="60" y="490" font-size="12" fill="rgba(255,255,255,0.9)">Já <tspan font-weight="bold" fill="#fbd38d">jsem to</tspan> udělal.</text>
+  <text x="240" y="490" font-size="10" fill="rgba(255,255,255,0.7)">(I did it.)</text>
+
+  <text x="60" y="520" font-size="12" fill="white">Question word first:</text>
+  <text x="60" y="540" font-size="12" fill="rgba(255,255,255,0.9)">Proč <tspan font-weight="bold" fill="#fbd38d">jsi mi to</tspan> neřekl?</text>
+  <text x="280" y="540" font-size="10" fill="rgba(255,255,255,0.7)">(Why didn't you tell me?)</text>
+
+  <!-- Topic-Focus -->
+  <rect x="460" y="360" width="400" height="190" rx="12" fill="#4a5568"/>
+  <text x="660" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Topic-Focus (Information Flow)</text>
+
+  <text x="480" y="420" font-size="12" fill="#68d391">Old/Known info</text>
+  <text x="620" y="420" font-size="16" fill="white">→</text>
+  <text x="680" y="420" font-size="12" fill="#fc8181">New/Important info</text>
+
+  <text x="480" y="455" font-size="11" fill="#e2e8f0">Petr dal <tspan font-weight="bold" fill="#fc8181">Marii knihu</tspan>.</text>
+  <text x="480" y="475" font-size="10" fill="#a0aec0">(Peter gave Mary a book. - neutral)</text>
+
+  <text x="480" y="505" font-size="11" fill="#e2e8f0"><tspan font-weight="bold" fill="#fc8181">Knihu</tspan> dal Petr Marii.</text>
+  <text x="480" y="525" font-size="10" fill="#a0aec0">(THE BOOK Peter gave to Mary. - emphasis on book)</text>
+
+  <text x="660" y="545" text-anchor="middle" font-size="10" fill="#fbd38d">New information typically comes at the end!</text>
+</svg>
