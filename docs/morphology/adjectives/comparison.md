@@ -10,6 +10,16 @@ Adjectives have three degrees of comparison:
 2.  **Comparative** (*krásnější* - more beautiful)
 3.  **Superlative** (*nejkrásnější* - most beautiful)
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Adjective Comparison Cheatsheet](/img/adjective-comparison-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Forming the Comparative
 Add the suffix **-ější**, **-ejší**, or **-ší** to the stem.
 

@@ -7,6 +7,16 @@ sidebar_position: 3
 
 Czech verbs are divided into 5 conjugation classes based on their 3rd person singular ending.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Verb Conjugation Classes](/img/verb-conjugation-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Class 1: -Á (Dělat)
 Verbs ending in **-at** in infinitive.
 

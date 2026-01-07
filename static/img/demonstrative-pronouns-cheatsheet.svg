@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="860" height="510" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="450" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Demonstrative Pronouns: Ten, Ta, To</text>
+  <text x="450" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">This/That • Also used like "the" in colloquial Czech</text>
+
+  <!-- Nominative highlight -->
+  <rect x="200" y="95" width="500" height="45" rx="10" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="300" y="123" text-anchor="middle" font-size="22" font-weight="bold" fill="white">ten</text>
+  <text x="300" y="135" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">(he/it masc)</text>
+  <text x="450" y="123" text-anchor="middle" font-size="22" font-weight="bold" fill="white">ta</text>
+  <text x="450" y="135" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">(she/it fem)</text>
+  <text x="600" y="123" text-anchor="middle" font-size="22" font-weight="bold" fill="white">to</text>
+  <text x="600" y="135" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.8)">(it neut)</text>
+
+  <!-- SINGULAR table -->
+  <rect x="40" y="155" width="400" height="280" rx="12" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="240" y="185" text-anchor="middle" font-size="16" font-weight="bold" fill="#a0aec0">SINGULAR</text>
+
+  <!-- Column headers -->
+  <text x="70" y="215" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="150" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.An</text>
+  <text x="220" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.In</text>
+  <text x="300" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#fbb6ce">Fem</text>
+  <text x="380" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#9ae6b4">Neut</text>
+
+  <!-- Rows -->
+  <text x="55" y="245" font-size="12" font-weight="bold" fill="#e2e8f0">Nom</text>
+  <text x="150" y="245" text-anchor="middle" font-size="14" fill="#90cdf4">ten</text>
+  <text x="220" y="245" text-anchor="middle" font-size="14" fill="#90cdf4">ten</text>
+  <text x="300" y="245" text-anchor="middle" font-size="14" fill="#fbb6ce">ta</text>
+  <text x="380" y="245" text-anchor="middle" font-size="14" fill="#9ae6b4">to</text>
+
+  <rect x="50" y="255" width="380" height="25" rx="4" fill="#3d4a5c"/>
+  <text x="55" y="273" font-size="12" font-weight="bold" fill="#e2e8f0">Gen</text>
+  <text x="150" y="273" text-anchor="middle" font-size="14" fill="#90cdf4">toho</text>
+  <text x="220" y="273" text-anchor="middle" font-size="14" fill="#90cdf4">toho</text>
+  <text x="300" y="273" text-anchor="middle" font-size="14" fill="#fbb6ce">té</text>
+  <text x="380" y="273" text-anchor="middle" font-size="14" fill="#9ae6b4">toho</text>
+
+  <text x="55" y="303" font-size="12" font-weight="bold" fill="#e2e8f0">Dat</text>
+  <text x="150" y="303" text-anchor="middle" font-size="14" fill="#90cdf4">tomu</text>
+  <text x="220" y="303" text-anchor="middle" font-size="14" fill="#90cdf4">tomu</text>
+  <text x="300" y="303" text-anchor="middle" font-size="14" fill="#fbb6ce">té</text>
+  <text x="380" y="303" text-anchor="middle" font-size="14" fill="#9ae6b4">tomu</text>
+
+  <rect x="50" y="313" width="380" height="25" rx="4" fill="#3d4a5c"/>
+  <text x="55" y="331" font-size="12" font-weight="bold" fill="#e2e8f0">Acc</text>
+  <text x="150" y="331" text-anchor="middle" font-size="14" fill="#f6ad55">toho</text>
+  <text x="220" y="331" text-anchor="middle" font-size="14" fill="#90cdf4">ten</text>
+  <text x="300" y="331" text-anchor="middle" font-size="14" fill="#fbb6ce">tu</text>
+  <text x="380" y="331" text-anchor="middle" font-size="14" fill="#9ae6b4">to</text>
+
+  <text x="55" y="361" font-size="12" font-weight="bold" fill="#e2e8f0">Loc</text>
+  <text x="150" y="361" text-anchor="middle" font-size="14" fill="#90cdf4">tom</text>
+  <text x="220" y="361" text-anchor="middle" font-size="14" fill="#90cdf4">tom</text>
+  <text x="300" y="361" text-anchor="middle" font-size="14" fill="#fbb6ce">té</text>
+  <text x="380" y="361" text-anchor="middle" font-size="14" fill="#9ae6b4">tom</text>
+
+  <rect x="50" y="371" width="380" height="25" rx="4" fill="#3d4a5c"/>
+  <text x="55" y="389" font-size="12" font-weight="bold" fill="#e2e8f0">Instr</text>
+  <text x="150" y="389" text-anchor="middle" font-size="14" fill="#90cdf4">tím</text>
+  <text x="220" y="389" text-anchor="middle" font-size="14" fill="#90cdf4">tím</text>
+  <text x="300" y="389" text-anchor="middle" font-size="14" fill="#fbb6ce">tou</text>
+  <text x="380" y="389" text-anchor="middle" font-size="14" fill="#9ae6b4">tím</text>
+
+  <text x="240" y="420" text-anchor="middle" font-size="10" fill="#718096">ten muž, ta žena, to dítě</text>
+
+  <!-- PLURAL table -->
+  <rect x="460" y="155" width="400" height="280" rx="12" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="660" y="185" text-anchor="middle" font-size="16" font-weight="bold" fill="#a0aec0">PLURAL</text>
+
+  <!-- Column headers -->
+  <text x="490" y="215" font-size="11" font-weight="bold" fill="#a0aec0">Case</text>
+  <text x="570" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.An</text>
+  <text x="650" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#90cdf4">M.In</text>
+  <text x="730" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#fbb6ce">Fem</text>
+  <text x="810" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#9ae6b4">Neut</text>
+
+  <!-- Rows -->
+  <text x="475" y="245" font-size="12" font-weight="bold" fill="#e2e8f0">Nom</text>
+  <text x="570" y="245" text-anchor="middle" font-size="14" fill="#f6ad55">ti</text>
+  <text x="650" y="245" text-anchor="middle" font-size="14" fill="#90cdf4">ty</text>
+  <text x="730" y="245" text-anchor="middle" font-size="14" fill="#fbb6ce">ty</text>
+  <text x="810" y="245" text-anchor="middle" font-size="14" fill="#9ae6b4">ta</text>
+
+  <rect x="470" y="255" width="380" height="25" rx="4" fill="#3d4a5c"/>
+  <text x="475" y="273" font-size="12" font-weight="bold" fill="#e2e8f0">Gen</text>
+  <text x="660" y="273" text-anchor="middle" font-size="14" fill="#81e6d9">těch</text>
+  <text x="810" y="273" text-anchor="middle" font-size="10" fill="#718096">(all)</text>
+
+  <text x="475" y="303" font-size="12" font-weight="bold" fill="#e2e8f0">Dat</text>
+  <text x="660" y="303" text-anchor="middle" font-size="14" fill="#81e6d9">těm</text>
+  <text x="810" y="303" text-anchor="middle" font-size="10" fill="#718096">(all)</text>
+
+  <rect x="470" y="313" width="380" height="25" rx="4" fill="#3d4a5c"/>
+  <text x="475" y="331" font-size="12" font-weight="bold" fill="#e2e8f0">Acc</text>
+  <text x="570" y="331" text-anchor="middle" font-size="14" fill="#90cdf4">ty</text>
+  <text x="650" y="331" text-anchor="middle" font-size="14" fill="#90cdf4">ty</text>
+  <text x="730" y="331" text-anchor="middle" font-size="14" fill="#fbb6ce">ty</text>
+  <text x="810" y="331" text-anchor="middle" font-size="14" fill="#9ae6b4">ta</text>
+
+  <text x="475" y="361" font-size="12" font-weight="bold" fill="#e2e8f0">Loc</text>
+  <text x="660" y="361" text-anchor="middle" font-size="14" fill="#81e6d9">těch</text>
+  <text x="810" y="361" text-anchor="middle" font-size="10" fill="#718096">(all)</text>
+
+  <rect x="470" y="371" width="380" height="25" rx="4" fill="#3d4a5c"/>
+  <text x="475" y="389" font-size="12" font-weight="bold" fill="#e2e8f0">Instr</text>
+  <text x="660" y="389" text-anchor="middle" font-size="14" fill="#81e6d9">těmi</text>
+  <text x="810" y="389" text-anchor="middle" font-size="10" fill="#718096">(all)</text>
+
+  <text x="660" y="420" text-anchor="middle" font-size="10" fill="#718096">ti muži, ty ženy, ta města</text>
+
+  <!-- This vs That box -->
+  <rect x="40" y="450" width="820" height="70" rx="12" fill="#4a5568"/>
+  <text x="450" y="478" text-anchor="middle" font-size="14" font-weight="bold" fill="#fbd38d">This vs. That - Adding Precision</text>
+  <text x="200" y="505" text-anchor="middle" font-size="13" fill="#e2e8f0"><tspan font-weight="bold" fill="#68d391">tento / tady ten</tspan> = this (here)</text>
+  <text x="450" y="505" text-anchor="middle" font-size="13" fill="#e2e8f0"><tspan font-weight="bold" fill="#f6ad55">tamten / tamhleten</tspan> = that (over there)</text>
+  <text x="700" y="505" text-anchor="middle" font-size="13" fill="#e2e8f0"><tspan font-weight="bold" fill="#90cdf4">ten</tspan> = this/that (neutral)</text>
+</svg>

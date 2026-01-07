@@ -7,6 +7,16 @@ sidebar_position: 6
 
 The most common demonstrative is **ten, ta, to** (this/that). It is often used like a definite article ("the") in colloquial Czech.
 
+## Visual Overview
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Demonstrative Pronouns Cheatsheet](/img/demonstrative-pronouns-cheatsheet.svg)
+
+</div>
+
+---
+
 ## Declension (Singular)
 
 | Case | Masculine Animate | Masculine Inanimate | Feminine | Neuter |

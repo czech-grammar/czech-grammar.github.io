@@ -38,3 +38,15 @@ The case system is the heart of Czech grammar. Each case answers specific questi
 5.  **Vocative**: Ahoj, *Petře*! (Hi, Peter!)
 6.  **Locative**: Mluvíme o *Petrovi*. (We are talking about Peter.)
 7.  **Instrumental**: Jdu s *Petrem*. (I am going with Peter.)
+
+---
+
+## Prepositions & Cases
+
+Each preposition requires a specific case. This is one of the most important things to memorize!
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Prepositions and Their Cases](/img/prepositions-cheatsheet.svg)
+
+</div>
