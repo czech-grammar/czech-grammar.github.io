@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Czech Grammar',
-  tagline: 'A comprehensive guide to Czech grammar',
+  tagline: 'Visual cheatsheets for every case, verb & pattern',
   favicon: 'img/favicon.ico',
 
   url: 'https://czech-grammar.github.io',
@@ -28,6 +28,68 @@ const config: Config = {
     locales: ['en'],
   },
 
+  headTags: [
+    // Open Graph
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:type',
+        content: 'website',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:site_name',
+        content: 'Czech Grammar',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:locale',
+        content: 'en_US',
+      },
+    },
+    // Twitter Card
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:site',
+        content: '@czechgrammar',
+      },
+    },
+    // Additional SEO
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'Czech grammar, Czech language, learn Czech, Czech cases, Czech declension, Czech conjugation, Czech verbs, visual grammar, language learning',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'author',
+        content: 'Czech Grammar',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'canonical',
+        href: 'https://czech-grammar.github.io',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -48,8 +110,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Social card for Open Graph and Twitter
+    image: 'img/social-card.svg',
+    metadata: [
+      {name: 'description', content: 'Master Czech grammar with 38 beautiful visual cheatsheets covering all 7 cases, verb conjugations, pronouns, and more. Free, comprehensive, and designed for visual learners.'},
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },

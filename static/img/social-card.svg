@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="50%" style="stop-color:#2d3748"/>
+      <stop offset="100%" style="stop-color:#1a202c"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="50%" style="stop-color:#764ba2"/>
+      <stop offset="100%" style="stop-color:#ed64a6"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative gradient bar at top -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accentGrad)"/>
+
+  <!-- Decorative case cards in background -->
+  <g opacity="0.15">
+    <!-- Scattered mini cards -->
+    <rect x="50" y="80" width="120" height="80" rx="8" fill="url(#mascGrad)" transform="rotate(-8 110 120)"/>
+    <rect x="1030" y="100" width="120" height="80" rx="8" fill="url(#femGrad)" transform="rotate(12 1090 140)"/>
+    <rect x="80" y="450" width="100" height="70" rx="8" fill="url(#neutGrad)" transform="rotate(5 130 485)"/>
+    <rect x="1000" y="480" width="130" height="85" rx="8" fill="url(#mascGrad)" transform="rotate(-10 1065 522)"/>
+    <rect x="200" y="520" width="90" height="60" rx="6" fill="url(#femGrad)" transform="rotate(-3 245 550)"/>
+    <rect x="900" y="60" width="100" height="65" rx="6" fill="url(#neutGrad)" transform="rotate(8 950 92)"/>
+  </g>
+
+  <!-- Main content area -->
+  <g transform="translate(600, 280)">
+    <!-- Czech flag colors as accent dots -->
+    <circle cx="-200" cy="-120" r="8" fill="#11457e"/>
+    <circle cx="-175" cy="-120" r="8" fill="#d7141a"/>
+    <circle cx="-150" cy="-120" r="8" fill="#ffffff" opacity="0.8"/>
+
+    <!-- Main title -->
+    <text x="0" y="-50" text-anchor="middle" font-size="72" font-weight="bold" fill="white" filter="url(#glow)">Czech Grammar</text>
+
+    <!-- Tagline -->
+    <text x="0" y="20" text-anchor="middle" font-size="28" fill="#a0aec0">Visual Cheatsheets for Every Case, Verb &amp; Pattern</text>
+
+    <!-- Accent line -->
+    <rect x="-150" y="50" width="300" height="4" rx="2" fill="url(#accentGrad)"/>
+
+    <!-- Feature pills -->
+    <g transform="translate(0, 100)">
+      <rect x="-280" y="0" width="140" height="36" rx="18" fill="url(#mascGrad)" opacity="0.9"/>
+      <text x="-210" y="24" text-anchor="middle" font-size="14" font-weight="600" fill="white">7 Cases</text>
+
+      <rect x="-70" y="0" width="140" height="36" rx="18" fill="url(#femGrad)" opacity="0.9"/>
+      <text x="0" y="24" text-anchor="middle" font-size="14" font-weight="600" fill="white">38 Visuals</text>
+
+      <rect x="140" y="0" width="140" height="36" rx="18" fill="url(#neutGrad)" opacity="0.9"/>
+      <text x="210" y="24" text-anchor="middle" font-size="14" font-weight="600" fill="white">C1 Level</text>
+    </g>
+  </g>
+
+  <!-- URL at bottom -->
+  <text x="600" y="590" text-anchor="middle" font-size="20" fill="#718096">czech-grammar.github.io</text>
+
+  <!-- Decorative gradient bar at bottom -->
+  <rect x="0" y="624" width="1200" height="6" fill="url(#accentGrad)"/>
+</svg>
