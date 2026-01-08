@@ -9,6 +9,17 @@ sidebar_position: 10
 
 The Locative is the only case that is **ALWAYS** used with a preposition. It never stands alone.
 
+:::tip Core Concept: The Locative = PLACE
+The locative has **one fundamental meaning**: it identifies a **PLACE** — whether physical or abstract. Prepositions specify the relationship to that place:
+- **v/ve** (in) — inside a place: *v Praze* (in Prague)
+- **na** (on/at) — on a surface or at a location: *na stole* (on the table)
+- **o** (about) — the topic as a "mental place": *o filmu* (about the film)
+- **po** (after/along) — movement across: *po ulici* (along the street)
+- **při** (during/at) — proximity in time/space: *při práci* (during work)
+
+Understanding this helps you *predict* when to use locative rather than memorize individual phrases.
+:::
+
 ## Declension (Singular)
 
 | Gender | Model | Ending | Example (Nom -> Loc) |
@@ -29,6 +40,100 @@ The Locative is the only case that is **ALWAYS** used with a preposition. It nev
 *   *Praha -> v Praze* (h -> z) — proper noun, stays capitalized
 *   *kniha -> v knize* (h -> z)
 *   *škola -> ve škole* (l -> l)
+
+### Quick Reference (Singular)
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Locative Singular Cheat Sheet](/img/locative-singular-cheatsheet.svg)
+
+</div>
+
+### Decision Flowchart (Singular)
+
+Not sure which singular ending to use? Follow this flowchart:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+
+![Locative Singular Flowchart](/img/locative-singular-flowchart.svg)
+
+</div>
+
+---
+
+## V vs Na: The Critical Distinction
+
+One of the biggest challenges for Czech learners is knowing when to use **v** (in) versus **na** (on/at). While the basic rule is simple — *v* for enclosed spaces, *na* for surfaces — many nouns have **fixed preposition usage** that must be learned.
+
+### The Basic Pattern
+
+| Preposition | Basic Meaning | Typical Use |
+|:------------|:--------------|:------------|
+| **v/ve** | in, inside | Enclosed spaces, containers, cities, countries |
+| **na** | on, at | Surfaces, open areas, events, some institutions |
+
+### Historical Background
+
+Originally:
+- **na** was used for open, elevated, or exposed places (*na hoře* = on the mountain)
+- **v** was used for enclosed or interior spaces (*v domě* = in the house)
+
+Over time, certain nouns developed **fixed preposition usage** regardless of whether they're physically "open" or "enclosed."
+
+### Common Exceptions (Memorize These!)
+
+#### Institutions using **na** (not v):
+
+| Czech | English | Why na? |
+|:------|:--------|:--------|
+| **na poště** | at the post office | Historical: mail collected outdoors |
+| **na policii** | at the police station | — |
+| **na úřadě** | at the office/authority | — |
+| **na fakultě** | at the faculty | Academic tradition |
+| **na univerzitě** | at the university | Academic tradition |
+| **na nádraží** | at the station | Open platforms |
+| **na letišti** | at the airport | — |
+| **na ambasádě** | at the embassy | — |
+
+#### Events and activities using **na**:
+
+| Czech | English |
+|:------|:--------|
+| **na koncertě** | at a concert |
+| **na schůzi** | at a meeting |
+| **na přednášce** | at a lecture |
+| **na výstavě** | at an exhibition |
+| **na svatbě** | at a wedding |
+| **na oslavě** | at a celebration |
+
+#### Geographic terms:
+
+| Use **v** | Use **na** |
+|:----------|:-----------|
+| *v Praze* (in Prague) | *na Slovensku* (in Slovakia) |
+| *v České republice* (in Czech Rep.) | *na Moravě* (in Moravia) |
+| *v Německu* (in Germany) | *na Sibiři* (in Siberia) |
+| *v Americe* (in America) | *na Floridě* (in Florida) |
+| *v hotelu* (in a hotel) | *na chatě* (at a cottage) |
+
+:::warning Common Mistake
+**v záchodě** = inside the toilet bowl (literal)
+**na záchodě** = in the bathroom/restroom (correct)
+
+Similarly: **na toaletě** (at the toilet/restroom) is the polite form.
+:::
+
+### Quick Rules of Thumb
+
+1. **Countries**: Usually *v*, except islands and some regions use *na*
+2. **Islands**: Almost always *na* (*na Kubě, na Islandu, na Krétě*)
+3. **Surfaces and floors**: *na* (*na podlaze, na zemi, na střeše*)
+4. **Buildings as institutions**: Often *na* (*na škole, na úřadě*)
+5. **Buildings as physical structures**: Often *v* (*v budově školy*)
+6. **Events**: Almost always *na*
+7. **Abstract concepts**: Usually *v* (*v problému, v situaci*)
+
+---
 
 ## Usage
 
@@ -342,6 +447,104 @@ Remember: Locative = static location; Genitive/Accusative = motion
 
 ❌ *o soudcách* → ✅ *o soudcích* (follows soft pattern)
 ❌ *v mořech* → ✅ *v mořích* (soft neuter)
+
+---
+
+## Verbs That Require Locative
+
+Many Czech verbs are followed by specific prepositions that require the locative case. Memorizing these verb + preposition combinations is essential.
+
+### Verbs with **na + Locative**
+
+| Verb | Meaning | Example |
+|:-----|:--------|:--------|
+| **záležet na** | to depend on | *Záleží na tobě.* (It depends on you.) |
+| **lpět na** | to cling to, insist on | *Lpí na svých názorech.* (He clings to his opinions.) |
+| **trvat na** | to insist on | *Trvám na tom.* (I insist on it.) |
+| **podílet se na** | to participate in | *Podílel se na projektu.* (He participated in the project.) |
+| **pracovat na** | to work on | *Pracuji na úkolu.* (I'm working on the task.) |
+| **jezdit na** | to ride (habitually) | *Jezdí na kole.* (He rides a bike.) |
+
+### Verbs with **v + Locative**
+
+| Verb | Meaning | Example |
+|:-----|:--------|:--------|
+| **žít v** | to live in | *Žiji v Praze.* (I live in Prague.) |
+| **spočívat v** | to consist of | *Problém spočívá v tom, že...* (The problem consists in...) |
+| **vidět v** | to see in (someone) | *Vidím v něm přítele.* (I see a friend in him.) |
+| **věřit v** | to believe in | *Věřím v Boha.* (I believe in God.) |
+
+### Verbs with **o + Locative**
+
+| Verb | Meaning | Example |
+|:-----|:--------|:--------|
+| **mluvit o** | to talk about | *Mluvíme o filmu.* (We're talking about the film.) |
+| **přemýšlet o** | to think about | *Přemýšlím o budoucnosti.* (I'm thinking about the future.) |
+| **diskutovat o** | to discuss | *Diskutovali o problému.* (They discussed the problem.) |
+| **pochybovat o** | to doubt | *Pochybuji o tom.* (I doubt it.) |
+| **rozhodovat o** | to decide about | *Rozhoduji o tom.* (I'm deciding about it.) |
+| **vědět o** | to know about | *Vím o tom.* (I know about it.) |
+| **snít o** | to dream about | *Sní o cestování.* (She dreams about traveling.) |
+| **starat se o** | to care about | *Stará se o děti.* (She takes care of the children.) |
+
+### Verbs with **po + Locative**
+
+| Verb | Meaning | Example |
+|:-----|:--------|:--------|
+| **toužit po** | to long for | *Touží po svobodě.* (He longs for freedom.) |
+| **pátrat po** | to search for | *Policie pátrá po zloději.* (Police are searching for the thief.) |
+| **volat po** | to call for | *Volají po změně.* (They're calling for change.) |
+
+:::info Locative vs Accusative
+Some verbs take different cases with the same preposition for different meanings:
+- **myslet na + ACC** = to think of (directing thoughts toward): *Myslím na tebe.* (I'm thinking of you.)
+- **myslet o + LOC** = to think about (opinion): *Co si myslíš o tom filmu?* (What do you think about that film?)
+:::
+
+---
+
+## Memory Aids (Mnemonics)
+
+### Remembering Plural Endings: "The -CH Club"
+
+All locative plural endings end in **-ch**. Think of it as the "CH Club" with three membership types:
+
+| Ending | "Member Type" | Memory Aid |
+|:-------|:--------------|:-----------|
+| **-ách** | "Á" members | **Á**nna loves femi**A**ine -a nouns |
+| **-ech** | "E" members | **H**ard consonants get **E**asy -ech |
+| **-ích** | "Í" members | Soft sounds are **Í**ntense → -ích |
+
+### Remembering Soft Consonants: "Žena Šije Čepici"
+
+The soft consonants that trigger **-ích** can be remembered with:
+
+**Ž**ena **Š**ije **Č**epici, **Ř**ekla **C**izí **J**eptišce, **Ň**áká **Ď**ívka **Ť**uká
+
+(A woman sews a cap, she told a foreign nun, some girl is knocking)
+
+→ **ž, š, č, ř, c, j, ň, ď, ť** = soft consonants
+
+### Palatalization Changes: "The Shifting Sounds"
+
+When consonants change before **-ě/-e**, remember this pattern:
+
+| Before | After | Memory |
+|:-------|:------|:-------|
+| **k** → **c** | ruka → ruce | **K**ick becomes **C**atch |
+| **h** → **z** | Praha → Praze | **H**ello becomes **Z**ebra |
+| **ch** → **š** | střecha → střeše | **CH**op becomes **SH**op |
+| **r** → **ř** | sestra → sestře | **R**oll becomes **Ř**oll (Czech r) |
+| **g** → **z** | kolega → kolezě | **G**o becomes **Z**oom |
+
+### The 90% Rule for Masculine Inanimate
+
+When in doubt with masculine inanimate nouns in singular, use **-u**:
+- It applies to ~90% of masculine inanimate nouns
+- It **avoids palatalization** complications
+- Works for: abstract nouns, foreign words, nouns ending in -k, -g, -h, -ch, -r
+
+Think: "**U** are safe with **U**!"
 
 ---
 
