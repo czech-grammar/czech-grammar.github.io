@@ -20,28 +20,7 @@ The locative has **one fundamental meaning**: it identifies a **PLACE** — whet
 Understanding this helps you *predict* when to use locative rather than memorize individual phrases.
 :::
 
-## Declension (Singular)
-
-| Gender | Model | Ending | Example (Nom -> Loc) |
-| :--- | :--- | :--- | :--- |
-| **Masc An** | pán | **-ovi / -u** | *pán -> o pán**ovi*** |
-| | muž | **-ovi / -i** | *muž -> o muž**ovi*** |
-| **Masc In** | hrad | **-u / -ě** | *hrad -> o hrad**u*** (*les -> v les**e***) |
-| | stroj | **-i** | *stroj -> o stroj**i*** |
-| **Fem** | žena | **-ě / -e** | *žena -> o žen**ě*** (*Praha -> v Praz**e***) |
-| | růže | **-i** | *růže -> o růž**i*** |
-| | píseň | **-i** | *píseň -> o písn**i*** |
-| | kost | **-i** | *kost -> o kost**i*** |
-| **Neut** | město | **-ě / -u** | *město -> ve měst**ě*** |
-| | moře | **-i** | *moře -> v moř**i*** |
-| | kuře | **-eti** | *kuře -> o kuř**eti*** |
-
-*Softening (Palatalization):* In the Locative, hard consonants often soften before **-ě**.
-*   *Praha -> v Praze* (h -> z) — proper noun, stays capitalized
-*   *kniha -> v knize* (h -> z)
-*   *škola -> ve škole* (l -> l)
-
-### Quick Reference (Singular)
+## At a Glance (Singular)
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
 
@@ -49,9 +28,7 @@ Understanding this helps you *predict* when to use locative rather than memorize
 
 </div>
 
-### Decision Flowchart (Singular)
-
-Not sure which singular ending to use? Follow this flowchart:
+### Which Ending? Follow the Flowchart
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
 
@@ -200,11 +177,39 @@ Used with preposition **o**.
 
 ---
 
-## Declension (Plural)
+## Detailed Reference Tables
+
+### Singular Endings
+
+| Gender | Model | Ending | Example (Nom → Loc) |
+| :--- | :--- | :--- | :--- |
+| **Masc Animate** | pán | **-ovi / -u** | *pán → o pán**ovi*** |
+| | muž | **-ovi / -i** | *muž → o muž**ovi*** |
+| **Masc Inanimate** | hrad | **-u / -ě** | *hrad → o hrad**u***, *les → v les**e*** |
+| | stroj | **-i** | *stroj → o stroj**i*** |
+| **Feminine** | žena | **-ě / -e** | *žena → o žen**ě***, *Praha → v Praz**e*** |
+| | růže | **-i** | *růže → o růž**i*** |
+| | píseň | **-i** | *píseň → o písn**i*** |
+| | kost | **-i** | *kost → o kost**i*** |
+| **Neuter** | město | **-ě / -u** | *město → ve měst**ě*** |
+| | moře | **-i** | *moře → v moř**i*** |
+| | kuře | **-eti** | *kuře → o kuř**eti*** |
+
+:::info Palatalization (Softening)
+Before **-ě/-e**, hard consonants change:
+- *Praha → v Praz**e*** (h → z)
+- *kniha → v kniz**e*** (h → z)
+- *ruka → v ruc**e*** (k → c)
+- *střecha → na střeš**e*** (ch → š)
+:::
+
+---
+
+## Plural Endings
 
 The Locative Plural is characterized by endings containing **-ch**. The specific vowel before *-ch* depends on the noun's gender and declension class.
 
-### Quick Reference
+### At a Glance (Plural)
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
 
@@ -212,9 +217,7 @@ The Locative Plural is characterized by endings containing **-ch**. The specific
 
 </div>
 
-### Decision Flowchart
-
-Not sure which ending to use? Follow this flowchart:
+### Which Ending? Follow the Flowchart
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
 
@@ -222,9 +225,7 @@ Not sure which ending to use? Follow this flowchart:
 
 </div>
 
----
-
-### Universal Pattern
+### The Universal Pattern
 All Locative Plural endings end in **-ch**:
 - **-ech** (hard consonant stems)
 - **-ách** (feminine *žena* type)
