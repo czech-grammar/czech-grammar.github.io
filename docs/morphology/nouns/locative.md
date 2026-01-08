@@ -61,6 +61,53 @@ Not sure which singular ending to use? Follow this flowchart:
 
 ---
 
+## Memory Aids (Mnemonics)
+
+Use these tricks to remember the patterns you just saw in the cheatsheets above.
+
+### The 90% Rule for Masculine Inanimate
+
+When in doubt with masculine inanimate nouns in singular, use **-u**:
+- It applies to ~90% of masculine inanimate nouns
+- It **avoids palatalization** complications
+- Works for: abstract nouns, foreign words, nouns ending in -k, -g, -h, -ch, -r
+
+Think: "**U** are safe with **U**!"
+
+### Remembering Plural Endings: "The -CH Club"
+
+All locative plural endings end in **-ch**. Think of it as the "CH Club" with three membership types:
+
+| Ending | "Member Type" | Memory Aid |
+|:-------|:--------------|:-----------|
+| **-ách** | "Á" members | **Á**nna loves femi**A**ine -a nouns |
+| **-ech** | "E" members | **H**ard consonants get **E**asy -ech |
+| **-ích** | "Í" members | Soft sounds are **Í**ntense → -ích |
+
+### Remembering Soft Consonants: "Žena Šije Čepici"
+
+The soft consonants that trigger **-ích** can be remembered with:
+
+**Ž**ena **Š**ije **Č**epici, **Ř**ekla **C**izí **J**eptišce, **Ň**áká **Ď**ívka **Ť**uká
+
+(A woman sews a cap, she told a foreign nun, some girl is knocking)
+
+→ **ž, š, č, ř, c, j, ň, ď, ť** = soft consonants
+
+### Palatalization Changes: "The Shifting Sounds"
+
+When consonants change before **-ě/-e**, remember this pattern:
+
+| Before | After | Memory |
+|:-------|:------|:-------|
+| **k** → **c** | ruka → ruce | **K**ick becomes **C**atch |
+| **h** → **z** | Praha → Praze | **H**ello becomes **Z**ebra |
+| **ch** → **š** | střecha → střeše | **CH**op becomes **SH**op |
+| **r** → **ř** | sestra → sestře | **R**oll becomes **Ř**oll (Czech r) |
+| **g** → **z** | kolega → kolezě | **G**o becomes **Z**oom |
+
+---
+
 ## V vs Na: The Critical Distinction
 
 One of the biggest challenges for Czech learners is knowing when to use **v** (in) versus **na** (on/at). While the basic rule is simple — *v* for enclosed spaces, *na* for surfaces — many nouns have **fixed preposition usage** that must be learned.
@@ -500,48 +547,3 @@ Some verbs take different cases with the same preposition for different meanings
 - **myslet na + ACC** = to think of (directing thoughts toward): *Myslím na tebe.* (I'm thinking of you.)
 - **myslet o + LOC** = to think about (opinion): *Co si myslíš o tom filmu?* (What do you think about that film?)
 :::
-
----
-
-## Memory Aids (Mnemonics)
-
-### Remembering Plural Endings: "The -CH Club"
-
-All locative plural endings end in **-ch**. Think of it as the "CH Club" with three membership types:
-
-| Ending | "Member Type" | Memory Aid |
-|:-------|:--------------|:-----------|
-| **-ách** | "Á" members | **Á**nna loves femi**A**ine -a nouns |
-| **-ech** | "E" members | **H**ard consonants get **E**asy -ech |
-| **-ích** | "Í" members | Soft sounds are **Í**ntense → -ích |
-
-### Remembering Soft Consonants: "Žena Šije Čepici"
-
-The soft consonants that trigger **-ích** can be remembered with:
-
-**Ž**ena **Š**ije **Č**epici, **Ř**ekla **C**izí **J**eptišce, **Ň**áká **Ď**ívka **Ť**uká
-
-(A woman sews a cap, she told a foreign nun, some girl is knocking)
-
-→ **ž, š, č, ř, c, j, ň, ď, ť** = soft consonants
-
-### Palatalization Changes: "The Shifting Sounds"
-
-When consonants change before **-ě/-e**, remember this pattern:
-
-| Before | After | Memory |
-|:-------|:------|:-------|
-| **k** → **c** | ruka → ruce | **K**ick becomes **C**atch |
-| **h** → **z** | Praha → Praze | **H**ello becomes **Z**ebra |
-| **ch** → **š** | střecha → střeše | **CH**op becomes **SH**op |
-| **r** → **ř** | sestra → sestře | **R**oll becomes **Ř**oll (Czech r) |
-| **g** → **z** | kolega → kolezě | **G**o becomes **Z**oom |
-
-### The 90% Rule for Masculine Inanimate
-
-When in doubt with masculine inanimate nouns in singular, use **-u**:
-- It applies to ~90% of masculine inanimate nouns
-- It **avoids palatalization** complications
-- Works for: abstract nouns, foreign words, nouns ending in -k, -g, -h, -ch, -r
-
-Think: "**U** are safe with **U**!"
