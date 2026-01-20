@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'Visual cheatsheets for every case, verb & pattern',
   favicon: 'img/favicon.ico',
 
-  url: 'https://czech-grammar.github.io',
+  url: 'https://grammar.ilearnczech.com',
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -85,7 +85,7 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'canonical',
-        href: 'https://czech-grammar.github.io',
+        href: 'https://grammar.ilearnczech.com',
       },
     },
   ],
