@@ -1,30 +1,345 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Czech Grammar - iLearnCzech Brand Colors
+ * Primary: Magenta/Pink (#e91e8c)
+ * Secondary: Dark (#2d3748)
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #e91e8c;
+  --ifm-color-primary-dark: #d11a7e;
+  --ifm-color-primary-darker: #c51877;
+  --ifm-color-primary-darkest: #a21462;
+  --ifm-color-primary-light: #eb3c9a;
+  --ifm-color-primary-lighter: #ed4aa1;
+  --ifm-color-primary-lightest: #f074b5;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom variables */
+  --color-accent: #e91e8c;
+  --color-dark: #2d3748;
+  --color-light: #f7fafc;
+  --color-muted: #718096;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #f06ebc;
+  --ifm-color-primary-dark: #ed4fae;
+  --ifm-color-primary-darker: #eb3fa7;
+  --ifm-color-primary-darkest: #e51190;
+  --ifm-color-primary-light: #f38dca;
+  --ifm-color-primary-lighter: #f59dd1;
+  --ifm-color-primary-lightest: #facce6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section */
+.hero-new {
+  background: linear-gradient(135deg, #e91e8c 0%, #c51877 100%);
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.hero-new__title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero-new__subtitle {
+  font-size: 1.5rem;
+  opacity: 0.95;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.hero-new__tagline {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.hero-new__buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-new__btn {
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hero-new__btn--primary {
+  background: white;
+  color: #e91e8c;
+}
+
+.hero-new__btn--primary:hover {
+  background: #f7fafc;
+  color: #c51877;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero-new__btn--secondary {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+
+.hero-new__btn--secondary:hover {
+  background: rgba(255,255,255,0.25);
+  color: white;
+  text-decoration: none;
+}
+
+/* Stats Bar */
+.stats-bar {
+  background: var(--color-dark);
+  padding: 1.5rem 2rem;
+  color: white;
+}
+
+.stats-bar__container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.stats-bar__item {
+  text-align: center;
+}
+
+.stats-bar__number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f06ebc;
+}
+
+.stats-bar__label {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Case Grid */
+.case-grid {
+  padding: 4rem 2rem;
+  background: var(--color-light);
+}
+
+[data-theme='dark'] .case-grid {
+  background: #1a202c;
+}
+
+.case-grid__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--color-dark);
+}
+
+[data-theme='dark'] .case-grid__title {
+  color: white;
+}
+
+.case-grid__subtitle {
+  text-align: center;
+  color: var(--color-muted);
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.case-grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.case-grid__card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-dark);
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+[data-theme='dark'] .case-grid__card {
+  background: #2d3748;
+  color: white;
+}
+
+.case-grid__card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 8px 24px rgba(233, 30, 140, 0.15);
+  text-decoration: none;
+  color: var(--color-dark);
+}
+
+[data-theme='dark'] .case-grid__card:hover {
+  color: white;
+}
+
+.case-grid__number {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-accent);
+  margin-bottom: 0.25rem;
+}
+
+.case-grid__name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.case-grid__question {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* Preview Section */
+.preview-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.preview-section__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.preview-section__subtitle {
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.preview-section__image {
+  max-width: 100%;
+  width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+/* Features Section */
+.features-new {
+  padding: 4rem 2rem;
+  background: var(--color-light);
+}
+
+[data-theme='dark'] .features-new {
+  background: #1a202c;
+}
+
+.features-new__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.features-new__card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+[data-theme='dark'] .features-new__card {
+  background: #2d3748;
+}
+
+.features-new__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.features-new__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.features-new__desc {
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #e91e8c 0%, #c51877 100%);
+  color: white;
+}
+
+.cta-section__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section__subtitle {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.cta-section__link {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.cta-section__link:hover {
+  color: white;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-new__title {
+    font-size: 2.5rem;
+  }
+
+  .hero-new__subtitle {
+    font-size: 1.25rem;
+  }
+
+  .stats-bar__container {
+    gap: 1.5rem;
+  }
+
+  .stats-bar__number {
+    font-size: 1.5rem;
+  }
+
+  .case-grid__container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
