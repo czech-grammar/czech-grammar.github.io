@@ -27,11 +27,11 @@ function HeroSection() {
         <p className="hero-new__subtitle">Visual cheatsheets for every case, verb & pattern</p>
         <p className="hero-new__tagline">The quick reference companion to iLearnCzech</p>
         <div className="hero-new__buttons">
-          <Link className="hero-new__btn hero-new__btn--primary" to="/docs/morphology/nouns/cases-overview">
-            Explore Cases
-          </Link>
-          <Link className="hero-new__btn hero-new__btn--secondary" to="/docs/quick-reference">
+          <Link className="hero-new__btn hero-new__btn--primary" to="/docs/quick-reference">
             Quick Reference
+          </Link>
+          <Link className="hero-new__btn hero-new__btn--secondary" to="/docs/morphology/nouns/cases-overview">
+            Explore Cases
           </Link>
         </div>
       </div>
