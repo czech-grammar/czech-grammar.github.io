@@ -179,6 +179,19 @@ const config: Config = {
           ],
         },
         {
+          title: 'iLearnCzech Family',
+          items: [
+            {
+              label: 'iLearnCzech.com',
+              href: 'https://ilearnczech.com',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://youtube.com/ilearnczechcom',
+            },
+          ],
+        },
+        {
           title: 'More',
           items: [
             {
@@ -188,7 +201,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Czech Grammar. Built with Docusaurus.`,
+      copyright: `Part of the iLearnCzech family. Made by <a href="https://ilearnczech.com" target="_blank">Jana</a> & <a href="https://melvin.me" target="_blank">Melvin</a>.`,
     },
     prism: {
       theme: prismThemes.github,
