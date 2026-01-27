@@ -350,31 +350,100 @@ Everything you need on one page. Print this!
 
 ### SVG Cheatsheets
 
-Create matching SVG diagrams in `/static/img/`:
+Create matching SVG diagrams in `/static/img/`. These are the most valuable part of the workbook - visual learners can grasp patterns instantly.
 
-1. **Noun endings cheatsheet** - `{case}-singular-cheatsheet.svg`
-2. **Plural endings cheatsheet** - `{case}-plural-cheatsheet.svg`
-3. **Flowchart** - `{case}-flowchart.svg`
-4. **Adjective cheatsheet** - `{case}-adjective-cheatsheet.svg`
+#### Required Cheatsheets
+
+| File | Purpose | Layout |
+|:-----|:--------|:-------|
+| `{case}-singular-cheatsheet.svg` | All singular noun endings | 4 columns: M.Anim, M.Inan, Fem, Neut |
+| `{case}-plural-cheatsheet.svg` | All plural noun endings | 2-4 columns depending on complexity |
+| `{case}-adjective-cheatsheet.svg` | Adjective agreement | Sections for hard/soft, possessives, demonstratives |
+| `{case}-flowchart.svg` | Decision tree (optional) | Flowchart for choosing correct ending |
+
+#### Design Principles
+
+1. **Dark theme** - Dark card background (#1a202c to #2d3748 gradient)
+2. **Color-coded by gender**:
+   - Blue (#4299e1) for masculine
+   - Pink (#ed64a6) for feminine
+   - Green (#48bb78) for neuter
+   - Gray (#718096) for "no change" categories
+   - Gold (#ecc94b) for "golden rule" banners
+   - Purple (#9f7aea) for special adjectives (possessives, demonstratives)
+3. **Highlight changes** - Use `<tspan>` to color the ending that changes
+4. **Golden rule banner** - Put the key insight in a gold banner at top
+5. **Consistent structure** - Each gender gets a rounded card with gradient header
 
 #### SVG Style Guide
 
 ```xml
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 520"
      font-family="system-ui, -apple-system, sans-serif">
   <defs>
-    <!-- Standard gradients -->
-    <linearGradient id="cardBg">
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1a202c"/>
       <stop offset="100%" style="stop-color:#2d3748"/>
     </linearGradient>
-    <!-- Color palette: pink #e91e8c, green #48bb78, blue #4299e1,
-         purple #9f7aea, orange #ed8936, teal #38b2ac -->
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+    <linearGradient id="neutGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecc94b"/>
+      <stop offset="100%" style="stop-color:#d69e2e"/>
+    </linearGradient>
   </defs>
-  <!-- Dark card background with rounded corners -->
-  <rect x="20" y="20" width="760" height="410" rx="20" fill="url(#cardBg)"/>
-  <!-- Content... -->
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="910" height="480" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="475" y="58" text-anchor="middle" font-size="26" font-weight="bold" fill="white">
+    {Case} Singular Cheat Sheet
+  </text>
+
+  <!-- Golden rule banner -->
+  <rect x="35" y="110" width="870" height="50" rx="10" fill="url(#goldGrad)"/>
+  <text x="475" y="142" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a202c">
+    THE KEY RULE: {summarize the pattern}
+  </text>
+
+  <!-- Gender column card -->
+  <rect x="35" y="175" width="210" height="300" rx="12" fill="#1a202c" stroke="url(#mascGrad)" stroke-width="3"/>
+  <rect x="35" y="175" width="210" height="45" rx="12" fill="url(#mascGrad)"/>
+  <text x="140" y="205" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MASCULINE</text>
+
+  <!-- Example with highlighted ending -->
+  <text x="55" y="250" font-size="12" fill="#e2e8f0">
+    student → student<tspan fill="#4299e1" font-weight="bold">a</tspan>
+  </text>
 </svg>
+```
+
+#### Example Reference
+
+See these live examples:
+- **Accusative**: `grammar.ilearnczech.com/accusative/cheatsheets/singular`
+- **Locative**: `grammar.ilearnczech.com/locative/cheatsheets/singular`
+
+#### Embedding in Markdown
+
+```markdown
+## Visual Cheatsheet
+
+![{Case} Singular Cheatsheet](/img/{case}-singular-cheatsheet.svg)
 ```
 
 ---
