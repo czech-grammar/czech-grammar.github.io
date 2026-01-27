@@ -82,6 +82,28 @@ function CaseGrid() {
   );
 }
 
+function WorkbooksSection() {
+  const workbooks = [
+    { num: 4, name: 'Accusative', path: 'https://grammar.ilearnczech.com/accusative/', status: 'new' },
+    { num: 6, name: 'Locative', path: 'https://grammar.ilearnczech.com/locative/', status: 'available' },
+  ];
+  return (
+    <section className="workbooks-section">
+      <h2 className="workbooks-section__title">Deep Dive Workbooks</h2>
+      <p className="workbooks-section__subtitle">In-depth practice with exercises, quizzes, and cheatsheets</p>
+      <div className="workbooks-section__grid">
+        {workbooks.map((w) => (
+          <a key={w.num} className="workbooks-section__card" href={w.path}>
+            <div className="workbooks-section__number">{w.num}</div>
+            <div className="workbooks-section__name">{w.name}</div>
+            {w.status === 'new' && <span className="workbooks-section__badge">NEW</span>}
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function PreviewSection() {
   return (
     <section className="preview-section">
@@ -134,6 +156,7 @@ export default function Home(): ReactNode {
       <HeroSection />
       <StatsBar />
       <CaseGrid />
+      <WorkbooksSection />
       <PreviewSection />
       <FeaturesSection />
       <CTASection />
