@@ -84,7 +84,8 @@ function CaseGrid() {
 
 function WorkbooksSection() {
   const workbooks = [
-    { num: 2, name: 'Genitive', path: 'https://grammar.ilearnczech.com/genitive/', status: 'new' },
+    { num: 2, name: 'Genitive', path: 'https://grammar.ilearnczech.com/genitive/', status: 'available' },
+    { num: 3, name: 'Dative', path: 'https://grammar.ilearnczech.com/dative/', status: 'new' },
     { num: 4, name: 'Accusative', path: 'https://grammar.ilearnczech.com/accusative/', status: 'available' },
     { num: 6, name: 'Locative', path: 'https://grammar.ilearnczech.com/locative/', status: 'available' },
   ];
