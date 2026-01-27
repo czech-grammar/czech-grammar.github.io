@@ -84,10 +84,11 @@ function CaseGrid() {
 
 function WorkbooksSection() {
   const workbooks = [
+    { num: 1, name: 'Nominative', path: 'https://grammar.ilearnczech.com/nominative/', status: 'new' },
     { num: 2, name: 'Genitive', path: 'https://grammar.ilearnczech.com/genitive/', status: 'available' },
     { num: 3, name: 'Dative', path: 'https://grammar.ilearnczech.com/dative/', status: 'available' },
     { num: 4, name: 'Accusative', path: 'https://grammar.ilearnczech.com/accusative/', status: 'available' },
-    { num: 5, name: 'Vocative', path: 'https://grammar.ilearnczech.com/vocative/', status: 'new' },
+    { num: 5, name: 'Vocative', path: 'https://grammar.ilearnczech.com/vocative/', status: 'available' },
     { num: 6, name: 'Locative', path: 'https://grammar.ilearnczech.com/locative/', status: 'available' },
     { num: 7, name: 'Instrumental', path: 'https://grammar.ilearnczech.com/instrumental/', status: 'available' },
   ];

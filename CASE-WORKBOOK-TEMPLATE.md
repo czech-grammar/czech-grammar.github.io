@@ -18,26 +18,88 @@ Each Czech case gets its own:
 ### 1. Create New Repo
 
 ```bash
-# Clone locative as template
-git clone git@github.com:czech-grammar/locative.git {case-name}
+# Clone accusative as template (recommended setup)
+git clone git@github.com:czech-grammar/accusative.git {case-name}
 cd {case-name}
 
 # Reset git history
 rm -rf .git
 git init
-git checkout -b gh-pages
+git add .
+git commit -m "Initial commit"
 
 # Update docusaurus.config.ts
 # - Change baseUrl to /{case-name}/
 # - Update title, tagline, metadata
+# - Update projectName
 ```
 
-### 2. GitHub Pages Setup
+### 2. GitHub Actions Workflow
 
-- Create repo `czech-grammar/{case-name}`
-- Push to gh-pages branch
-- Enable GitHub Pages with workflow deployment
-- Add CNAME if using custom domain subdirectory
+Create `.github/workflows/deploy.yml`:
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+```
+
+### 3. GitHub Pages Setup
+
+```bash
+# Create repo on GitHub
+gh repo create czech-grammar/{case-name} --public
+
+# Push to main branch
+git remote add origin git@github.com:czech-grammar/{case-name}.git
+git push -u origin main
+
+# Configure GitHub Pages for workflow deployment
+gh api repos/czech-grammar/{case-name}/pages -X PUT \
+  -f build_type=workflow \
+  -f source[branch]=main \
+  -f source[path]=/
+```
+
+The workflow will automatically build and deploy on every push to `main`.
 
 ---
 
@@ -535,15 +597,18 @@ The Quiz component supports:
 ### Footer
 
 ```
-Part of the iLearnCzech family. Built with love by Jana & Melvin.
+Part of the iLearnCzech family. Made by Jana & Melvin.
 ```
 
 ---
 
 ## Checklist for New Case
 
-- [ ] Create repository from template
+- [ ] Create repository from template (clone accusative)
+- [ ] Reset git history and create fresh repo
 - [ ] Update docusaurus.config.ts (baseUrl, title, metadata)
+- [ ] Add `.github/workflows/deploy.yml`
+- [ ] Push to GitHub and configure Pages for workflow deployment
 - [ ] Write intro.md with case overview
 - [ ] Write singular.md with all noun patterns
 - [ ] Write plural.md with all plural patterns
