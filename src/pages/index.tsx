@@ -2,16 +2,6 @@ import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 
-const cases = [
-  { num: 1, name: 'Nominative', czech: 'Nominativ', question: 'Kdo? Co?', path: '/docs/morphology/nouns/nominative' },
-  { num: 2, name: 'Genitive', czech: 'Genitiv', question: 'Koho? Čeho?', path: '/docs/morphology/nouns/genitive' },
-  { num: 3, name: 'Dative', czech: 'Dativ', question: 'Komu? Čemu?', path: '/docs/morphology/nouns/dative' },
-  { num: 4, name: 'Accusative', czech: 'Akuzativ', question: 'Koho? Co?', path: '/docs/morphology/nouns/accusative' },
-  { num: 5, name: 'Vocative', czech: 'Vokativ', question: 'Oslovení!', path: '/docs/morphology/nouns/vocative' },
-  { num: 6, name: 'Locative', czech: 'Lokál', question: 'O kom? O čem?', path: '/docs/morphology/nouns/locative' },
-  { num: 7, name: 'Instrumental', czech: 'Instrumentál', question: 'Kým? Čím?', path: '/docs/morphology/nouns/instrumental' },
-];
-
 const features = [
   { icon: '🎨', title: 'Visual Cheatsheets', desc: 'Beautiful SVG diagrams for every grammar concept. See patterns at a glance instead of reading walls of text.' },
   { icon: '⚡', title: 'Quick Reference', desc: 'Find any declension or conjugation in seconds. Perfect for exam prep or checking your homework.' },
@@ -64,43 +54,26 @@ function StatsBar() {
   );
 }
 
-function CaseGrid() {
+function CaseWorkbooks() {
+  const workbooks = [
+    { num: 1, name: 'Nominative', question: 'Kdo? Co?', path: 'https://grammar.ilearnczech.com/nominative/', status: 'available' },
+    { num: 2, name: 'Genitive', question: 'Koho? Čeho?', path: 'https://grammar.ilearnczech.com/genitive/', status: 'available' },
+    { num: 3, name: 'Dative', question: 'Komu? Čemu?', path: 'https://grammar.ilearnczech.com/dative/', status: 'available' },
+    { num: 4, name: 'Accusative', question: 'Koho? Co?', path: 'https://grammar.ilearnczech.com/accusative/', status: 'available' },
+    { num: 5, name: 'Vocative', question: 'Oslovení!', path: 'https://grammar.ilearnczech.com/vocative/', status: 'available' },
+    { num: 6, name: 'Locative', question: 'O kom? O čem?', path: 'https://grammar.ilearnczech.com/locative/', status: 'new' },
+    { num: 7, name: 'Instrumental', question: 'Kým? Čím?', path: 'https://grammar.ilearnczech.com/instrumental/', status: 'available' },
+  ];
   return (
     <section className="case-grid">
       <h2 className="case-grid__title">Master the 7 Cases</h2>
-      <p className="case-grid__subtitle">Click any case to see complete declension tables and visual guides</p>
+      <p className="case-grid__subtitle">In-depth workbooks with exercises, quizzes, and cheatsheets</p>
       <div className="case-grid__container">
-        {cases.map((c) => (
-          <Link key={c.num} className="case-grid__card" to={c.path}>
-            <div className="case-grid__number">{c.num}</div>
-            <div className="case-grid__name">{c.name}</div>
-            <div className="case-grid__question">{c.question}</div>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function WorkbooksSection() {
-  const workbooks = [
-    { num: 1, name: 'Nominative', path: 'https://grammar.ilearnczech.com/nominative/', status: 'new' },
-    { num: 2, name: 'Genitive', path: 'https://grammar.ilearnczech.com/genitive/', status: 'available' },
-    { num: 3, name: 'Dative', path: 'https://grammar.ilearnczech.com/dative/', status: 'available' },
-    { num: 4, name: 'Accusative', path: 'https://grammar.ilearnczech.com/accusative/', status: 'available' },
-    { num: 5, name: 'Vocative', path: 'https://grammar.ilearnczech.com/vocative/', status: 'available' },
-    { num: 6, name: 'Locative', path: 'https://grammar.ilearnczech.com/locative/', status: 'available' },
-    { num: 7, name: 'Instrumental', path: 'https://grammar.ilearnczech.com/instrumental/', status: 'available' },
-  ];
-  return (
-    <section className="workbooks-section">
-      <h2 className="workbooks-section__title">Deep Dive Workbooks</h2>
-      <p className="workbooks-section__subtitle">In-depth practice with exercises, quizzes, and cheatsheets</p>
-      <div className="workbooks-section__grid">
         {workbooks.map((w) => (
-          <a key={w.num} className="workbooks-section__card" href={w.path}>
-            <div className="workbooks-section__number">{w.num}</div>
-            <div className="workbooks-section__name">{w.name}</div>
+          <a key={w.num} className="case-grid__card" href={w.path}>
+            <div className="case-grid__number">{w.num}</div>
+            <div className="case-grid__name">{w.name}</div>
+            <div className="case-grid__question">{w.question}</div>
             {w.status === 'new' && <span className="workbooks-section__badge">NEW</span>}
           </a>
         ))}
@@ -160,8 +133,7 @@ export default function Home(): ReactNode {
       description="Master Czech grammar with 38+ beautiful visual cheatsheets. All 7 cases, verb conjugations, pronouns, and more. Free, comprehensive, and designed for visual learners.">
       <HeroSection />
       <StatsBar />
-      <CaseGrid />
-      <WorkbooksSection />
+      <CaseWorkbooks />
       <PreviewSection />
       <FeaturesSection />
       <CTASection />
