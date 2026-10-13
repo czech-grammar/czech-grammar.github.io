@@ -164,6 +164,13 @@
   font-size: 1.1rem;
 }
 
+.case-grid__note {
+  text-align: center;
+  color: var(--color-muted);
+  margin: 2rem auto 0;
+  font-size: 0.95rem;
+}
+
 .case-grid__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));

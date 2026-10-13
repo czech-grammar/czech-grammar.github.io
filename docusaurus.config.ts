@@ -176,6 +176,10 @@ const config: Config = {
               label: 'Morphology',
               to: '/docs/morphology/intro',
             },
+            {
+              label: 'Noun Flash Cards',
+              href: 'https://grammar.ilearnczech.com/nouns/',
+            },
           ],
         },
         {
