@@ -78,6 +78,11 @@ function CaseWorkbooks() {
           </a>
         ))}
       </div>
+      <p className="case-grid__note">
+        Need the words to decline? Try the{' '}
+        <a href="https://grammar.ilearnczech.com/nouns/">picture flash cards</a>
+        {' '}for A1–B2 nouns, colour-coded by gender.
+      </p>
     </section>
   );
 }
