@@ -59,11 +59,23 @@ This document tracks errors found during systematic review of all case pages.
 
 ## Dative Case (dative.md)
 
-### Error 1
+### Error 1 (withdrawn)
 - **Line**: 235
+- **Error Type**: none - the original report was wrong
+- **Issue**: An earlier audit flagged "kostem" and proposed "kostím". **Kostem is correct.** Kost-type feminines (gen. sg. -i) take -em in the dative plural: kostem, věcem, místnostem. Only the píseň type (gen. sg. -e) takes -ím.
+- **Fix**: None needed for the form. The surrounding table and tip were corrected on 2026-11-03 to stop claiming "three endings" and "soft stems of all genders take -ím" (soft masculine takes -ům, and -em is a fourth ending).
+
+### Error 2
+- **Line**: 88, 241
 - **Error Type**: incorrect-czech
-- **Issue**: "kostem" listed in feminine plural examples - should be "kostím" (soft feminine → -ím)
-- **Fix**: Change "*ženám, růžím, písním, kostem*" to "*ženám, růžím, písním, kostím*"
+- **Issue**: "Soft stems: -ím" listed mužům as an example, and the tip said soft stems of all genders take -ím. Soft masculine nouns take -ům (mužům, učitelům, strojům).
+- **Fix**: Restricted -ím to soft feminine and neuter; added -em row. Fixed 2026-11-03.
+
+### Error 3
+- **File**: static/img/dative-plural-cheatsheet.svg
+- **Error Type**: inconsistency
+- **Issue**: "kostem" sat in the feminine -ím box and "kuřatům" in the neuter -ím box.
+- **Fix**: Added a separate -em line for the kost type; moved kuřatům next to -ům. Fixed 2026-11-03.
 
 ---
 

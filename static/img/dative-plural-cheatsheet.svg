@@ -30,12 +30,12 @@
 
   <!-- Header -->
   <text x="400" y="55" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Dative Plural Cheat Sheet</text>
-  <text x="400" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Komu? Čemu? (Plural) - Very regular patterns!</text>
+  <text x="400" y="78" text-anchor="middle" font-size="13" fill="#a0aec0">Komu? Čemu? (Plural) - Four endings, all vowel + m</text>
 
   <!-- THE BIG RULE -->
   <rect x="150" y="95" width="500" height="45" rx="12" fill="url(#ruleGrad)" filter="url(#shadow)"/>
-  <text x="400" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="white">KEY PATTERN: Hard = long vowel + m, Soft = -ím</text>
-  <text x="400" y="132" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.9)">Masc/Neut: -ům | Fem -a type: -ám | Soft: -ím</text>
+  <text x="400" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="white">KEY PATTERN: vowel + m  →  -ům  -ám  -ím  -em</text>
+  <text x="400" y="132" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.9)">All masc + neut -o: -ům | Fem -a: -ám | Soft fem/neut: -ím | kost, lidé, děti: -em</text>
 
   <!-- Divider -->
   <line x1="50" y1="155" x2="750" y2="155" stroke="#4a5568" stroke-width="1"/>
@@ -65,18 +65,20 @@
   <rect x="290" y="200" width="220" height="15" fill="url(#femGrad)"/>
   <text x="400" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="white">FEMININE</text>
 
-  <text x="360" y="250" font-size="22" font-weight="bold" fill="#ed64a6">-ám</text>
-  <text x="405" y="250" font-size="11" fill="#a0aec0">(žena type)</text>
-  <text x="310" y="275" font-size="12" fill="#e2e8f0">ženám, knihám, matkám</text>
+  <text x="310" y="240" font-size="18" font-weight="bold" fill="#ed64a6">-ám</text>
+  <text x="352" y="240" font-size="11" fill="#a0aec0">(žena type)</text>
+  <text x="310" y="257" font-size="11" fill="#e2e8f0">ženám, knihám, matkám</text>
 
-  <line x1="310" y1="295" x2="490" y2="295" stroke="#4a5568" stroke-width="1"/>
+  <text x="310" y="285" font-size="18" font-weight="bold" fill="#ed64a6">-ím</text>
+  <text x="348" y="285" font-size="11" fill="#a0aec0">(růže, píseň types)</text>
+  <text x="310" y="302" font-size="11" fill="#e2e8f0">růžím, ulicím, písním</text>
 
-  <text x="360" y="325" font-size="22" font-weight="bold" fill="#ed64a6">-ím</text>
-  <text x="400" y="325" font-size="11" fill="#a0aec0">(soft types)</text>
-  <text x="310" y="350" font-size="12" fill="#e2e8f0">růžím, písním, kostem</text>
+  <text x="310" y="330" font-size="18" font-weight="bold" fill="#ed64a6">-em</text>
+  <text x="352" y="330" font-size="11" fill="#a0aec0">(kost type + děti, lidé)</text>
+  <text x="310" y="347" font-size="11" fill="#e2e8f0">kostem, věcem, dětem, lidem</text>
 
   <rect x="300" y="360" width="200" height="15" rx="4" fill="#702459"/>
-  <text x="400" y="371" text-anchor="middle" font-size="9" fill="#fbb6ce">-a nouns use -ám, all others -ím</text>
+  <text x="400" y="371" text-anchor="middle" font-size="9" fill="#fbb6ce">gen. sg. -e → -ím · gen. sg. -i → -em</text>
 
   <!-- Neuter -->
   <rect x="530" y="170" width="220" height="210" rx="12" fill="#1a202c" stroke="url(#neutGrad)" stroke-width="3"/>
@@ -87,14 +89,14 @@
 
   <text x="600" y="250" font-size="22" font-weight="bold" fill="#48bb78">-ům</text>
   <text x="645" y="250" font-size="11" fill="#a0aec0">(město type)</text>
-  <text x="550" y="275" font-size="12" fill="#e2e8f0">městům, autům, oknům</text>
+  <text x="550" y="275" font-size="12" fill="#e2e8f0">městům, autům, kuřatům</text>
 
   <line x1="550" y1="295" x2="730" y2="295" stroke="#4a5568" stroke-width="1"/>
 
   <text x="600" y="325" font-size="22" font-weight="bold" fill="#48bb78">-ím</text>
   <text x="640" y="325" font-size="11" fill="#a0aec0">(soft types)</text>
-  <text x="550" y="350" font-size="12" fill="#e2e8f0">mořím, srdcím, kuřatům</text>
+  <text x="550" y="350" font-size="12" fill="#e2e8f0">mořím, srdcím, stavením</text>
 
   <rect x="540" y="360" width="200" height="15" rx="4" fill="#276749"/>
-  <text x="640" y="371" text-anchor="middle" font-size="9" fill="#9ae6b4">Hard -ům, soft -ím</text>
+  <text x="640" y="371" text-anchor="middle" font-size="9" fill="#9ae6b4">Hard -ům (incl. kuřatům), soft -ím</text>
 </svg>
