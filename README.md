@@ -1,5 +1,7 @@
 # Website
 
+[![Mind map](https://mindstr.org/badge.svg)](https://mindstr.org/?uri=https://grammar.ilearnczech.com/mindstr/index.jsonld)
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
