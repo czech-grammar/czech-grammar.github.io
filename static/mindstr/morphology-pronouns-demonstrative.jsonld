@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Demonstrative Pronouns",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/pronouns/demonstrative",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#3m2wcm",
+      "name": "Visual Overview",
+      "x": -201,
+      "y": -126,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/pronouns/demonstrative#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4ad697",
+      "name": "Declension",
+      "x": 81,
+      "y": -201,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/pronouns/demonstrative#declension-singular",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#z237xc",
+      "name": "Declension",
+      "x": 250,
+      "y": 2,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/pronouns/demonstrative#declension-plural",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ern3ds",
+      "name": "This vs. That",
+      "x": 76,
+      "y": 203,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/pronouns/demonstrative#this-vs-that",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cixa8i",
+      "name": "← Pronouns",
+      "x": -203,
+      "y": 125,
+      "link": "./morphology-pronouns.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "selectedNode": 0
+}

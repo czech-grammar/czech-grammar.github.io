@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Nouns",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#5q2nc4",
+      "name": "Declension Paradigms",
+      "x": -86,
+      "y": -199,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/intro#declension-paradigms",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#eegh3a",
+      "name": "The 14 Forms",
+      "x": 242,
+      "y": 54,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/intro#the-14-forms",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tmtdcb",
+      "name": "← Nouns",
+      "x": -143,
+      "y": 174,
+      "link": "./morphology-nouns.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "selectedNode": 0
+}

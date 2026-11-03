@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Purpose Clauses",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/purpose",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#vvg4pd",
+      "name": "Same Subject",
+      "x": -113,
+      "y": -189,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/purpose#1-same-subject-infinitive",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#auchct",
+      "name": "Conjugation of Aby",
+      "x": -227,
+      "y": -379,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/purpose#conjugation-of-aby",
+      "bgColor": "#daeeff",
+      "parent": "#vvg4pd"
+    },
+    {
+      "@id": "#jc8bp2",
+      "name": "Different Subjects",
+      "x": 247,
+      "y": 33,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/purpose#2-different-subjects",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xftmry",
+      "name": "← Syntax",
+      "x": -147,
+      "y": 172,
+      "link": "./syntax.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    }
+  ],
+  "selectedNode": 0
+}

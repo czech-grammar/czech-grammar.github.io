@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Modal Verbs",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#uhqyuf",
+      "name": "Visual Overview",
+      "x": -237,
+      "y": -69,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gkdxt6",
+      "name": "The Big 5",
+      "x": -138,
+      "y": -177,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#the-big-5",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ujfctz",
+      "name": "Conjugation",
+      "x": 244,
+      "y": -44,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#conjugation",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5if5dv",
+      "name": "Muset",
+      "x": 133,
+      "y": -410,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#muset-must",
+      "bgColor": "#ffe3dc",
+      "parent": "#ujfctz"
+    },
+    {
+      "@id": "#7xg3ip",
+      "name": "Chtít",
+      "x": 429,
+      "y": -344,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#chtít-want",
+      "bgColor": "#ffe3dc",
+      "parent": "#ujfctz"
+    },
+    {
+      "@id": "#y43huz",
+      "name": "Moci",
+      "x": 489,
+      "y": -89,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#moci-can",
+      "bgColor": "#ffe3dc",
+      "parent": "#ujfctz"
+    },
+    {
+      "@id": "#4j26c6",
+      "name": "Smět",
+      "x": 557,
+      "y": 164,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#smět-may",
+      "bgColor": "#ffe3dc",
+      "parent": "#ujfctz"
+    },
+    {
+      "@id": "#uaafj4",
+      "name": "Umět",
+      "x": 319,
+      "y": 327,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#umět-know-how",
+      "bgColor": "#ffe3dc",
+      "parent": "#ujfctz"
+    },
+    {
+      "@id": "#v8kw9g",
+      "name": "Negation and Meaning Changes",
+      "x": -93,
+      "y": 197,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/modal#negation-and-meaning-changes",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ah8myn",
+      "name": "← Verbs",
+      "x": -237,
+      "y": 68,
+      "link": "./morphology-verbs.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 3,
+      "end": 5
+    },
+    {
+      "start": 3,
+      "end": 6
+    },
+    {
+      "start": 3,
+      "end": 7
+    },
+    {
+      "start": 3,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    }
+  ],
+  "selectedNode": 0
+}

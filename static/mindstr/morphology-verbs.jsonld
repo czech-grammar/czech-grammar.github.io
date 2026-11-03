@@ -1,0 +1,229 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Verbs",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#5seuyw",
+      "name": "Tenses",
+      "x": -177,
+      "y": -150,
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nm5hts",
+      "name": "Present Tense",
+      "x": -471,
+      "y": -144,
+      "link": "./morphology-verbs-present-tense.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#5seuyw"
+    },
+    {
+      "@id": "#mesfa4",
+      "name": "Past Tense",
+      "x": -418,
+      "y": -354,
+      "link": "./morphology-verbs-past-tense.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#5seuyw"
+    },
+    {
+      "@id": "#ek2jcm",
+      "name": "Future Tense",
+      "x": -171,
+      "y": -399,
+      "link": "./morphology-verbs-future-tense.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#5seuyw"
+    },
+    {
+      "@id": "#uja84e",
+      "name": "Moods",
+      "x": 124,
+      "y": -185,
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#78sngm",
+      "name": "Imperative",
+      "x": 147,
+      "y": -406,
+      "link": "./morphology-verbs-imperative.jsonld",
+      "bgColor": "#f7e4f9",
+      "parent": "#uja84e"
+    },
+    {
+      "@id": "#58pkgm",
+      "name": "Conditional",
+      "x": 397,
+      "y": -371,
+      "link": "./morphology-verbs-conditional.jsonld",
+      "bgColor": "#f7e4f9",
+      "parent": "#uja84e"
+    },
+    {
+      "@id": "#7jxpjz",
+      "name": "Aspect and prefixes",
+      "x": 250,
+      "y": -1,
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qrspvr",
+      "name": "Aspect (Vid)",
+      "x": 487,
+      "y": -96,
+      "link": "./morphology-verbs-aspect.jsonld",
+      "bgColor": "#ffe3dc",
+      "parent": "#7jxpjz"
+    },
+    {
+      "@id": "#wfbk2v",
+      "name": "Verbal Prefixes",
+      "x": 576,
+      "y": 107,
+      "link": "./morphology-verbs-prefixes.jsonld",
+      "bgColor": "#ffe3dc",
+      "parent": "#7jxpjz"
+    },
+    {
+      "@id": "#xetwaa",
+      "name": "Kinds of verb",
+      "x": 0,
+      "y": 213,
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wtpnjp",
+      "name": "Modal Verbs",
+      "x": 307,
+      "y": 335,
+      "link": "./morphology-verbs-modal.jsonld",
+      "bgColor": "#eeedd3",
+      "parent": "#xetwaa"
+    },
+    {
+      "@id": "#7cw6cg",
+      "name": "Motion Verbs",
+      "x": 130,
+      "y": 489,
+      "link": "./morphology-verbs-motion.jsonld",
+      "bgColor": "#eeedd3",
+      "parent": "#xetwaa"
+    },
+    {
+      "@id": "#a54nev",
+      "name": "Reflexive Verbs",
+      "x": -109,
+      "y": 415,
+      "link": "./morphology-verbs-reflexive.jsonld",
+      "bgColor": "#eeedd3",
+      "parent": "#xetwaa"
+    },
+    {
+      "@id": "#qhb5iq",
+      "name": "Passive Voice",
+      "x": -362,
+      "y": 396,
+      "link": "./morphology-verbs-passive.jsonld",
+      "bgColor": "#eeedd3",
+      "parent": "#xetwaa"
+    },
+    {
+      "@id": "#nvqaxu",
+      "name": "← Morphology",
+      "x": -242,
+      "y": 55,
+      "link": "./morphology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 11,
+      "end": 14
+    },
+    {
+      "start": 11,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    }
+  ],
+  "selectedNode": 0
+}

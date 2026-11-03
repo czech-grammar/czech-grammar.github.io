@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Vocabulary",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/vocabulary/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#yykvgk",
+      "name": "Common Phrases",
+      "x": -236,
+      "y": -70,
+      "link": "./vocabulary-common-phrases.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#iuspsm",
+      "name": "Numbers",
+      "x": -133,
+      "y": -180,
+      "link": "./vocabulary-numbers.jsonld",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ncvdiq",
+      "name": "Days and Months",
+      "x": 30,
+      "y": -211,
+      "link": "./vocabulary-days-months.jsonld",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#95c6bh",
+      "name": "Family",
+      "x": 179,
+      "y": -148,
+      "link": "./vocabulary-family.jsonld",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jdqw4m",
+      "name": "Food and Drink",
+      "x": 249,
+      "y": -20,
+      "link": "./vocabulary-food.jsonld",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ci6a2d",
+      "name": "City and Directions",
+      "x": 199,
+      "y": 129,
+      "link": "./vocabulary-city.jsonld",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#e9ev2h",
+      "name": "Time Expressions",
+      "x": 37,
+      "y": 210,
+      "link": "./vocabulary-time-expressions.jsonld",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qg3m9n",
+      "name": "Human Body",
+      "x": -130,
+      "y": 181,
+      "link": "./vocabulary-body.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#hd3dbi",
+      "name": "← Czech grammar",
+      "x": -235,
+      "y": 71,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    }
+  ],
+  "selectedNode": 0
+}

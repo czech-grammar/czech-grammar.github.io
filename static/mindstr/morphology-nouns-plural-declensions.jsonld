@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Plural Declensions",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/plural-declensions",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#3g77sx",
+      "name": "Masculine Animate",
+      "x": -217,
+      "y": -106,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/plural-declensions#masculine-animate-páni-muži",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ucs9ug",
+      "name": "Masculine Inanimate",
+      "x": 9,
+      "y": -212,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/plural-declensions#masculine-inanimate-hrady-stroje",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tse2je",
+      "name": "Feminine",
+      "x": 219,
+      "y": -103,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/plural-declensions#feminine-ženy-růže-kosti",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cvh8ee",
+      "name": "Neuter",
+      "x": 228,
+      "y": 88,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/plural-declensions#neuter-města-moře",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3xd5xn",
+      "name": "Summary of Similarities",
+      "x": 5,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/plural-declensions#summary-of-similarities",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jingvu",
+      "name": "← Nouns",
+      "x": -223,
+      "y": 95,
+      "link": "./morphology-nouns.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "selectedNode": 0
+}

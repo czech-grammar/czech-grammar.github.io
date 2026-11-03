@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Adjectives",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#k73rni",
+      "name": "Position",
+      "x": -125,
+      "y": -184,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/intro#position",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#r8zm2z",
+      "name": "Types",
+      "x": 250,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/intro#types",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wzv4c3",
+      "name": "← Adjectives",
+      "x": -125,
+      "y": 184,
+      "link": "./morphology-adjectives.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "selectedNode": 0
+}

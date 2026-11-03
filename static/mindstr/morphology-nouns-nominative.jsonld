@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "1. Nominative",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#pvzwd8",
+      "name": "Memory Aids",
+      "x": -214,
+      "y": -111,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#memory-aids-mnemonics",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#57iy7q",
+      "name": "The Gender System",
+      "x": -489,
+      "y": -90,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#the-gender-system",
+      "bgColor": "#daeeff",
+      "parent": "#pvzwd8"
+    },
+    {
+      "@id": "#qprvms",
+      "name": "The Animate/Inanimate Split",
+      "x": -511,
+      "y": -251,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#the-animateinanimate-split",
+      "bgColor": "#daeeff",
+      "parent": "#pvzwd8"
+    },
+    {
+      "@id": "#7fucmt",
+      "name": "The Declension Models",
+      "x": -327,
+      "y": -321,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#the-declension-models-vzory",
+      "bgColor": "#daeeff",
+      "parent": "#pvzwd8"
+    },
+    {
+      "@id": "#t922yq",
+      "name": "Plural Formation",
+      "x": 27,
+      "y": -211,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#plural-formation-the-key-patterns",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#26rfi6",
+      "name": "Masculine Animate",
+      "x": -127,
+      "y": -411,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#masculine-animate-the-complex-one",
+      "bgColor": "#efe6ff",
+      "parent": "#t922yq"
+    },
+    {
+      "@id": "#u28rkq",
+      "name": "Masculine Inanimate",
+      "x": 5,
+      "y": -501,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#masculine-inanimate-easy",
+      "bgColor": "#efe6ff",
+      "parent": "#t922yq"
+    },
+    {
+      "@id": "#varvfj",
+      "name": "Feminine",
+      "x": 128,
+      "y": -411,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#feminine-predictable",
+      "bgColor": "#efe6ff",
+      "parent": "#t922yq"
+    },
+    {
+      "@id": "#ucttef",
+      "name": "Neuter",
+      "x": 276,
+      "y": -443,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#neuter-very-regular",
+      "bgColor": "#efe6ff",
+      "parent": "#t922yq"
+    },
+    {
+      "@id": "#vzipyd",
+      "name": "Hard vs Soft Stems",
+      "x": 226,
+      "y": -92,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#hard-vs-soft-stems",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#miy6ts",
+      "name": "Hard Consonants",
+      "x": 385,
+      "y": -272,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#hard-consonants",
+      "bgColor": "#ffe2ed",
+      "parent": "#vzipyd"
+    },
+    {
+      "@id": "#ft3k8u",
+      "name": "Soft Consonants",
+      "x": 528,
+      "y": -224,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#soft-consonants",
+      "bgColor": "#ffe2ed",
+      "parent": "#vzipyd"
+    },
+    {
+      "@id": "#it6792",
+      "name": "Neutral Consonants",
+      "x": 488,
+      "y": -91,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#neutral-consonants",
+      "bgColor": "#ffe2ed",
+      "parent": "#vzipyd"
+    },
+    {
+      "@id": "#dnz3gb",
+      "name": "Declension Models in Detail",
+      "x": 210,
+      "y": 115,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#declension-models-vzory-in-detail",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3ifse5",
+      "name": "Masculine Animate",
+      "x": 489,
+      "y": 87,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#masculine-animate-životné",
+      "bgColor": "#ffe4d9",
+      "parent": "#dnz3gb"
+    },
+    {
+      "@id": "#ju3xzh",
+      "name": "Masculine Inanimate",
+      "x": 526,
+      "y": 228,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#masculine-inanimate-neživotné",
+      "bgColor": "#ffe4d9",
+      "parent": "#dnz3gb"
+    },
+    {
+      "@id": "#p46jmx",
+      "name": "Feminine",
+      "x": 375,
+      "y": 281,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#feminine-rod-ženský",
+      "bgColor": "#ffe4d9",
+      "parent": "#dnz3gb"
+    },
+    {
+      "@id": "#bu7kuh",
+      "name": "Neuter",
+      "x": 343,
+      "y": 408,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#neuter-rod-střední",
+      "bgColor": "#ffe4d9",
+      "parent": "#dnz3gb"
+    },
+    {
+      "@id": "#2iffkx",
+      "name": "Usage",
+      "x": -43,
+      "y": 209,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#usage",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ssgz3q",
+      "name": "Subject",
+      "x": 103,
+      "y": 416,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#1-subject",
+      "bgColor": "#f2ecd2",
+      "parent": "#2iffkx"
+    },
+    {
+      "@id": "#gksydt",
+      "name": "Predicate Nominative",
+      "x": -30,
+      "y": 501,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#2-predicate-nominative",
+      "bgColor": "#f2ecd2",
+      "parent": "#2iffkx"
+    },
+    {
+      "@id": "#8su7v6",
+      "name": "Comparison",
+      "x": -151,
+      "y": 405,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#3-comparison",
+      "bgColor": "#f2ecd2",
+      "parent": "#2iffkx"
+    },
+    {
+      "@id": "#2da7xj",
+      "name": "Lists and Labels",
+      "x": -304,
+      "y": 430,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#4-lists-and-labels",
+      "bgColor": "#f2ecd2",
+      "parent": "#2iffkx"
+    },
+    {
+      "@id": "#9e878e",
+      "name": "Common Errors and How to Avoid Them",
+      "x": -214,
+      "y": 110,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/nominative#common-errors-and-how-to-avoid-them",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cp2str",
+      "name": "← Nouns",
+      "x": -248,
+      "y": 29,
+      "link": "./morphology-nouns.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 5,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 14,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 19,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

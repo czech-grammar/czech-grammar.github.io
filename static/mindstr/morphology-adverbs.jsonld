@@ -1,0 +1,220 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Adverbs",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#u3dr42",
+      "name": "Visual Overview",
+      "x": -244,
+      "y": -45,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#hjxwny",
+      "name": "Formation from Adjectives",
+      "x": -47,
+      "y": -209,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#formation-from-adjectives",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u49sh5",
+      "name": "Hard Adjectives: -ý → -ě / -e",
+      "x": -320,
+      "y": -327,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#hard-adjectives--ý--ě--e",
+      "bgColor": "#f7e4f9",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#xdk3d5",
+      "name": "After k, h, ch: -ý → -y",
+      "x": -86,
+      "y": -496,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#after-k-h-ch--ý--y",
+      "bgColor": "#f7e4f9",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#f4wxnt",
+      "name": "Soft Adjectives: -í → -ě",
+      "x": 175,
+      "y": -398,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#soft-adjectives--í--ě",
+      "bgColor": "#f7e4f9",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#izya3w",
+      "name": "Comparison",
+      "x": 248,
+      "y": 27,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#comparison",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wpzfj8",
+      "name": "Comparative: add -eji / -ěji",
+      "x": 467,
+      "y": -151,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#comparative-add--eji--ěji",
+      "bgColor": "#ffe3dc",
+      "parent": "#izya3w"
+    },
+    {
+      "@id": "#fdyzb2",
+      "name": "Superlative: nej- + comparative",
+      "x": 572,
+      "y": 122,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#superlative-nej--comparative",
+      "bgColor": "#ffe3dc",
+      "parent": "#izya3w"
+    },
+    {
+      "@id": "#wdpbcx",
+      "name": "Irregular",
+      "x": 370,
+      "y": 286,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#irregular",
+      "bgColor": "#ffe3dc",
+      "parent": "#izya3w"
+    },
+    {
+      "@id": "#fjs37a",
+      "name": "Common Adverbs by Type",
+      "x": -79,
+      "y": 202,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#common-adverbs-by-type",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yxptnb",
+      "name": "Time",
+      "x": 100,
+      "y": 416,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#time",
+      "bgColor": "#eeedd3",
+      "parent": "#fjs37a"
+    },
+    {
+      "@id": "#96tbf9",
+      "name": "Place",
+      "x": -87,
+      "y": 496,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#place",
+      "bgColor": "#eeedd3",
+      "parent": "#fjs37a"
+    },
+    {
+      "@id": "#f2gvzm",
+      "name": "Manner",
+      "x": -239,
+      "y": 374,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#manner",
+      "bgColor": "#eeedd3",
+      "parent": "#fjs37a"
+    },
+    {
+      "@id": "#2y862s",
+      "name": "Degree",
+      "x": -442,
+      "y": 332,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adverbs#degree",
+      "bgColor": "#eeedd3",
+      "parent": "#fjs37a"
+    },
+    {
+      "@id": "#8x5xg4",
+      "name": "← Morphology",
+      "x": -245,
+      "y": 44,
+      "link": "./morphology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 10,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    }
+  ],
+  "selectedNode": 0
+}

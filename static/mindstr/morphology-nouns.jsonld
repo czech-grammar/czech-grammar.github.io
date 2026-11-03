@@ -1,0 +1,230 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Nouns",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#mrv4db",
+      "name": "Basics",
+      "x": -189,
+      "y": -139,
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#i6483q",
+      "name": "Gender",
+      "x": -476,
+      "y": -131,
+      "link": "./morphology-nouns-gender.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#mrv4db"
+    },
+    {
+      "@id": "#kmcrgd",
+      "name": "Number",
+      "x": -446,
+      "y": -328,
+      "link": "./morphology-nouns-number.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#mrv4db"
+    },
+    {
+      "@id": "#ktiw89",
+      "name": "Cases Overview",
+      "x": -221,
+      "y": -381,
+      "link": "./morphology-nouns-cases-overview.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#mrv4db"
+    },
+    {
+      "@id": "#c74y5q",
+      "name": "The seven cases",
+      "x": 310,
+      "y": -11,
+      "bgColor": "#f3bee1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#374kep",
+      "name": "1. Nominative",
+      "x": 159,
+      "y": -403,
+      "link": "./morphology-nouns-nominative.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#ba2cgp",
+      "name": "2. Genitive",
+      "x": 391,
+      "y": -376,
+      "link": "./morphology-nouns-genitive.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#h7ym9k",
+      "name": "3. Dative",
+      "x": 451,
+      "y": -184,
+      "link": "./morphology-nouns-dative.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#ius84b",
+      "name": "4. Accusative",
+      "x": 589,
+      "y": -24,
+      "link": "./morphology-nouns-accusative.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#583aqh",
+      "name": "5. Vocative",
+      "x": 469,
+      "y": 147,
+      "link": "./morphology-nouns-vocative.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#sbf4ee",
+      "name": "6. Locative",
+      "x": 431,
+      "y": 343,
+      "link": "./morphology-nouns-locative.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#t6q67m",
+      "name": "7. Instrumental",
+      "x": 202,
+      "y": 389,
+      "link": "./morphology-nouns-instrumental.jsonld",
+      "bgColor": "#fce3f3",
+      "parent": "#c74y5q"
+    },
+    {
+      "@id": "#abq85r",
+      "name": "Beyond the basics",
+      "x": -136,
+      "y": 178,
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#sy2ncx",
+      "name": "Plural Declensions",
+      "x": -182,
+      "y": 396,
+      "link": "./morphology-nouns-plural-declensions.jsonld",
+      "bgColor": "#fbe8d3",
+      "parent": "#abq85r"
+    },
+    {
+      "@id": "#fertai",
+      "name": "Irregular Nouns",
+      "x": -427,
+      "y": 346,
+      "link": "./morphology-nouns-irregular.jsonld",
+      "bgColor": "#fbe8d3",
+      "parent": "#abq85r"
+    },
+    {
+      "@id": "#9u36xp",
+      "name": "← Morphology",
+      "x": -243,
+      "y": 50,
+      "link": "./morphology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 5,
+      "end": 9
+    },
+    {
+      "start": 5,
+      "end": 10
+    },
+    {
+      "start": 5,
+      "end": 11
+    },
+    {
+      "start": 5,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    }
+  ],
+  "selectedNode": 0
+}

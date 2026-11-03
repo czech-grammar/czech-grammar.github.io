@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Numbers",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/vocabulary/numbers",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#rf2fdu",
+      "name": "0",
+      "x": -202,
+      "y": -125,
+      "link": "https://grammar.ilearnczech.com/docs/vocabulary/numbers#0---10",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rfrezv",
+      "name": "11",
+      "x": 77,
+      "y": -202,
+      "link": "https://grammar.ilearnczech.com/docs/vocabulary/numbers#11---19",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wjrmez",
+      "name": "20",
+      "x": 250,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/vocabulary/numbers#20---100",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8f9s7w",
+      "name": "Ordinals",
+      "x": 77,
+      "y": 202,
+      "link": "https://grammar.ilearnczech.com/docs/vocabulary/numbers#ordinals-1st-2nd",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xdptk7",
+      "name": "← Vocabulary",
+      "x": -202,
+      "y": 125,
+      "link": "./vocabulary.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Comparison",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/comparison",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#rmckuv",
+      "name": "Visual Overview",
+      "x": -227,
+      "y": -89,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/comparison#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6cicry",
+      "name": "Forming the Comparative",
+      "x": -26,
+      "y": -211,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/comparison#forming-the-comparative",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7c28q6",
+      "name": "Forming the Superlative",
+      "x": 223,
+      "y": -96,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/comparison#forming-the-superlative",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4qbh3e",
+      "name": "Irregular Adjectives",
+      "x": 195,
+      "y": 133,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/comparison#irregular-adjectives",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#m3xps2",
+      "name": "Comparing with \"Než\"",
+      "x": -45,
+      "y": 209,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/comparison#comparing-with-než",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yxjf84",
+      "name": "← Adjectives",
+      "x": -228,
+      "y": 88,
+      "link": "./morphology-adjectives.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "selectedNode": 0
+}

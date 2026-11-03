@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Adjectives",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/adjectives/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#aurbbn",
+      "name": "Hard and Soft Adjectives",
+      "x": -60,
+      "y": -206,
+      "link": "./morphology-adjectives-hard-soft.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fxz322",
+      "name": "Comparison",
+      "x": 228,
+      "y": 87,
+      "link": "./morphology-adjectives-comparison.jsonld",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s77s87",
+      "name": "← Morphology",
+      "x": -154,
+      "y": 167,
+      "link": "./morphology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "selectedNode": 0
+}

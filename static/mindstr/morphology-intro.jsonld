@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Morphology",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#hawxjn",
+      "name": "What You'll Learn",
+      "x": 133,
+      "y": -180,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#what-youll-learn",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#y6wpy5",
+      "name": "Nouns",
+      "x": -383,
+      "y": -274,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#nouns-podstatná-jména",
+      "bgColor": "#daeeff",
+      "parent": "#hawxjn"
+    },
+    {
+      "@id": "#4q7gbw",
+      "name": "Adjectives",
+      "x": -91,
+      "y": -495,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#adjectives-přídavná-jména",
+      "bgColor": "#daeeff",
+      "parent": "#hawxjn"
+    },
+    {
+      "@id": "#98geuv",
+      "name": "Pronouns",
+      "x": 266,
+      "y": -360,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#pronouns-zájmena",
+      "bgColor": "#daeeff",
+      "parent": "#hawxjn"
+    },
+    {
+      "@id": "#x5dcei",
+      "name": "Verbs",
+      "x": 565,
+      "y": -145,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#verbs-slovesa",
+      "bgColor": "#daeeff",
+      "parent": "#hawxjn"
+    },
+    {
+      "@id": "#uchvmk",
+      "name": "Other Topics",
+      "x": 456,
+      "y": 175,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#other-topics",
+      "bgColor": "#daeeff",
+      "parent": "#hawxjn"
+    },
+    {
+      "@id": "#72kqt7",
+      "name": "Why Morphology Matters",
+      "x": -34,
+      "y": 211,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/intro#why-morphology-matters",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vbasu4",
+      "name": "← Morphology",
+      "x": -228,
+      "y": 88,
+      "link": "./morphology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 1,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    }
+  ],
+  "selectedNode": 0
+}

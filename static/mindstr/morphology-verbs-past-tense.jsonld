@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Past Tense",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/past-tense",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ttvgv4",
+      "name": "Visual Overview",
+      "x": -210,
+      "y": -115,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/past-tense#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#g5xqe3",
+      "name": "Formation",
+      "x": 33,
+      "y": -211,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/past-tense#formation",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cvkstp",
+      "name": "Conjugation with Auxiliary",
+      "x": 250,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/past-tense#conjugation-with-auxiliary",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jw6hux",
+      "name": "Reflexive Verbs",
+      "x": 30,
+      "y": 211,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/past-tense#reflexive-verbs",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ueruwd",
+      "name": "← Verbs",
+      "x": -212,
+      "y": 113,
+      "link": "./morphology-verbs.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "selectedNode": 0
+}

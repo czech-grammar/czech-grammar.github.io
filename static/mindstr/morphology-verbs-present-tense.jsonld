@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Present Tense",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#bbimsx",
+      "name": "Visual Overview",
+      "x": -231,
+      "y": -80,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#drrwuk",
+      "name": "Class 1: -Á",
+      "x": -100,
+      "y": -195,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#class-1--á-dělat",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nsm2yi",
+      "name": "Class 2: -Í",
+      "x": 86,
+      "y": -200,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#class-2--í-rozumět-mluvit",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2xe78q",
+      "name": "Class 3: -JE",
+      "x": 224,
+      "y": -94,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#class-3--je-kupovat-pít",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jgw4tz",
+      "name": "Class 4: -E",
+      "x": 238,
+      "y": 64,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#class-4--e-nést-brát",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bekswu",
+      "name": "Class 5: -NE",
+      "x": 120,
+      "y": 186,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#class-5--ne-tisknout",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pxrawa",
+      "name": "Irregular Verb: Být",
+      "x": -84,
+      "y": 200,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/present-tense#irregular-verb-být-to-be",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gsrdqa",
+      "name": "← Verbs",
+      "x": -232,
+      "y": 79,
+      "link": "./morphology-verbs.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Pronouns",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/pronouns/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#wymkpw",
+      "name": "Who and whose",
+      "x": -131,
+      "y": -181,
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qhm56x",
+      "name": "Personal Pronouns",
+      "x": -420,
+      "y": -231,
+      "link": "./morphology-pronouns-personal.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#wymkpw"
+    },
+    {
+      "@id": "#gyahr4",
+      "name": "Possessive Pronouns",
+      "x": -82,
+      "y": -497,
+      "link": "./morphology-pronouns-possessive.jsonld",
+      "bgColor": "#daeeff",
+      "parent": "#wymkpw"
+    },
+    {
+      "@id": "#wt6f72",
+      "name": "Pointing and asking",
+      "x": 209,
+      "y": 117,
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#zy9np2",
+      "name": "Demonstrative Pronouns",
+      "x": 473,
+      "y": -137,
+      "link": "./morphology-pronouns-demonstrative.jsonld",
+      "bgColor": "#ffe2e6",
+      "parent": "#wt6f72"
+    },
+    {
+      "@id": "#3jk3i5",
+      "name": "Interrogative Pronouns",
+      "x": 461,
+      "y": 313,
+      "link": "./morphology-pronouns-interrogative.jsonld",
+      "bgColor": "#ffe2e6",
+      "parent": "#wt6f72"
+    },
+    {
+      "@id": "#94asrn",
+      "name": "Relative Pronouns",
+      "x": -8,
+      "y": 425,
+      "link": "./morphology-pronouns-relative.jsonld",
+      "bgColor": "#ffe2e6",
+      "parent": "#wt6f72"
+    },
+    {
+      "@id": "#kgrwxb",
+      "name": "← Morphology",
+      "x": -226,
+      "y": 90,
+      "link": "./morphology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    }
+  ],
+  "selectedNode": 0
+}

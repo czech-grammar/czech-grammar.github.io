@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Word Order",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dxtxsr",
+      "name": "Visual Overview",
+      "x": -225,
+      "y": -92,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nmjv76",
+      "name": "Topic-Focus Articulation",
+      "x": -6,
+      "y": -212,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order#1-topic-focus-articulation",
+      "bgColor": "#f3bee1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mjdvee",
+      "name": "The Clitic Rule",
+      "x": 198,
+      "y": 129,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order#2-the-clitic-rule-second-position",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#d6tkb9",
+      "name": "The Golden Order of Clitics",
+      "x": 498,
+      "y": -39,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order#the-golden-order-of-clitics",
+      "bgColor": "#fbe8d3",
+      "parent": "#mjdvee"
+    },
+    {
+      "@id": "#tefhrg",
+      "name": "Examples",
+      "x": 377,
+      "y": 386,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order#examples",
+      "bgColor": "#fbe8d3",
+      "parent": "#mjdvee"
+    },
+    {
+      "@id": "#qmxg97",
+      "name": "Common Mistakes",
+      "x": -27,
+      "y": 424,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/word-order#common-mistakes",
+      "bgColor": "#fbe8d3",
+      "parent": "#mjdvee"
+    },
+    {
+      "@id": "#g4d8c6",
+      "name": "← Syntax",
+      "x": -226,
+      "y": 91,
+      "link": "./syntax.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 3,
+      "end": 5
+    },
+    {
+      "start": 3,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    }
+  ],
+  "selectedNode": 0
+}

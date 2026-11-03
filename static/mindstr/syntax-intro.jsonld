@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Syntax",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#k8arpb",
+      "name": "Basic Structure",
+      "x": -147,
+      "y": -172,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/intro#basic-structure",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jqh9fh",
+      "name": "Subject-Verb Agreement",
+      "x": 250,
+      "y": 3,
+      "link": "https://grammar.ilearnczech.com/docs/syntax/intro#subject-verb-agreement",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t4du3j",
+      "name": "← Syntax",
+      "x": -150,
+      "y": 170,
+      "link": "./syntax.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "selectedNode": 0
+}

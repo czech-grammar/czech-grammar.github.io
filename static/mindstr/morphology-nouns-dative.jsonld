@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "3. Dative",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#vbyvwg",
+      "name": "Which Ending? Follow the Flowchart",
+      "x": -242,
+      "y": -55,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#which-ending-follow-the-flowchart",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ahre4u",
+      "name": "Memory Aids",
+      "x": -80,
+      "y": -201,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#memory-aids-mnemonics",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ibdfdz",
+      "name": "The \"-ovi\" Safety Net",
+      "x": -354,
+      "y": -300,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#the--ovi-safety-net",
+      "bgColor": "#efe6ff",
+      "parent": "#ahre4u"
+    },
+    {
+      "@id": "#z7edqb",
+      "name": "Dative and Locative Are Twins",
+      "x": -270,
+      "y": -452,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#dative-and-locative-are-twins-for-most-nouns",
+      "bgColor": "#efe6ff",
+      "parent": "#ahre4u"
+    },
+    {
+      "@id": "#2qq2fn",
+      "name": "Feminine -a → -ě",
+      "x": -61,
+      "y": -421,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#feminine--a--ě-with-softening",
+      "bgColor": "#efe6ff",
+      "parent": "#ahre4u"
+    },
+    {
+      "@id": "#ri2pzw",
+      "name": "Plural: Long Vowel + M",
+      "x": 78,
+      "y": -497,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#plural-long-vowel-m",
+      "bgColor": "#efe6ff",
+      "parent": "#ahre4u"
+    },
+    {
+      "@id": "#qbizrq",
+      "name": "K vs Ke",
+      "x": 194,
+      "y": -134,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#k-vs-ke-the-preposition-deep-dive",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yyfuzg",
+      "name": "Basic Rule",
+      "x": 279,
+      "y": -353,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#basic-rule",
+      "bgColor": "#ffe2ed",
+      "parent": "#qbizrq"
+    },
+    {
+      "@id": "#xet7zf",
+      "name": "Use \"Ke\" Before",
+      "x": 430,
+      "y": -344,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#use-ke-before",
+      "bgColor": "#ffe2ed",
+      "parent": "#qbizrq"
+    },
+    {
+      "@id": "#wjzwqw",
+      "name": "Common Expressions with K/Ke",
+      "x": 449,
+      "y": -187,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#common-expressions-with-kke",
+      "bgColor": "#ffe2ed",
+      "parent": "#qbizrq"
+    },
+    {
+      "@id": "#cpmgtf",
+      "name": "Dative of Interest",
+      "x": 248,
+      "y": 23,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#dative-of-interest-the-hidden-use",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#a85fzz",
+      "name": "Possessive Dative",
+      "x": 500,
+      "y": -8,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#possessive-dative",
+      "bgColor": "#ffe4d9",
+      "parent": "#cpmgtf"
+    },
+    {
+      "@id": "#eitj67",
+      "name": "Experiencer Dative",
+      "x": 574,
+      "y": 117,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#experiencer-dative",
+      "bgColor": "#ffe4d9",
+      "parent": "#cpmgtf"
+    },
+    {
+      "@id": "#bpmjzd",
+      "name": "Usage",
+      "x": 116,
+      "y": 188,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#usage",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#r8aetn",
+      "name": "Indirect Object",
+      "x": 403,
+      "y": 252,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#1-indirect-object-recipient",
+      "bgColor": "#f2ecd2",
+      "parent": "#bpmjzd"
+    },
+    {
+      "@id": "#j3rh5f",
+      "name": "Prepositions",
+      "x": 397,
+      "y": 380,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#2-prepositions",
+      "bgColor": "#f2ecd2",
+      "parent": "#bpmjzd"
+    },
+    {
+      "@id": "#mhgzj7",
+      "name": "Expressing Physical/Emotional States",
+      "x": 175,
+      "y": 396,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#3-expressing-physicalemotional-states",
+      "bgColor": "#f2ecd2",
+      "parent": "#bpmjzd"
+    },
+    {
+      "@id": "#67qhwk",
+      "name": "Age Expressions",
+      "x": 15,
+      "y": 501,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#4-age-expressions",
+      "bgColor": "#f2ecd2",
+      "parent": "#bpmjzd"
+    },
+    {
+      "@id": "#s9du6c",
+      "name": "Detailed Reference Tables",
+      "x": -83,
+      "y": 201,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#detailed-reference-tables",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tjeu4p",
+      "name": "Singular Endings",
+      "x": -165,
+      "y": 401,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#singular-endings",
+      "bgColor": "#ddf2de",
+      "parent": "#s9du6c"
+    },
+    {
+      "@id": "#x9rczq",
+      "name": "Plural Endings",
+      "x": -195,
+      "y": 133,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#plural-endings",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#48j6uy",
+      "name": "At a Glance",
+      "x": -305,
+      "y": 337,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#at-a-glance-plural",
+      "bgColor": "#d1f3f4",
+      "parent": "#x9rczq"
+    },
+    {
+      "@id": "#9kbx2m",
+      "name": "Endings by Gender",
+      "x": -459,
+      "y": 315,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#endings-by-gender",
+      "bgColor": "#d1f3f4",
+      "parent": "#x9rczq"
+    },
+    {
+      "@id": "#9gbbfy",
+      "name": "Examples",
+      "x": -452,
+      "y": 182,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/dative#examples",
+      "bgColor": "#d1f3f4",
+      "parent": "#x9rczq"
+    },
+    {
+      "@id": "#kue24d",
+      "name": "← Nouns",
+      "x": -248,
+      "y": 28,
+      "link": "./morphology-nouns.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 2,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 7,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 14,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

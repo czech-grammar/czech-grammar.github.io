@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Vowels",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/vowels",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dttxwc",
+      "name": "Short and Long Vowels",
+      "x": -175,
+      "y": -152,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/vowels#short-and-long-vowels",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p8ysyk",
+      "name": "The Importance of Length",
+      "x": -350,
+      "y": -303,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/vowels#the-importance-of-length",
+      "bgColor": "#daeeff",
+      "parent": "#dttxwc"
+    },
+    {
+      "@id": "#9c2qhr",
+      "name": "The Two \"U\"s: Ú vs. Ů",
+      "x": 167,
+      "y": -158,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/vowels#the-two-us-ú-vs-ů",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#h59t8f",
+      "name": "The Y/I Mystery",
+      "x": 228,
+      "y": 87,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/vowels#the-yi-mystery",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rfby2g",
+      "name": "Diphthongs",
+      "x": 14,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/vowels#diphthongs-dvojhlásky",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#arxjt8",
+      "name": "← Phonology",
+      "x": -214,
+      "y": 110,
+      "link": "./phonology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "selectedNode": 0
+}

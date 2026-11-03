@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Consonants",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#jtyjdw",
+      "name": "Classification",
+      "x": -4,
+      "y": -212,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#classification",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dtqx4z",
+      "name": "Hard Consonants",
+      "x": -394,
+      "y": -262,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#1-hard-consonants-tvrdé",
+      "bgColor": "#daeeff",
+      "parent": "#jtyjdw"
+    },
+    {
+      "@id": "#u2s2vv",
+      "name": "Soft Consonants",
+      "x": -46,
+      "y": -500,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#2-soft-consonants-měkké",
+      "bgColor": "#daeeff",
+      "parent": "#jtyjdw"
+    },
+    {
+      "@id": "#vx2z65",
+      "name": "Neutral Consonants",
+      "x": 363,
+      "y": -292,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#3-neutral-consonants-obojetné",
+      "bgColor": "#daeeff",
+      "parent": "#jtyjdw"
+    },
+    {
+      "@id": "#xwei9g",
+      "name": "The Letter Ř",
+      "x": 209,
+      "y": 117,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#the-letter-ř",
+      "bgColor": "#f3bee1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6bzs4i",
+      "name": "How to pronounce it?",
+      "x": 417,
+      "y": 234,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#how-to-pronounce-it",
+      "bgColor": "#fce3f3",
+      "parent": "#xwei9g"
+    },
+    {
+      "@id": "#fkywkd",
+      "name": "Ď, Ť, Ň",
+      "x": -28,
+      "y": 211,
+      "link": "https://grammar.ilearnczech.com/docs/phonology/consonants#ď-ť-ň",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#j8deiz",
+      "name": "← Phonology",
+      "x": -221,
+      "y": 99,
+      "link": "./phonology.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    }
+  ],
+  "selectedNode": 0
+}

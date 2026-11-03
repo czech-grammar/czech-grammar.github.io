@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "7. Instrumental",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ppuaac",
+      "name": "Which Ending? Follow the Flowchart",
+      "x": -241,
+      "y": -56,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#which-ending-follow-the-flowchart",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f77hg7",
+      "name": "Memory Aids",
+      "x": -125,
+      "y": -184,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#memory-aids-mnemonics",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kpihvt",
+      "name": "The \"-em\" Dominance",
+      "x": -364,
+      "y": -291,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#the--em-dominance",
+      "bgColor": "#efe6ff",
+      "parent": "#f77hg7"
+    },
+    {
+      "@id": "#k58b5b",
+      "name": "Feminine Splits: -ou vs -í",
+      "x": -290,
+      "y": -440,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#feminine-splits--ou-vs--í",
+      "bgColor": "#efe6ff",
+      "parent": "#f77hg7"
+    },
+    {
+      "@id": "#htircd",
+      "name": "Plural Patterns",
+      "x": -96,
+      "y": -416,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#plural-patterns",
+      "bgColor": "#efe6ff",
+      "parent": "#f77hg7"
+    },
+    {
+      "@id": "#sixamq",
+      "name": "S vs No Preposition",
+      "x": 103,
+      "y": -193,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#s-vs-no-preposition-when-to-use-with",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#j99zi5",
+      "name": "When to Use S/SE",
+      "x": 86,
+      "y": -418,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#when-to-use-sse-accompaniment",
+      "bgColor": "#ffe2ed",
+      "parent": "#sixamq"
+    },
+    {
+      "@id": "#kwrapz",
+      "name": "When NOT to Use S",
+      "x": 251,
+      "y": -455,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#when-not-to-use-s-meansinstrument",
+      "bgColor": "#ffe2ed",
+      "parent": "#sixamq"
+    },
+    {
+      "@id": "#n3epze",
+      "name": "S vs SE",
+      "x": 313,
+      "y": -332,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#s-vs-se-when-to-add-e",
+      "bgColor": "#ffe2ed",
+      "parent": "#sixamq"
+    },
+    {
+      "@id": "#42eis4",
+      "name": "Special Uses of the Instrumental",
+      "x": 245,
+      "y": -42,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#special-uses-of-the-instrumental",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f65d8e",
+      "name": "Predicate Instrumental",
+      "x": 445,
+      "y": -194,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#1-predicate-instrumental-identityprofession",
+      "bgColor": "#ffe4d9",
+      "parent": "#42eis4"
+    },
+    {
+      "@id": "#ncsetq",
+      "name": "Movement Through/Along",
+      "x": 582,
+      "y": -81,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#2-movement-throughalong",
+      "bgColor": "#ffe4d9",
+      "parent": "#42eis4"
+    },
+    {
+      "@id": "#b9nzdc",
+      "name": "Time Expressions",
+      "x": 497,
+      "y": 49,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#3-time-expressions",
+      "bgColor": "#ffe4d9",
+      "parent": "#42eis4"
+    },
+    {
+      "@id": "#k8wdpx",
+      "name": "Prepositions That Require Instrumental",
+      "x": 198,
+      "y": 130,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#prepositions-that-require-instrumental",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#a9fnph",
+      "name": "Location Prepositions",
+      "x": 433,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#location-prepositions-static-position",
+      "bgColor": "#f2ecd2",
+      "parent": "#k8wdpx"
+    },
+    {
+      "@id": "#yyu7jz",
+      "name": "Other Prepositions",
+      "x": 409,
+      "y": 362,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#other-prepositions",
+      "bgColor": "#f2ecd2",
+      "parent": "#k8wdpx"
+    },
+    {
+      "@id": "#wkrebf",
+      "name": "Usage",
+      "x": -20,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#usage",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bu5bte",
+      "name": "Means / Instrument",
+      "x": 167,
+      "y": 401,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#1-means-instrument-how",
+      "bgColor": "#ddf2de",
+      "parent": "#wkrebf"
+    },
+    {
+      "@id": "#4hakzu",
+      "name": "Accompaniment",
+      "x": 55,
+      "y": 499,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#2-accompaniment-with-whom",
+      "bgColor": "#ddf2de",
+      "parent": "#wkrebf"
+    },
+    {
+      "@id": "#yhcpjw",
+      "name": "Predicate Instrumental",
+      "x": -77,
+      "y": 418,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#3-predicate-instrumental",
+      "bgColor": "#ddf2de",
+      "parent": "#wkrebf"
+    },
+    {
+      "@id": "#m7mgcv",
+      "name": "Location Prepositions",
+      "x": -280,
+      "y": 444,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#4-location-prepositions-static",
+      "bgColor": "#ddf2de",
+      "parent": "#wkrebf"
+    },
+    {
+      "@id": "#gekznt",
+      "name": "Detailed Reference Tables",
+      "x": -193,
+      "y": 135,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#detailed-reference-tables",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#beqq5j",
+      "name": "Singular Endings",
+      "x": -386,
+      "y": 270,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#singular-endings",
+      "bgColor": "#d1f3f4",
+      "parent": "#gekznt"
+    },
+    {
+      "@id": "#6r28st",
+      "name": "Plural Endings",
+      "x": -230,
+      "y": 84,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/nouns/instrumental#plural-endings",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#d5e2jv",
+      "name": "← Nouns",
+      "x": -248,
+      "y": 29,
+      "link": "./morphology-nouns.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 17,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 22,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

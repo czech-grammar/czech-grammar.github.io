@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Motion Verbs",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/motion",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#5z6jht",
+      "name": "Visual Overview",
+      "x": -216,
+      "y": -108,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/motion#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wmw2zs",
+      "name": "Walking",
+      "x": 3,
+      "y": -212,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/motion#walking-jít-vs-chodit",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vfmmq5",
+      "name": "Transport",
+      "x": 218,
+      "y": -104,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/motion#transport-jet-vs-jezdit",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pcr96u",
+      "name": "Flying",
+      "x": 216,
+      "y": 108,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/motion#flying-letět-vs-létat",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9b7nqt",
+      "name": "Future Tense",
+      "x": -1,
+      "y": 212,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/motion#future-tense",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tznyhy",
+      "name": "← Verbs",
+      "x": -217,
+      "y": 106,
+      "link": "./morphology-verbs.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "selectedNode": 0
+}

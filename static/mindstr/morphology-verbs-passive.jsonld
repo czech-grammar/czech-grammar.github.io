@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Passive Voice",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/passive",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#uwwb48",
+      "name": "Visual Overview",
+      "x": -190,
+      "y": -138,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/passive#visual-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bkdx9m",
+      "name": "Reflexive Passive",
+      "x": 147,
+      "y": -172,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/passive#1-reflexive-passive-zvratné-pasivum",
+      "bgColor": "#f3bee1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uyi44v",
+      "name": "Periphrastic Passive",
+      "x": 176,
+      "y": 151,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/passive#2-periphrastic-passive-opisné-pasivum",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pepean",
+      "name": "Forming the Participle",
+      "x": 351,
+      "y": 302,
+      "link": "https://grammar.ilearnczech.com/docs/morphology/verbs/passive#forming-the-participle",
+      "bgColor": "#fbe8d3",
+      "parent": "#uyi44v"
+    },
+    {
+      "@id": "#uxyq6b",
+      "name": "← Verbs",
+      "x": -192,
+      "y": 137,
+      "link": "./morphology-verbs.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "selectedNode": 0
+}
