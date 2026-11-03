@@ -82,12 +82,13 @@ Memory: **"Giving TO a woman = -ě"** (same softening as locative)
 
 ### Plural: Long Vowel + M
 
-All dative plural endings end in a **long vowel + m**:
-- Masculine/Neuter: **-ům** (pánům, hradům, městům)
+Every dative plural ending is a **vowel + m**, and there are only four:
+- All masculine (hard and soft) + neuter -o: **-ům** (pánům, mužům, hradům, městům)
 - Feminine -a: **-ám** (ženám)
-- Soft stems: **-ím** (mužům, růžím, mořím)
+- Soft feminine and neuter: **-ím** (růžím, písním, mořím)
+- Feminine kost type + *lidé*, *děti*: **-em** (kostem, věcem, lidem, dětem)
 
-Memory: **"Dative plural hums: ůůům, ááám, ííím"**
+Memory: **"Dative plural hums: ůůům, ááám, ííím, em"**
 
 ---
 
@@ -217,7 +218,7 @@ For **Masculine Animate**, the ending **-ovi** is the standard modern form and a
 
 ## Plural Endings
 
-Good news: Dative Plural is very regular! The pattern is simple.
+Good news: the Dative Plural is very regular. Four endings cover every noun, and three of them do almost all the work.
 
 ### At a Glance (Plural)
 
@@ -229,18 +230,20 @@ Good news: Dative Plural is very regular! The pattern is simple.
 
 ### Endings by Gender
 
-| Gender | Hard Stem | Soft Stem | Examples |
-| :--- | :--- | :--- | :--- |
-| **Masculine** | **-ům** | **-ům** | *pánům, hradům, mužům, strojům* |
-| **Feminine** | **-ám** (-a type) | **-ím** | *ženám, růžím, písním, kostem* |
-| **Neuter** | **-ům** | **-ím** | *městům, mořím, kuřatům* |
+| Gender | Hard Stem | Soft Stem | Other | Examples |
+| :--- | :--- | :--- | :--- | :--- |
+| **Masculine** | **-ům** | **-ům** | předseda, soudce: **-ům** | *pánům, hradům, mužům, strojům, předsedům* |
+| **Feminine** | **-ám** (žena) | **-ím** (růže, píseň) | kost type: **-em** | *ženám, růžím, písním, kostem, věcem* |
+| **Neuter** | **-ům** (město) | **-ím** (moře, stavení) | kuře type: **-atům** | *městům, mořím, stavením, kuřatům* |
+| **Irregular** | | | *lidé* → **lidem**, *děti* → **dětem** | *Pomáhám lidem. Rozumím dětem.* |
 
 :::tip Simple Pattern
-- Masculine & Neuter hard: **-ům**
+- **All masculine** and hard neuter: **-ům** (soft masculine is *mužům*, never *mužím*)
 - Feminine -a type: **-ám**
-- Soft stems (all genders): **-ím**
+- Soft feminine and neuter: **-ím**
+- Kost type, *lidé*, *děti*: **-em**
 
-The long vowel (ů/á/í) + **m** is the dative plural marker!
+Vowel + **m** is the dative plural marker. To tell **-ím** from **-em** on a consonant-final feminine, check the genitive singular: *písně* (-e) → písním, *kosti* (-i) → kostem. *Noc* is the exception: *nocím*.
 :::
 
 ### Examples
